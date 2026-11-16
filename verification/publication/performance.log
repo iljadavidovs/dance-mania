@@ -1,0 +1,21 @@
+[
+  { variant: 'viewer', lcp: 68, cls: 0, fonts: [] },
+  {
+    variant: 'interactive',
+    lcp: 376,
+    cls: 0.041421582528573496,
+    fonts: [ '/assets/fonts/dmsans.ttf', '/assets/fonts/barlowcondensed.ttf' ]
+  },
+  {
+    variant: 'minimal',
+    lcp: 360,
+    cls: 0,
+    fonts: [ '/assets/fonts/manrope.ttf' ]
+  },
+  {
+    variant: 'vision',
+    lcp: 372,
+    cls: 0.000220366512345679,
+    fonts: [ '/assets/fonts/publicsans.ttf', '/assets/fonts/fraunces.ttf' ]
+  }
+]

@@ -1,0 +1,44 @@
+
+> dancemania-redesign-lab@1.0.0 capture
+> PLAYWRIGHT_BROWSERS_PATH=./.browsers node scripts/routes.mjs --capture --only=,programs,schedule,photos,events,dance-mania-blog,category/for-anyone,category/for-dancers,author/dancemaniaschool_ru3lje,programs/latin,programs/standard,programs/children,programs/social
+
+PASS minimal home
+PASS vision home
+PASS interactive home
+PASS minimal programs
+PASS vision programs
+PASS interactive programs
+PASS minimal schedule
+PASS vision schedule
+PASS interactive schedule
+PASS minimal events
+PASS vision events
+PASS interactive events
+PASS minimal photos
+PASS vision photos
+PASS interactive photos
+PASS minimal dance-mania-blog
+PASS vision dance-mania-blog
+PASS interactive dance-mania-blog
+PASS minimal author/dancemaniaschool_ru3lje
+PASS vision author/dancemaniaschool_ru3lje
+PASS interactive author/dancemaniaschool_ru3lje
+PASS minimal category/for-anyone
+PASS vision category/for-anyone
+PASS interactive category/for-anyone
+PASS minimal category/for-dancers
+PASS vision category/for-dancers
+PASS interactive category/for-dancers
+PASS minimal programs/latin
+PASS interactive programs/latin
+PASS vision programs/latin
+PASS minimal programs/standard
+PASS interactive programs/standard
+PASS vision programs/standard
+PASS minimal programs/children
+PASS vision programs/children
+PASS interactive programs/children
+PASS minimal programs/social
+PASS interactive programs/social
+PASS vision programs/social
+588/588 passed. Browser 159.0.8154.6

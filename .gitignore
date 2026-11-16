@@ -1,0 +1,14 @@
+node_modules/
+.browsers/
+dist/
+test-results/
+playwright-report/
+
+*.tsbuildinfo
+.DS_Store
+verification/local-commit.log
+
+*.private.*
+
+# Ignore the local browser-binary symlink as well as a real directory.
+/.browsers

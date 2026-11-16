@@ -1,0 +1,10 @@
+
+> dancemania-redesign-lab@1.0.0 test:motion
+> PLAYWRIGHT_BROWSERS_PATH=./.browsers playwright test tests/motion.spec.ts
+
+
+Running 1 test using 1 worker
+
+  ✓  1 [chromium] › tests/motion.spec.ts:4:1 › Quiet Form: cold routes, UI states, portal and prior-variant CSS have zero authored motion (6.1s)
+
+  1 passed (6.5s)

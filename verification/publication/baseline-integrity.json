@@ -1,0 +1,278 @@
+{
+  "originalBaselineCommit": "5bad2f2369a0d32a0b238c84b68553614120e080",
+  "cleanImplementationCommit": "1c9c38b777cb954d0640143e6203e1262b616722",
+  "checked": 55,
+  "identical": 55,
+  "mismatches": [],
+  "files": [
+    {
+      "file": "src/main.tsx",
+      "sha256": "dd47ba6d2f11049b492b05a778bd6a07b5ddce4b40c4e72b665ddb84da513607",
+      "identical": true
+    },
+    {
+      "file": "src/base.css",
+      "sha256": "381d7fc07e2e5d99b4eacd93272a1edefdeba3a23f05fab888767779f1e64e95",
+      "identical": true
+    },
+    {
+      "file": "src/variants/vision.tsx",
+      "sha256": "dc368e953a3755c347ce76410c8e7b76f292153fd45484bc6fd31f6b8f5e3b88",
+      "identical": true
+    },
+    {
+      "file": "src/variants/vision-supplement.tsx",
+      "sha256": "02bc8f9de2d62af6abe6b06681ef9554398d4dee4b1073ad6900cea215a512c8",
+      "identical": true
+    },
+    {
+      "file": "src/variants/interactive.css",
+      "sha256": "ef04c8fb16a6e54084f55f382472dd14faec9221d3dfd3f208db4b7a7701bc09",
+      "identical": true
+    },
+    {
+      "file": "src/variants/minimal-supplement.tsx",
+      "sha256": "86c93f7a954589298a7bc9080c9531a7f210fa211ee70bbff4f85ba05ddb4f98",
+      "identical": true
+    },
+    {
+      "file": "src/variants/vision.css",
+      "sha256": "d5d92716ed20864502b1519550806a9613e0a8ac07ef19424a777b8b8a5bdfac",
+      "identical": true
+    },
+    {
+      "file": "src/variants/interactive.tsx",
+      "sha256": "36cd8d6d7503c5e288f3a915aa02ace5e9f460ac8f94012d6e7273b70ee92c0a",
+      "identical": true
+    },
+    {
+      "file": "src/variants/minimal.css",
+      "sha256": "8c095c1e6528c4eac58a6b55a3ac54595efffe6fbf52a55ab3349abb7beffd25",
+      "identical": true
+    },
+    {
+      "file": "src/variants/minimal.tsx",
+      "sha256": "b02b2d66c4b36bdb9a6b11b714d778ff07480b8bf465f28e94739239c30ab2bb",
+      "identical": true
+    },
+    {
+      "file": "src/variants/interactive-supplement.tsx",
+      "sha256": "5874f7bfe1fe5512d4bb20f98490ed719334cc8450a735b7f1147115f68914c3",
+      "identical": true
+    },
+    {
+      "file": "src/shared/core.tsx",
+      "sha256": "acb1e9c01b32a5f69525b991cc24596d5be614d01720e90cf011c75b412906d5",
+      "identical": true
+    },
+    {
+      "file": "src/shared/pages.tsx",
+      "sha256": "6ed837a452d15a45ac84f186d2ff37be32cc7c2a3b057ab8841d27bd615b40f4",
+      "identical": true
+    },
+    {
+      "file": "src/shared/forms.tsx",
+      "sha256": "012b45e89b7298b5641f6a488c225338daa149609b98945e2d2a5481e78fdeca",
+      "identical": true
+    },
+    {
+      "file": "src/shared/media.tsx",
+      "sha256": "6f875dd5103be07efccc8ed724c16818ec88185eb299efe90f2d89bb393e8c29",
+      "identical": true
+    },
+    {
+      "file": "src/viewer/viewer.css",
+      "sha256": "f5b6b8d8c96713949e63a693b48289391800c69fbf476afbfaa791e2640cddd9",
+      "identical": true
+    },
+    {
+      "file": "src/viewer/Viewer.tsx",
+      "sha256": "3cdbfd601977d7edd7bc92582dada3a2ebabc0e5d39ef01d59771bf4bfe8695a",
+      "identical": true
+    },
+    {
+      "file": "src/domain/supplemental.ts",
+      "sha256": "e9d5ee81f02afbcc3aa3a19198a80a40b04acb5b98bf4ce9e9138036fcfcba76",
+      "identical": true
+    },
+    {
+      "file": "src/domain/data.ts",
+      "sha256": "21c8128b22af32f350a179eb0fdf2102980f132a27e85db65bf98b4a6eb327fd",
+      "identical": true
+    },
+    {
+      "file": "src/shared/ui/dialog.tsx",
+      "sha256": "07f29fe76b8a6859008bfc8c4354c215ae637f63954510b4ff85c42cc200641d",
+      "identical": true
+    },
+    {
+      "file": "src/shared/ui/button.tsx",
+      "sha256": "573a9d234781558cd3717c60549afcbf9001e291d3938b2e6ac688d3d7ddcd36",
+      "identical": true
+    },
+    {
+      "file": "public/assets/dance-demo.mp4",
+      "sha256": "60d35c321efbd478c64af16387696e7bb2e9a22e04b7d26f2e47c36b2324c632",
+      "identical": true
+    },
+    {
+      "file": "public/assets/dance-demo-poster.jpg",
+      "sha256": "9fa32d6f4748ac9e4c2f3c0d0734255f73f097806b2f4af4b3155eecaf5f3abf",
+      "identical": true
+    },
+    {
+      "file": "public/assets/tango-exhibition.jpg",
+      "sha256": "1b052b61ef08441f8e86bd6b7a202adf7695e1e19fe57e11222b4868bb83baec",
+      "identical": true
+    },
+    {
+      "file": "public/assets/dance-demo.vtt",
+      "sha256": "cae8e80419dbb7032d535f93c48b7e3327700c71d7be160ad87841be6550af28",
+      "identical": true
+    },
+    {
+      "file": "public/assets/jive.jpg",
+      "sha256": "716df3bfe1da146b7b1416b06930d45f5f1c23db9235fbbfa7360e25865aa3ee",
+      "identical": true
+    },
+    {
+      "file": "public/assets/tango.png",
+      "sha256": "3e284d7330a8d28e20171fc3b75154d928d09aefc689a99a10bcbd055313567f",
+      "identical": true
+    },
+    {
+      "file": "public/assets/waltz.jpg",
+      "sha256": "6b294f1b3a688431f6e7c80860b93307d1015a2764ae990734ea7f93de7ce59b",
+      "identical": true
+    },
+    {
+      "file": "public/assets/jive-1945.jpg",
+      "sha256": "d741469c07cc2e56653b3b13038f15efc88ee6498ccfe57ce4f5af7ddf5987de",
+      "identical": true
+    },
+    {
+      "file": "public/assets/latin.jpg",
+      "sha256": "de6120268ef92ffcf48a867f22d28f5ed7bbf6007d7296dcb9337c2697e9d6e9",
+      "identical": true
+    },
+    {
+      "file": "public/assets/licenses/shadcn-MIT.txt",
+      "sha256": "1564074e13439397221ffd522e2e504d56561994a23d371aa5e3ad43e4f5423f",
+      "identical": true
+    },
+    {
+      "file": "public/assets/fonts/publicsans.ttf",
+      "sha256": "d75a7dc1a27eb9e336d5b33f55489d2ecb5621bf694d5c43b2415bce2ca830a8",
+      "identical": true
+    },
+    {
+      "file": "public/assets/fonts/fraunces.ttf",
+      "sha256": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb",
+      "identical": true
+    },
+    {
+      "file": "public/assets/fonts/manrope-OFL.txt",
+      "sha256": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b",
+      "identical": true
+    },
+    {
+      "file": "public/assets/fonts/barlowcondensed.ttf",
+      "sha256": "7b619d14bc2327509a9ef32b0890f709626f7ecc9ff61191c2a4314c5499d2d9",
+      "identical": true
+    },
+    {
+      "file": "public/assets/fonts/dmsans-OFL.txt",
+      "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1",
+      "identical": true
+    },
+    {
+      "file": "public/assets/fonts/dmsans.ttf",
+      "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d",
+      "identical": true
+    },
+    {
+      "file": "public/assets/fonts/publicsans-OFL.txt",
+      "sha256": "157a9e77f7580246e97c769490e2e977ae94399f9d30f4556015c41fe8c28bac",
+      "identical": true
+    },
+    {
+      "file": "public/assets/fonts/manrope.ttf",
+      "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6",
+      "identical": true
+    },
+    {
+      "file": "public/assets/fonts/barlowcondensed-OFL.txt",
+      "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+      "identical": true
+    },
+    {
+      "file": "public/assets/fonts/fraunces-OFL.txt",
+      "sha256": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
+      "identical": true
+    },
+    {
+      "file": "public/previews/minimal-desktop.jpg",
+      "sha256": "9c48e07f129a11b368863be317ec85ca338a4ae1dbbe4bc625ba11db6fb3baca",
+      "identical": true
+    },
+    {
+      "file": "public/previews/interactive-desktop.jpg",
+      "sha256": "c1110bca56bae3288fa4441bc00875101f39221692e726cad84bc28c2c634273",
+      "identical": true
+    },
+    {
+      "file": "public/previews/interactive-mobile.jpg",
+      "sha256": "c42251dfb2cef3c48eb8aa45ec3ad94996abc112054617373dbe5f079c31c0c9",
+      "identical": true
+    },
+    {
+      "file": "public/previews/vision-desktop.jpg",
+      "sha256": "0dcfe1dd7f09526b3905a9fdade3f824d114351a3c5d8d3013e883175d4c4d08",
+      "identical": true
+    },
+    {
+      "file": "public/previews/vision-mobile.jpg",
+      "sha256": "33d048982c9dced230770d8423cac2a96a3d4aebb882bd592f99973818f2ed6b",
+      "identical": true
+    },
+    {
+      "file": "public/previews/minimal-mobile.jpg",
+      "sha256": "408d12fc72f415cf73b88551d9d96ed65fcc93c051ada3846c731ce300963f67",
+      "identical": true
+    },
+    {
+      "file": "package.json",
+      "identical": true
+    },
+    {
+      "file": "package-lock.json",
+      "identical": true
+    },
+    {
+      "file": "vite.config.ts",
+      "identical": true
+    },
+    {
+      "file": "tsconfig.json",
+      "identical": true
+    },
+    {
+      "file": "playwright.config.ts",
+      "identical": true
+    },
+    {
+      "file": "eslint.config.js",
+      "identical": true
+    },
+    {
+      "file": "components.json",
+      "identical": true
+    },
+    {
+      "file": "index.html",
+      "identical": true
+    }
+  ],
+  "earlierUnpublishedCaptureCommit": "6d5a9607b9a08f4327f884c0d042887d8aaaa032",
+  "historyCorrection": "Unpublished commit rewritten to exclude local browser symlink; runtime/source/build/test configuration unchanged."
+}

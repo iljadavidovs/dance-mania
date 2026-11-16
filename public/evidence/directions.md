@@ -1,0 +1,20 @@
+> Historical baseline artifact. Claims and scores are reproduced for forensic review, not independently endorsed. Public export omits private context and source-site imagery; see docs/forensic-report.md.
+
+# Design commitments — 16 November 2026
+
+Three independent sites for a ballroom and Latin school in Richmond Hill. Shared records and small accessible controls; separate navigation, homes and family compositions. No fabricated classes, fees or portraits. Review against the specified 100-point rubric after real renders.
+
+## Rhythm Room
+Families and explorers. Cobalt #153CCB, cloud #F4F6FA, ink #121C2D, coral #F05A3C (large accents only), pale blue #E0E6F4. Barlow Condensed headings and DM Sans reading. A 12-column canvas uses oversized type, unequal dance frames, a prominent finder, and alternating horizontal program/people/media sections. Home pairs text and two documentary stand-ins; program discovery uses facets and a comparison tray; documents form a grouped board; people offer quick views; editorial is feature-led; forms use explicit editable stages. Top task navigation with a real program disclosure; instant mobile disclosure. Optional 180ms hover feedback scoped to this variant only; no entrances or scroll effects. References: Ailey's novice entry points and Musica Viva's rhythmic spacing, interpreted without copying imagery or composition. Risk: interaction complexity; direct browse stays visible.
+
+## Quiet Form
+Busy parents and adults. Porcelain #F7F8FA, graphite #181B20, slate #515B68, blue #172D60, separator #DCE1E7. Manrope alone. A narrower catalogue with precise text baselines and one contained photograph. Home begins with a concise introduction and explicit program index. Programs are expandable rows; documents a clear table/list; people an alphabetical-style name index grouped by actual role; media a contact sheet; articles a reading library; forms one page. Simple text task bar and instant mobile disclosure. Zero authored motion, including dialogs, pseudo-elements and switcher; native user-initiated video only. References: Apple typography hierarchy and Jacob's Pillow archive/context separation. Risk: sterile blankness; use well-sized photography and substantive readable content.
+
+## Frame & Floor
+New visitors and dancers seeking partnership. Plum #2B2130, chalk #F1EEE6, wood #BD965E, lacquer #8E2535, paper #FAF9F6. Fraunces display with Public Sans. A 190px navigation rail and an asymmetric spatial canvas: unequal photographic frames, editorial introductions, and clear child/adult/competitive entry points. Programs use an audience-led master/detail layout; schedules pair documents with next steps; people pair initials and factual profiles; galleries read as photo essays; articles use a contextual side column; registration pairs explanation with the form. Mobile rail becomes top disclosure and all pairs become explicitly ordered single columns. Optional restrained 150ms feedback only; reduced motion removes it. References: source judging essay's partnership/frame/floor vocabulary and Sadler's Wells inclusive participation. Risk: burying practical next steps; schedule and registration remain explicit links.
+
+## Review before implementation
+The specification deliberately supplies a cream/serif palette for Frame & Floor; distinction will come from plum structure and paired spatial composition rather than generic luxury styling. Numbered program cards are avoided because the programs are alternatives, not steps. All three must differ on seven core templates, not simply colour. Shared low-level field, button, media and dialog semantics are appropriate; complete shared page trees are not.
+
+## Rights strategy
+School images and recordings remain reference-only unless a license is established. Use licensed Commons ballroom photography as visibly illustrative, never real staff portraits or a claimed studio interior. Local initials for all people. Original concise summaries preserve facts without reproducing entire essays. Fonts from pinned Google Fonts assets with OFL notices. A licensed dance demonstration video is separate from historical source recordings.

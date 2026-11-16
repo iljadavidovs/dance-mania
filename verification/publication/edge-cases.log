@@ -1,0 +1,65 @@
+[
+  {
+    variant: 'interactive',
+    case: 'Optional guardian exceeds schema max 100',
+    finding: 'confirmed: validation prevents progress without guardian error association/message',
+    observed: { length: 125, ariaInvalid: null, describedBy: null },
+    title: undefined
+  },
+  {
+    variant: 'interactive',
+    case: 'Optional inquiry message exceeds 1500',
+    finding: 'confirmed: visible message error lacks describedby association',
+    observed: { ariaInvalid: 'true', describedBy: null },
+    title: undefined
+  },
+  {
+    variant: 'interactive',
+    case: 'Author archive metadata',
+    finding: undefined,
+    observed: undefined,
+    title: 'Dancemaniaschool_ru3lje — Dance Mania | Rhythm Room'
+  },
+  {
+    variant: 'minimal',
+    case: 'Optional guardian exceeds schema max 100',
+    finding: 'confirmed: validation prevents progress without guardian error association/message',
+    observed: { length: 125, ariaInvalid: null, describedBy: null },
+    title: undefined
+  },
+  {
+    variant: 'minimal',
+    case: 'Optional inquiry message exceeds 1500',
+    finding: 'confirmed: visible message error lacks describedby association',
+    observed: { ariaInvalid: 'true', describedBy: null },
+    title: undefined
+  },
+  {
+    variant: 'minimal',
+    case: 'Author archive metadata',
+    finding: undefined,
+    observed: undefined,
+    title: 'Dancemaniaschool_ru3lje — Dance Mania | Quiet Form'
+  },
+  {
+    variant: 'vision',
+    case: 'Optional guardian exceeds schema max 100',
+    finding: 'confirmed: validation prevents progress without guardian error association/message',
+    observed: { length: 125, ariaInvalid: null, describedBy: null },
+    title: undefined
+  },
+  {
+    variant: 'vision',
+    case: 'Optional inquiry message exceeds 1500',
+    finding: 'confirmed: visible message error lacks describedby association',
+    observed: { ariaInvalid: 'true', describedBy: null },
+    title: undefined
+  },
+  {
+    variant: 'vision',
+    case: 'Author archive metadata',
+    finding: undefined,
+    observed: undefined,
+    title: 'Dancemaniaschool_ru3lje — Dance Mania | Frame & Floor'
+  }
+]

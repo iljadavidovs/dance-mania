@@ -1,0 +1,5 @@
+# Generated evidence is retained and linked, but does not dominate implementation diffs.
+verification/** linguist-generated=true
+public/evidence/** linguist-generated=true
+docs/export-manifest.json linguist-generated=true
+docs/execution-ledger.json linguist-generated=true

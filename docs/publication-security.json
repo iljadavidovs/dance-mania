@@ -1,0 +1,12 @@
+{
+  "at": "2026-11-16T21:17:02.806592+00:00",
+  "status": "pass",
+  "filesScanned": 1520,
+  "bytesScanned": 153875820,
+  "findings": [],
+  "originalFilesReviewed": 2406,
+  "originalFilesIncluded": 804,
+  "originalFilesExcluded": 1602,
+  "scope": "All staged/tracked and candidate export files; every original file classified. No raw transcripts/private context/source screenshots/cache/symlinks.",
+  "limits": "Manual file classification and regex/token/path/private-key scan; not a guarantee against all secrets. Public school contacts and license/dependency identifiers intentionally retained."
+}

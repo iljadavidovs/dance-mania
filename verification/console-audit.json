@@ -1,0 +1,26 @@
+[
+  {
+    "variant": "interactive",
+    "browser": "159.0.8154.6",
+    "messages": [],
+    "failed": [],
+    "responses": [],
+    "at": "2026-11-16T20:58:20.238Z"
+  },
+  {
+    "variant": "minimal",
+    "browser": "159.0.8154.6",
+    "messages": [],
+    "failed": [],
+    "responses": [],
+    "at": "2026-11-16T20:58:31.552Z"
+  },
+  {
+    "variant": "vision",
+    "browser": "159.0.8154.6",
+    "messages": [],
+    "failed": [],
+    "responses": [],
+    "at": "2026-11-16T20:58:42.825Z"
+  }
+]

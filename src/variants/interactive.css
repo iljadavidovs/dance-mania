@@ -1,0 +1,856 @@
+@font-face {
+  font-family: Barlow;
+  src: url("/assets/fonts/barlowcondensed.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: DM Sans;
+  src: url("/assets/fonts/dmsans.ttf") format("truetype");
+  font-weight: 100 900;
+  font-display: swap;
+}
+.interactive {
+  font-family: "DM Sans", Arial, sans-serif;
+  --accent: #153ccb;
+  --paper: #f4f6fa;
+  --ink: #121c2d;
+  --line: #cdd5e7;
+}
+.interactive h1,
+.interactive h2,
+.interactive h3 {
+  font-family: Barlow, "Arial Narrow", sans-serif;
+  letter-spacing: -0.01em;
+}
+.interactive h1 {
+  font-size: clamp(68px, 7vw, 108px);
+  line-height: 0.98;
+}
+.interactive h2 {
+  font-size: 46px;
+}
+.interactive .rhythm-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 25px 5%;
+  background: #fff;
+  position: relative;
+  z-index: 20;
+  border-bottom: 1px solid #dde3ef;
+}
+.interactive .rhythm-header nav {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  font-size: 13px;
+}
+.interactive .rhythm-header nav > a {
+  text-decoration: none;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+}
+.interactive .wordmark {
+  color: #153ccb;
+  font-size: 28px;
+}
+.interactive .nav-disclosure {
+  position: relative;
+}
+.interactive .nav-disclosure > button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  background: none;
+  border: 0;
+  padding: 0;
+}
+.interactive .program-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 270px;
+  background: #fff;
+  padding: 15px;
+  box-shadow: 0 12px 35px #121c2d26;
+  border: 1px solid #cdd5e7;
+}
+.interactive .program-menu a {
+  display: block;
+  padding: 12px;
+  min-height: 44px;
+  text-decoration: none;
+}
+.interactive .program-menu a:hover {
+  background: #e0e6f4;
+}
+.interactive .rhythm-hero {
+  display: grid;
+  grid-template-columns: 1fr 1.02fr;
+  gap: 30px;
+  padding: 60px 5% 45px;
+  align-items: center;
+}
+.interactive .rhythm-hero .lead {
+  max-width: 35ch;
+  margin-block: 25px 28px;
+}
+.interactive .rhythm-hero .location-label {
+  font-size: 12px;
+}
+.interactive .rhythm-frames {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1.4fr 0.8fr;
+  gap: 16px;
+  align-items: start;
+  padding-bottom: 70px;
+}
+.interactive .rhythm-frames figure:first-child {
+  margin-top: 10px;
+}
+.interactive .rhythm-frames figure:first-child img {
+  height: 385px;
+  object-position: 52% 35%;
+  aspect-ratio: auto;
+}
+.interactive .rhythm-frames figure:nth-child(2) {
+  padding-top: 100px;
+}
+.interactive .rhythm-frames figure:nth-child(2) img {
+  height: 300px;
+  aspect-ratio: auto;
+  object-position: 45% 40%;
+}
+.interactive .frame-note {
+  background: #153ccb;
+  color: #fff;
+  font-size: 18px;
+  padding: 20px 30px;
+  position: absolute;
+  right: 6%;
+  bottom: 0;
+  line-height: 1.3;
+  max-width: 70%;
+}
+.interactive .rhythm-finder {
+  margin: 0 5% 75px;
+  background: #e0e6f4;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1.8fr;
+  gap: 12px 35px;
+  border-radius: 5px;
+}
+.interactive .rhythm-finder h2 {
+  font-size: 34px;
+  max-width: 15ch;
+}
+.interactive .rhythm-finder p {
+  font-size: 13px;
+  margin-top: 12px;
+}
+.interactive .rhythm-finder .filters {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+.interactive .rhythm-finder .filters label {
+  font-size: 12px;
+}
+.interactive .finder-results {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  grid-column: 1/-1;
+}
+.interactive .finder-results > a {
+  padding: 11px 15px;
+  background: #fff;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  min-height: 44px;
+  text-decoration: none;
+  flex: 1;
+  min-width: 180px;
+}
+.interactive .rhythm-finder > a {
+  grid-column: 1/-1;
+  margin-top: 5px;
+  font-size: 12px;
+  min-height: 30px;
+  padding-top: 8px;
+}
+.interactive .rhythm-program-home {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  padding: 0 5%;
+  gap: 20px;
+  margin-block: 70px;
+}
+.interactive .rhythm-program-home > div {
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 45px;
+  margin-bottom: 15px;
+  align-items: center;
+}
+.interactive .rhythm-program-tile {
+  padding: 28px 22px;
+  background: #fff;
+  min-height: 240px;
+  text-decoration: none;
+  border-top: 5px solid #153ccb;
+  position: relative;
+}
+.interactive .rhythm-program-tile:nth-child(3) {
+  border-color: #f05a3c;
+}
+.interactive .rhythm-program-tile span {
+  font-size: 12px;
+}
+.interactive .rhythm-program-tile h3 {
+  font-size: 32px;
+  margin-block: 18px;
+}
+.interactive .rhythm-program-tile p {
+  font-size: 13px;
+}
+.interactive .rhythm-program-tile > svg {
+  margin-top: 20px;
+  color: #153ccb;
+}
+.interactive .rhythm-people-home {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 65px;
+  margin: 90px 5%;
+  align-items: center;
+}
+.interactive .rhythm-people-home img {
+  aspect-ratio: 1.5;
+}
+.interactive .rhythm-people-home h2 {
+  max-width: 16ch;
+}
+.interactive .rhythm-people-home p {
+  margin-block: 22px;
+}
+.interactive .name-line {
+  font-size: 13px;
+  color: #505b6f;
+}
+.interactive .rhythm-media-home {
+  background: #153ccb;
+  color: #fff;
+  padding: 55px 5%;
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 40px;
+}
+.interactive .rhythm-media-home h2 {
+  font-size: 64px;
+}
+.interactive .rhythm-media-home .button {
+  margin: 6px;
+}
+.interactive .rhythm-media-home .button-primary {
+  background: #fff;
+  color: #153ccb;
+}
+.interactive .rhythm-media-home .button-secondary {
+  border-color: #c5d0f6;
+  color: #fff;
+}
+.interactive .home-documents {
+  padding: 60px 5%;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 25px;
+}
+.interactive .home-documents h2 {
+  grid-column: 1/-1;
+}
+.interactive .home-documents > a {
+  padding: 25px 0;
+  border-top: 1px solid #b8c5e8;
+  text-decoration: none;
+}
+.interactive .home-documents > a > span {
+  font-size: 13px;
+}
+.interactive .home-documents h3 {
+  font-size: 30px;
+  margin: 18px 0;
+}
+.interactive .home-visit {
+  padding: 15px 5% 70px;
+}
+.interactive .home-visit .next-steps {
+  margin: 0;
+}
+.interactive .rhythm-programs > article {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  gap: 50px;
+  padding: 45px 0;
+  border-bottom: 1px solid var(--line);
+  align-items: start;
+}
+.interactive .rhythm-programs > article:nth-child(even) figure {
+  order: 2;
+}
+.interactive .rhythm-programs h2 {
+  margin: 8px 0 20px;
+}
+.interactive .rhythm-programs img {
+  aspect-ratio: 1.05;
+  max-height: 440px;
+  object-position: center 35%;
+}
+.interactive .comparison {
+  background: #e0e6f4;
+  padding: 30px;
+  margin-top: 40px;
+}
+.interactive .comparison > div {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  padding-block: 24px;
+}
+.interactive .comparison h3 {
+  margin-bottom: 15px;
+}
+.interactive .document-board {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 25px;
+}
+.interactive .document-board > article {
+  background: #fff;
+  border-top: 5px solid #153ccb;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.interactive .document-board h2 {
+  font-size: 31px;
+  margin: 10px 0 20px;
+}
+.interactive .document-board details {
+  font-size: 13px;
+  border-top: 1px solid var(--line);
+  margin-top: 20px;
+}
+.interactive .rhythm-people > div {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 30px;
+  margin: 30px 0 65px;
+}
+.interactive .rhythm-people .initials {
+  aspect-ratio: 1.5;
+  background: #e0e6f4;
+  font-family: Barlow, sans-serif;
+  font-size: 70px;
+}
+.interactive .rhythm-people article p {
+  font-size: 12px;
+  margin-top: 18px;
+}
+.interactive .rhythm-people h3 {
+  font-size: 32px;
+  margin: 8px 0;
+}
+.interactive .rhythm-people h3 a {
+  text-decoration: none;
+}
+.interactive .rhythm-detail {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 55px;
+  align-items: start;
+}
+.interactive .rhythm-detail .button {
+  margin: 10px 10px 10px 0;
+}
+.interactive .rhythm-person-detail {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 50px;
+  max-width: 950px;
+}
+.interactive .rhythm-person-detail .initials {
+  font-family: Barlow, sans-serif;
+  font-size: 100px;
+}
+.interactive .rhythm-person-detail p {
+  margin-bottom: 20px;
+}
+.interactive .rhythmic .photo-trigger:nth-child(2) {
+  padding-top: 120px;
+}
+.interactive .rhythmic .photo-trigger:nth-child(3) {
+  margin-top: -80px;
+}
+.interactive .rhythm-journal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 35px;
+  margin: 35px 0;
+}
+.interactive .rhythm-journal article {
+  border-top: 2px solid var(--line);
+  padding-top: 24px;
+}
+.interactive .rhythm-journal article:first-child {
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 45px;
+  border: 0;
+  padding: 0;
+  align-items: center;
+  background: #e0e6f4;
+}
+.interactive .rhythm-journal article:first-child > div {
+  padding: 30px;
+}
+.interactive .rhythm-journal h2 {
+  font-size: 36px;
+  margin: 15px 0;
+}
+.interactive .rhythm-article {
+  display: grid;
+  grid-template-columns: 230px minmax(0, 720px);
+  gap: 70px;
+  justify-content: center;
+}
+.interactive .rhythm-form-layout {
+  display: grid;
+  grid-template-columns: 0.8fr 1.3fr;
+  gap: 65px;
+}
+.interactive .rhythm-form-layout > aside {
+  background: #e0e6f4;
+  padding: 30px;
+}
+.interactive .rhythm-form-layout aside p {
+  margin: 20px 0;
+}
+.interactive .rhythm-form-layout aside h2 {
+  font-size: 35px;
+}
+.interactive .rhythm-form-layout .demo-form {
+  background: #fff;
+  padding: 28px;
+}
+.interactive .photo-trigger img {
+  transition: filter 180ms;
+}
+.interactive .photo-trigger:hover img {
+  filter: brightness(0.92);
+}
+@media (max-width: 1100px) {
+  .interactive .rhythm-header nav {
+    gap: 15px;
+    font-size: 12px;
+  }
+  .interactive .rhythm-header .button {
+    padding-inline: 12px;
+  }
+  .interactive .rhythm-header {
+    gap: 15px;
+  }
+  .interactive .rhythm-hero h1 {
+    font-size: 80px;
+  }
+  .interactive .rhythm-finder {
+    grid-template-columns: 1fr;
+  }
+  .interactive .rhythm-finder h2 {
+    max-width: none;
+  }
+  .interactive .rhythm-finder .filters {
+    margin-top: 10px;
+  }
+  .interactive .rhythm-program-home {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .interactive .document-board {
+    grid-template-columns: 1fr 1fr;
+  }
+  .interactive .rhythm-form-layout {
+    gap: 35px;
+    grid-template-columns: 0.7fr 1fr;
+  }
+  .interactive .rhythm-form-layout .form-fields {
+    grid-template-columns: 1fr;
+  }
+  .interactive .rhythm-article {
+    gap: 35px;
+    grid-template-columns: 190px minmax(0, 1fr);
+  }
+}
+@media (max-width: 800px) {
+  .interactive .rhythm-header {
+    padding: 20px 5%;
+    flex-wrap: wrap;
+  }
+  .interactive .rhythm-header .menu-button {
+    display: inline-flex;
+  }
+  .interactive .rhythm-header nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    align-items: stretch;
+    gap: 4px;
+  }
+  .interactive .rhythm-header nav.open {
+    display: flex;
+    padding-top: 20px;
+  }
+  .interactive .program-menu {
+    position: static;
+    width: 100%;
+    box-shadow: none;
+  }
+  .interactive .rhythm-header nav > a {
+    padding: 10px;
+  }
+  .interactive .rhythm-frames {
+    gap: 10px;
+  }
+  .interactive .rhythm-frames figure:first-child img {
+    height: 320px;
+  }
+  .interactive .rhythm-frames figure:nth-child(2) img {
+    height: 240px;
+  }
+  .interactive .rhythm-hero {
+    gap: 20px;
+    padding-top: 40px;
+  }
+  .interactive .rhythm-hero h1 {
+    font-size: 65px;
+  }
+  .interactive .rhythm-hero .lead {
+    font-size: 17px;
+  }
+  .interactive .frame-note {
+    font-size: 14px;
+    padding: 15px;
+  }
+  .interactive .rhythm-people-home {
+    gap: 30px;
+  }
+  .interactive .rhythm-media-home h2 {
+    font-size: 50px;
+  }
+}
+@media (max-width: 600px) {
+  .interactive h1 {
+    font-size: 60px;
+  }
+  .interactive h2 {
+    font-size: 36px;
+  }
+  .interactive .rhythm-hero {
+    grid-template-columns: 1fr;
+    padding: 35px 6% 30px;
+  }
+  .interactive .rhythm-hero h1 {
+    font-size: 66px;
+  }
+  .interactive .rhythm-hero-copy .text-link {
+    font-size: 13px;
+    margin-top: 10px;
+  }
+  .interactive .rhythm-hero .lead {
+    margin-block: 20px 22px;
+    font-size: 18px;
+  }
+  .interactive .rhythm-frames {
+    padding-bottom: 50px;
+    grid-template-columns: 1.2fr 1fr;
+    margin-top: 5px;
+  }
+  .interactive .rhythm-frames figure:first-child img {
+    height: 245px;
+  }
+  .interactive .rhythm-frames figure:nth-child(2) {
+    padding-top: 55px;
+  }
+  .interactive .rhythm-frames figure:nth-child(2) img {
+    height: 210px;
+  }
+  .interactive .rhythm-frames figcaption {
+    font-size: 9px;
+  }
+  .interactive .frame-note {
+    font-size: 14px;
+    bottom: 0;
+    right: 4%;
+  }
+  .interactive .rhythm-finder {
+    margin: 10px 6% 55px;
+    padding: 22px;
+    gap: 20px;
+  }
+  .interactive .rhythm-finder h2 {
+    font-size: 32px;
+  }
+  .interactive .rhythm-finder .filters {
+    grid-template-columns: 1fr;
+  }
+  .interactive .rhythm-finder .filters label {
+    grid-column: 1/-1;
+    font-size: 13px;
+  }
+  .interactive .rhythm-finder .filters > .button {
+    justify-self: start;
+    min-height: 35px;
+    padding-block: 5px;
+  }
+  .interactive .finder-results > a {
+    min-width: 100%;
+  }
+  .interactive .rhythm-program-home {
+    padding: 0 6%;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin-block: 45px;
+  }
+  .interactive .rhythm-program-home > div {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+  .interactive .rhythm-program-tile {
+    min-height: 0;
+    padding: 22px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+  }
+  .interactive .rhythm-program-tile h3 {
+    grid-column: 1/-1;
+    font-size: 30px;
+    margin: 12px 0;
+  }
+  .interactive .rhythm-program-tile p {
+    max-width: 25ch;
+  }
+  .interactive .rhythm-program-tile > svg {
+    margin: 0;
+    grid-column: 2;
+    grid-row: 3;
+  }
+  .interactive .rhythm-people-home {
+    grid-template-columns: 1fr;
+    margin: 50px 6%;
+    gap: 25px;
+  }
+  .interactive .rhythm-media-home {
+    grid-template-columns: 1fr;
+    padding: 40px 6%;
+    gap: 20px;
+  }
+  .interactive .rhythm-media-home h2 {
+    font-size: 50px;
+  }
+  .interactive .rhythm-media-home .button {
+    margin: 5px 5px 5px 0;
+  }
+  .interactive .home-documents {
+    grid-template-columns: 1fr;
+    padding: 45px 6%;
+    gap: 15px;
+  }
+  .interactive .home-documents h3 {
+    font-size: 28px;
+  }
+  .interactive .home-visit {
+    padding: 0 6% 50px;
+  }
+  .interactive .rhythm-programs > article,
+  .interactive .rhythm-detail {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    padding-block: 25px;
+  }
+  .interactive .rhythm-programs > article:nth-child(even) figure {
+    order: 0;
+  }
+  .interactive .rhythm-programs img {
+    max-height: 300px;
+    aspect-ratio: 1.3;
+  }
+  .interactive .comparison > div {
+    grid-template-columns: 1fr;
+  }
+  .interactive .document-board {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .interactive .document-board > article {
+    padding: 22px;
+  }
+  .interactive .document-board h2 {
+    font-size: 30px;
+  }
+  .interactive .rhythm-people > div {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .interactive .rhythm-people h3 {
+    font-size: 27px;
+  }
+  .interactive .rhythm-people .initials {
+    font-size: 60px;
+  }
+  .interactive .rhythm-person-detail {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+  .interactive .rhythm-person-detail .initials {
+    max-width: 200px;
+    font-size: 80px;
+  }
+  .interactive .rhythmic .photo-trigger:nth-child(2) {
+    padding: 0;
+  }
+  .interactive .rhythmic .photo-trigger:nth-child(3) {
+    margin: 0;
+  }
+  .interactive .rhythm-journal {
+    grid-template-columns: 1fr;
+  }
+  .interactive .rhythm-journal article:first-child {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .interactive .rhythm-journal article:first-child > div {
+    padding: 24px;
+  }
+  .interactive .rhythm-journal h2 {
+    font-size: 34px;
+  }
+  .interactive .rhythm-article {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .interactive .rhythm-article .article-meta {
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--line);
+  }
+  .interactive .rhythm-form-layout {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .interactive .rhythm-form-layout .demo-form {
+    padding: 20px;
+  }
+  .interactive .rhythm-form-layout > aside {
+    padding: 23px;
+  }
+}
+
+.interactive .dialog-content.drawer {
+  left: auto;
+  right: 0;
+  top: 0;
+  transform: none;
+  width: min(500px, 94vw);
+  height: 100dvh;
+  max-height: 100dvh;
+  padding: 35px;
+}
+.interactive .drawer .button {
+  margin-block: 12px;
+}
+.interactive .rhythm-supplement-sections {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 30px;
+}
+.interactive .rhythm-supplement-sections section {
+  padding: 30px;
+  background: #e0e6f4;
+}
+.interactive .rhythm-supplement-sections h2,
+.interactive .rhythm-supplement-feature h2 {
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+.interactive .rhythm-supplement-feature {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 50px;
+  align-items: start;
+}
+.interactive .rhythm-supplement-feature section {
+  margin-bottom: 35px;
+}
+.interactive .rhythm-supplement-groups {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 25px;
+  margin-top: 40px;
+}
+.interactive .rhythm-supplement-groups article {
+  background: #fff;
+  padding: 28px;
+  border-top: 4px solid #153ccb;
+}
+.interactive .rhythm-supplement-groups h2 {
+  font-size: 32px;
+}
+.interactive .rhythm-supplement-groups p {
+  margin: 20px 0;
+}
+.interactive .rhythm-supplement-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-block: 35px;
+}
+.interactive .rhythm-supplement-contact {
+  padding: 35px;
+  background: #fff;
+  margin-top: 40px;
+}
+.interactive .rhythm-source-links {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+.interactive .rhythm-recovery {
+  padding: 30px;
+  background: #e0e6f4;
+}
+@media (max-width: 700px) {
+  .interactive .rhythm-supplement-sections,
+  .interactive .rhythm-supplement-feature,
+  .interactive .rhythm-supplement-groups {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+  .interactive .rhythm-supplement-sections section,
+  .interactive .rhythm-supplement-contact,
+  .interactive .rhythm-supplement-groups article {
+    padding: 24px;
+  }
+  .interactive .rhythm-supplement-sections h2 {
+    font-size: 31px;
+  }
+}

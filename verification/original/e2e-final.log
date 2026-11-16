@@ -1,0 +1,87 @@
+
+> dancemania-redesign-lab@1.0.0 test:e2e
+> PLAYWRIGHT_BROWSERS_PATH=./.browsers playwright test tests/journeys.spec.ts
+
+
+Running 34 tests using 1 worker
+
+(node:23683) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/journeys.spec.ts:9:2 › interactive: program filters, unknown values, empty state and detail (1.1s)
+  ✓   2 [chromium] › tests/journeys.spec.ts:10:2 › interactive: exact document links, filters, archive and access notes (673ms)
+  ✓   3 [chromium] › tests/journeys.spec.ts:11:2 › interactive: gallery, focus containment and focus restoration (704ms)
+  ✓   4 [chromium] › tests/journeys.spec.ts:12:2 › interactive: native playback and keyboard pause (1.3s)
+  ✓   5 [chromium] › tests/journeys.spec.ts:13:89 › interactive: registration-for-kids validation, success, failure, reset and privacy (4.1s)
+  ✓   6 [chromium] › tests/journeys.spec.ts:13:89 › interactive: registration-for-adults validation, success, failure, reset and privacy (4.1s)
+  ✓   7 [chromium] › tests/journeys.spec.ts:13:89 › interactive: contact-us validation, success, failure, reset and privacy (4.1s)
+  ✓   8 [chromium] › tests/journeys.spec.ts:14:2 › interactive: article relationships, people, unknown records, broken media fixture (2.2s)
+  ✓   9 [chromium] › tests/journeys.spec.ts:15:2 › interactive: mobile menu, keyboard navigation, reflow and axe (7.2s)
+  ✓  10 [chromium] › tests/journeys.spec.ts:9:2 › minimal: program filters, unknown values, empty state and detail (1.1s)
+  ✓  11 [chromium] › tests/journeys.spec.ts:10:2 › minimal: exact document links, filters, archive and access notes (678ms)
+  ✓  12 [chromium] › tests/journeys.spec.ts:11:2 › minimal: gallery, focus containment and focus restoration (699ms)
+  ✓  13 [chromium] › tests/journeys.spec.ts:12:2 › minimal: native playback and keyboard pause (1.2s)
+  ✓  14 [chromium] › tests/journeys.spec.ts:13:89 › minimal: registration-for-kids validation, success, failure, reset and privacy (4.0s)
+  ✓  15 [chromium] › tests/journeys.spec.ts:13:89 › minimal: registration-for-adults validation, success, failure, reset and privacy (4.0s)
+  ✓  16 [chromium] › tests/journeys.spec.ts:13:89 › minimal: contact-us validation, success, failure, reset and privacy (4.0s)
+  ✓  17 [chromium] › tests/journeys.spec.ts:14:2 › minimal: article relationships, people, unknown records, broken media fixture (2.1s)
+  ✓  18 [chromium] › tests/journeys.spec.ts:15:2 › minimal: mobile menu, keyboard navigation, reflow and axe (6.7s)
+  ✓  19 [chromium] › tests/journeys.spec.ts:9:2 › vision: program filters, unknown values, empty state and detail (1.1s)
+  ✓  20 [chromium] › tests/journeys.spec.ts:10:2 › vision: exact document links, filters, archive and access notes (1.2s)
+  ✓  21 [chromium] › tests/journeys.spec.ts:11:2 › vision: gallery, focus containment and focus restoration (707ms)
+  ✓  22 [chromium] › tests/journeys.spec.ts:12:2 › vision: native playback and keyboard pause (1.2s)
+  ✓  23 [chromium] › tests/journeys.spec.ts:13:89 › vision: registration-for-kids validation, success, failure, reset and privacy (4.1s)
+  ✘  24 [chromium] › tests/journeys.spec.ts:13:89 › vision: registration-for-adults validation, success, failure, reset and privacy (8.6s)
+(node:24067) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  25 [chromium] › tests/journeys.spec.ts:13:89 › vision: contact-us validation, success, failure, reset and privacy (4.0s)
+  ✓  26 [chromium] › tests/journeys.spec.ts:14:2 › vision: article relationships, people, unknown records, broken media fixture (2.6s)
+  ✓  27 [chromium] › tests/journeys.spec.ts:15:2 › vision: mobile menu, keyboard navigation, reflow and axe (7.2s)
+  ✓  28 [chromium] › tests/journeys.spec.ts:17:51 › interactive: logical switch/history, immersive mode, video fallback and long-input validation (2.3s)
+  ✓  29 [chromium] › tests/journeys.spec.ts:17:51 › minimal: logical switch/history, immersive mode, video fallback and long-input validation (2.3s)
+  ✓  30 [chromium] › tests/journeys.spec.ts:17:51 › vision: logical switch/history, immersive mode, video fallback and long-input validation (2.3s)
+  ✓  31 [chromium] › tests/journeys.spec.ts:18:1 › Rhythm Room comparison and quick-view drawer preserve keyboard focus (1.1s)
+  ✓  32 [chromium] › tests/journeys.spec.ts:20:51 › interactive: resetting pending simulation invalidates its eventual result (1.9s)
+  ✓  33 [chromium] › tests/journeys.spec.ts:20:51 › minimal: resetting pending simulation invalidates its eventual result (1.8s)
+  ✓  34 [chromium] › tests/journeys.spec.ts:20:51 › vision: resetting pending simulation invalidates its eventual result (1.8s)
+
+
+  1) [chromium] › tests/journeys.spec.ts:13:89 › vision: registration-for-adults validation, success, failure, reset and privacy 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: getByRole('status')
+    Expected substring: "Demo completed locally. No information was sent"
+    Timeout: 7000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toContainText" getByRole('status') with timeout 7000ms
+      - waiting for getByRole('status')
+
+
+      11 |  test(`${v}: gallery, focus containment and focus restoration`,async({page})=>{await ready(page,`/${v}/photos`);const trigger=page.getByRole('button',{name:/Open photo:/}).first();await trigger.click();await expect(page.getByRole('dialog')).toBeVisible();await page.getByRole('button',{name:'Next photo',exact:true}).click();await expect(page.getByRole('dialog')).toContainText('2 / 4');await page.getByRole('button',{name:'Previous photo',exact:true}).click();for(let i=0;i<9;i++){await page.keyboard.press('Tab');expect(await page.evaluate(()=>!!document.activeElement?.closest('[role=dialog]'))).toBe(true);}await page.keyboard.press('Escape');await expect(page.getByRole('dialog')).toHaveCount(0);await expect(trigger).toBeFocused();await page.getByRole('button',{name:'School photos',exact:true}).click();await expect(page.getByRole('heading',{name:'No matches this time'})).toBeVisible();});
+      12 |  test(`${v}: native playback and keyboard pause`,async({page})=>{await ready(page,`/${v}/videos-competitions`);const video=page.locator('video');await video.scrollIntoViewIfNeeded();await video.focus();await page.keyboard.press('Space');await expect.poll(()=>video.evaluate((el:HTMLVideoElement)=>el.currentTime)).toBeGreaterThan(.1);await page.keyboard.press('Space');await expect.poll(()=>video.evaluate((el:HTMLVideoElement)=>el.paused)).toBe(true);const before=await video.evaluate((el:HTMLVideoElement)=>el.currentTime);await page.waitForTimeout(250);expect(await video.evaluate((el:HTMLVideoElement)=>el.currentTime)).toBe(before);await fs.writeFile(`verification/video-${v}.json`,JSON.stringify({browser:page.context().browser()?.version(),currentTime:before,paused:true,at:new Date().toISOString(),method:'Keyboard Space on native video; time progressed, then stable after pause'},null,2));});
+    > 13 |  for(const formPath of ['registration-for-kids','registration-for-adults','contact-us'])test(`${v}: ${formPath} validation, success, failure, reset and privacy`,async({page})=>{await ready(page,`/${v}/${formPath}`);const outbound:string[]=[];page.on('request',r=>{if(r.postData()||decodeURIComponent(r.url()).includes('Demo Dancer')||r.url().includes('parent%40')||r.url().includes('parent@example'))outbound.push(r.url());});await page.getByRole('button',{name:v==='interactive'?'Review demo details':'Complete local demo',exact:true}).click();await expect(page.locator('[aria-invalid=true]').first()).toBeFocused();await fill(page);await page.getByLabel(/demo email.*required/i).fill('invalid');await page.getByRole('button',{name:v==='interactive'?'Review demo details':'Complete local demo',exact:true}).click();await expect(page.locator('#email-error')).toBeVisible();await page.getByLabel(/demo email.*required/i).fill('parent@example.test');await submit(page,v);await expect(page.getByRole('status')).toContainText('Demo completed locally. No information was sent');await expect(page.locator('#demo-name')).toHaveValue('');await page.getByRole('link',{name:'View local demo result'}).click();await expect(page.locator('h1')).toHaveText('Local demo result');await page.reload();await expect(page.locator('h1')).toHaveText('No local demo result');await ready(page,`/${v}/${formPath}`);await fill(page);await page.getByText('Laboratory test controls',{exact:true}).click();await page.getByLabel('Simulation outcome').selectOption('failure');await submit(page,v);await expect(page.getByRole('status')).toContainText('Simulated failure. Nothing was sent.');await page.getByRole('button',{name:'Reset form'}).click();await expect(page.locator('#demo-name')).toHaveValue('');await fill(page);await page.getByRole('navigation',{name:'Switch design direction'}).getByRole('link',{name:v==='minimal'?'Frame & Floor':'Quiet Form'}).click();await expect(page.locator('#demo-name')).toHaveValue('');expect(outbound).toEqual([]);expect(await page.evaluate(()=>({local:localStorage.length,session:sessionStorage.length,cookie:document.cookie}))).toEqual({local:0,session:0,cookie:''});expect(await page.evaluate(async()=>await indexedDB.databases())).toEqual([]);});
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ^
+      14 |  test(`${v}: article relationships, people, unknown records, broken media fixture`,async({page})=>{await ready(page,`/${v}/category/for-dancers`);for(const a of articles){const links=page.locator('main').getByRole('link',{name:a.title,exact:true});await expect(links).toHaveCount(a.categories.includes('For dancers')?1:0);}await ready(page,`/${v}/author/dancemaniaschool_ru3lje`);for(const a of articles)await expect(page.locator('main').getByRole('link',{name:a.title,exact:true})).toHaveCount(1);await ready(page,`/${v}/instructors/tamir-azbel`);await expect(page.locator('main')).toContainText('Instructor');await expect(page.locator('main')).toContainText('not published');await ready(page,`/${v}/programs/missing`);await expect(page.getByTestId('not-found')).toBeVisible();await page.route('**/assets/latin.jpg',r=>r.abort());await ready(page,`/${v}/programs/latin`);await expect(page.getByRole('img',{name:/Latin dance couple/})).toContainText('Illustration unavailable');});
+      15 |  test(`${v}: mobile menu, keyboard navigation, reflow and axe`,async({page})=>{await page.setViewportSize({width:390,height:844});await ready(page,`/${v}`);await page.getByRole('button',{name:'Menu',exact:true}).click();await expect(page.getByRole('navigation',{name:'Main navigation'})).toBeVisible();await page.getByRole('navigation',{name:'Main navigation'}).getByRole('link',{name:'Schedules & fees',exact:true}).click();await expect(page.locator('h1')).toBeVisible();await expect(page.getByRole('navigation',{name:'Main navigation'})).not.toBeVisible();for(const path of ['programs','schedule','instructors','photos','instructions-for-dancers','registration-for-kids']){await ready(page,`/${v}/${path}`);if(path==='photos')await page.getByRole('button',{name:/Open photo:/}).first().click();if(path==='registration-for-kids')await page.getByRole('button',{name:v==='interactive'?'Review demo details':'Complete local demo',exact:true}).click();const results=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa','wcag22aa']).analyze();await fs.writeFile(`verification/axe-${v}-${path}.json`,JSON.stringify(results,null,2));expect(results.violations.map(r=>({id:r.id,nodes:r.nodes.map(n=>n.target)}))).toEqual([]);}await ready(page,`/${v}/instructions-for-dancers`);await page.evaluate(()=>document.documentElement.style.fontSize='200%');expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);await page.setViewportSize({width:320,height:740});expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);});
+      16 | }
+        at $ORIGINAL_PROJECT/tests/journeys.spec.ts:13:1009
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/journeys/journeys-vision-registrati-e24c7-s-failure-reset-and-privacy-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/journeys/journeys-vision-registrati-e24c7-s-failure-reset-and-privacy-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/journeys/journeys-vision-registrati-e24c7-s-failure-reset-and-privacy-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/journeys/journeys-vision-registrati-e24c7-s-failure-reset-and-privacy-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [chromium] › tests/journeys.spec.ts:13:89 › vision: registration-for-adults validation, success, failure, reset and privacy 
+  33 passed (1.6m)

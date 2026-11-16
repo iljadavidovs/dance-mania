@@ -1,0 +1,82 @@
+{
+  "at": "2026-11-16T20:24:16.908Z",
+  "browser": "159.0.8154.6",
+  "provenanceStatus": 200,
+  "files": [
+    {
+      "url": "http://127.0.0.1:4173/evidence/index.html",
+      "status": 200,
+      "type": "text/html;charset=utf-8"
+    },
+    {
+      "url": "http://127.0.0.1:4173/evidence/site-inventory.md",
+      "status": 200,
+      "type": "text/markdown"
+    },
+    {
+      "url": "http://127.0.0.1:4173/evidence/visual-audit.md",
+      "status": 200,
+      "type": "text/markdown"
+    },
+    {
+      "url": "http://127.0.0.1:4173/evidence/skills.md",
+      "status": 200,
+      "type": "text/markdown"
+    },
+    {
+      "url": "http://127.0.0.1:4173/evidence/directions.md",
+      "status": 200,
+      "type": "text/markdown"
+    },
+    {
+      "url": "http://127.0.0.1:4173/evidence/provenance.md",
+      "status": 200,
+      "type": "text/markdown"
+    },
+    {
+      "url": "http://127.0.0.1:4173/evidence/asset-manifest.json",
+      "status": 200,
+      "type": "application/json"
+    },
+    {
+      "url": "http://127.0.0.1:4173/evidence/route-matrix.md",
+      "status": 200,
+      "type": "text/markdown"
+    },
+    {
+      "url": "http://127.0.0.1:4173/evidence/test-results.md",
+      "status": 200,
+      "type": "text/markdown"
+    },
+    {
+      "url": "http://127.0.0.1:4173/evidence/visual-review.md",
+      "status": 200,
+      "type": "text/markdown"
+    },
+    {
+      "url": "http://127.0.0.1:4173/evidence/screenshot-manifest.json",
+      "status": 200,
+      "type": "application/json"
+    },
+    {
+      "url": "http://127.0.0.1:4173/evidence/acceptance.md",
+      "status": 200,
+      "type": "text/markdown"
+    }
+  ],
+  "homes": [
+    {
+      "variant": "interactive",
+      "h1": "Find your rhythm.\nMake it yours."
+    },
+    {
+      "variant": "minimal",
+      "h1": "A place\nto learn\nto dance."
+    },
+    {
+      "variant": "vision",
+      "h1": "It begins\nwith a\nconnection."
+    }
+  ],
+  "viewerH1": "Different ways\nto find the floor."
+}

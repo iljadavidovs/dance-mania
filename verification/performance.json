@@ -1,0 +1,375 @@
+{
+  "records": [
+    {
+      "variant": "viewer",
+      "metrics": {
+        "lcp": 68,
+        "cls": 0
+      },
+      "navigation": [
+        {
+          "domContentLoaded": 32.29999999888241,
+          "load": 32.29999999888241
+        }
+      ],
+      "resources": [
+        {
+          "path": "/assets/index-DbhDxpxh.js",
+          "transfer": 98659,
+          "encoded": 98359,
+          "duration": 9.299999998882413
+        },
+        {
+          "path": "/assets/index-C8Xoyewn.css",
+          "transfer": 6687,
+          "encoded": 6387,
+          "duration": 4.599999999627471
+        },
+        {
+          "path": "/previews/interactive-desktop.jpg",
+          "transfer": 148549,
+          "encoded": 148249,
+          "duration": 1.699999999254942
+        },
+        {
+          "path": "/previews/interactive-mobile.jpg",
+          "transfer": 52568,
+          "encoded": 52268,
+          "duration": 1.700000001117587
+        },
+        {
+          "path": "/previews/minimal-desktop.jpg",
+          "transfer": 100292,
+          "encoded": 99992,
+          "duration": 2.300000000745058
+        },
+        {
+          "path": "/previews/minimal-mobile.jpg",
+          "transfer": 43152,
+          "encoded": 42852,
+          "duration": 2.100000001490116
+        },
+        {
+          "path": "/previews/vision-desktop.jpg",
+          "transfer": 125629,
+          "encoded": 125329,
+          "duration": 2.400000000372529
+        },
+        {
+          "path": "/previews/vision-mobile.jpg",
+          "transfer": 42608,
+          "encoded": 42308,
+          "duration": 2.5
+        }
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36",
+      "browser": "159.0.8154.6",
+      "at": "2026-11-16T21:04:24.642Z",
+      "conditions": "Fresh browser context; headless Chromium; local loopback production server; desktop 1440×1000; no network or CPU throttling. These are lab observations, not field metrics or Lighthouse scores."
+    },
+    {
+      "variant": "interactive",
+      "metrics": {
+        "lcp": 376,
+        "cls": 0.041421582528573496
+      },
+      "navigation": [
+        {
+          "domContentLoaded": 20.800000000745058,
+          "load": 20.800000000745058
+        }
+      ],
+      "resources": [
+        {
+          "path": "/assets/index-C8Xoyewn.css",
+          "transfer": 6687,
+          "encoded": 6387,
+          "duration": 3.400000000372529
+        },
+        {
+          "path": "/assets/index-DbhDxpxh.js",
+          "transfer": 98659,
+          "encoded": 98359,
+          "duration": 8.900000000372529
+        },
+        {
+          "path": "/assets/interactive-C5CY1jaX.js",
+          "transfer": 5145,
+          "encoded": 4845,
+          "duration": 1.400000000372529
+        },
+        {
+          "path": "/assets/interactive-BtnyCvac.css",
+          "transfer": 3269,
+          "encoded": 2969,
+          "duration": 1.3999999985098839
+        },
+        {
+          "path": "/assets/supplemental-LQqdKaWb.js",
+          "transfer": 57621,
+          "encoded": 57321,
+          "duration": 4
+        },
+        {
+          "path": "/assets/fonts/dmsans.ttf",
+          "transfer": 240464,
+          "encoded": 240164,
+          "duration": 4.300000000745058
+        },
+        {
+          "path": "/assets/tango-exhibition.jpg",
+          "transfer": 157598,
+          "encoded": 157298,
+          "duration": 1.400000000372529
+        },
+        {
+          "path": "/assets/latin.jpg",
+          "transfer": 490438,
+          "encoded": 490138,
+          "duration": 2
+        },
+        {
+          "path": "/assets/fonts/barlowcondensed.ttf",
+          "transfer": 109728,
+          "encoded": 109428,
+          "duration": 26.40000000037253
+        },
+        {
+          "path": "/assets/jive.jpg",
+          "transfer": 59228,
+          "encoded": 58928,
+          "duration": 4.800000000745058
+        }
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36",
+      "browser": "159.0.8154.6",
+      "at": "2026-11-16T21:04:26.530Z",
+      "conditions": "Fresh browser context; headless Chromium; local loopback production server; desktop 1440×1000; no network or CPU throttling. These are lab observations, not field metrics or Lighthouse scores."
+    },
+    {
+      "variant": "minimal",
+      "metrics": {
+        "lcp": 360,
+        "cls": 0
+      },
+      "navigation": [
+        {
+          "domContentLoaded": 20.300000000745058,
+          "load": 20.300000000745058
+        }
+      ],
+      "resources": [
+        {
+          "path": "/assets/index-DbhDxpxh.js",
+          "transfer": 98659,
+          "encoded": 98359,
+          "duration": 8.800000000745058
+        },
+        {
+          "path": "/assets/index-C8Xoyewn.css",
+          "transfer": 6687,
+          "encoded": 6387,
+          "duration": 3.400000000372529
+        },
+        {
+          "path": "/assets/minimal-CbBv2JyA.js",
+          "transfer": 4042,
+          "encoded": 3742,
+          "duration": 1.800000000745058
+        },
+        {
+          "path": "/assets/supplemental-LQqdKaWb.js",
+          "transfer": 57621,
+          "encoded": 57321,
+          "duration": 3.900000000372529
+        },
+        {
+          "path": "/assets/minimal-Cl2Gsyzg.css",
+          "transfer": 3012,
+          "encoded": 2712,
+          "duration": 1.800000000745058
+        },
+        {
+          "path": "/assets/fonts/manrope.ttf",
+          "transfer": 165000,
+          "encoded": 164700,
+          "duration": 2.5
+        },
+        {
+          "path": "/assets/tango-exhibition.jpg",
+          "transfer": 157598,
+          "encoded": 157298,
+          "duration": 0.599999999627471
+        }
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36",
+      "browser": "159.0.8154.6",
+      "at": "2026-11-16T21:04:28.411Z",
+      "conditions": "Fresh browser context; headless Chromium; local loopback production server; desktop 1440×1000; no network or CPU throttling. These are lab observations, not field metrics or Lighthouse scores."
+    },
+    {
+      "variant": "vision",
+      "metrics": {
+        "lcp": 372,
+        "cls": 0.000220366512345679
+      },
+      "navigation": [
+        {
+          "domContentLoaded": 20.299999998882413,
+          "load": 20.299999998882413
+        }
+      ],
+      "resources": [
+        {
+          "path": "/assets/index-DbhDxpxh.js",
+          "transfer": 98659,
+          "encoded": 98359,
+          "duration": 8.799999998882413
+        },
+        {
+          "path": "/assets/index-C8Xoyewn.css",
+          "transfer": 6687,
+          "encoded": 6387,
+          "duration": 3.199999999254942
+        },
+        {
+          "path": "/assets/vision-fY519iPk.js",
+          "transfer": 5051,
+          "encoded": 4751,
+          "duration": 1.900000000372529
+        },
+        {
+          "path": "/assets/vision-CmqVNol5.css",
+          "transfer": 4075,
+          "encoded": 3775,
+          "duration": 2
+        },
+        {
+          "path": "/assets/supplemental-LQqdKaWb.js",
+          "transfer": 57621,
+          "encoded": 57321,
+          "duration": 3.900000000372529
+        },
+        {
+          "path": "/assets/fonts/publicsans.ttf",
+          "transfer": 103616,
+          "encoded": 103316,
+          "duration": 2.5
+        },
+        {
+          "path": "/assets/latin.jpg",
+          "transfer": 490438,
+          "encoded": 490138,
+          "duration": 1.5
+        },
+        {
+          "path": "/assets/tango-exhibition.jpg",
+          "transfer": 157598,
+          "encoded": 157298,
+          "duration": 1.199999999254942
+        },
+        {
+          "path": "/assets/fonts/fraunces.ttf",
+          "transfer": 360740,
+          "encoded": 360440,
+          "duration": 21.40000000037253
+        },
+        {
+          "path": "/assets/waltz.jpg",
+          "transfer": 32451,
+          "encoded": 32151,
+          "duration": 3.800000000745058
+        }
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36",
+      "browser": "159.0.8154.6",
+      "at": "2026-11-16T21:04:30.300Z",
+      "conditions": "Fresh browser context; headless Chromium; local loopback production server; desktop 1440×1000; no network or CPU throttling. These are lab observations, not field metrics or Lighthouse scores."
+    }
+  ],
+  "bundles": [
+    {
+      "file": "index-C8Xoyewn.css",
+      "bytes": 25068,
+      "gzipBytes": 6387
+    },
+    {
+      "file": "index-DbhDxpxh.js",
+      "bytes": 307142,
+      "gzipBytes": 98359
+    },
+    {
+      "file": "interactive-BtnyCvac.css",
+      "bytes": 15072,
+      "gzipBytes": 2969
+    },
+    {
+      "file": "interactive-C5CY1jaX.js",
+      "bytes": 15562,
+      "gzipBytes": 4845
+    },
+    {
+      "file": "minimal-CbBv2JyA.js",
+      "bytes": 12010,
+      "gzipBytes": 3742
+    },
+    {
+      "file": "minimal-Cl2Gsyzg.css",
+      "bytes": 13398,
+      "gzipBytes": 2712
+    },
+    {
+      "file": "supplemental-LQqdKaWb.js",
+      "bytes": 180871,
+      "gzipBytes": 57321
+    },
+    {
+      "file": "vision-CmqVNol5.css",
+      "bytes": 19915,
+      "gzipBytes": 3775
+    },
+    {
+      "file": "vision-fY519iPk.js",
+      "bytes": 15500,
+      "gzipBytes": 4751
+    }
+  ],
+  "assets": [
+    {
+      "file": "dance-demo-poster.jpg",
+      "bytes": 36202
+    },
+    {
+      "file": "dance-demo.mp4",
+      "bytes": 711266
+    },
+    {
+      "file": "dance-demo.vtt",
+      "bytes": 189
+    },
+    {
+      "file": "jive-1945.jpg",
+      "bytes": 1065920
+    },
+    {
+      "file": "jive.jpg",
+      "bytes": 58928
+    },
+    {
+      "file": "latin.jpg",
+      "bytes": 490138
+    },
+    {
+      "file": "tango-exhibition.jpg",
+      "bytes": 157298
+    },
+    {
+      "file": "tango.png",
+      "bytes": 207784
+    },
+    {
+      "file": "waltz.jpg",
+      "bytes": 32151
+    }
+  ]
+}

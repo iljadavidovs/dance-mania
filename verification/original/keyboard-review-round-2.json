@@ -1,0 +1,361 @@
+[
+  {
+    "variant": "interactive",
+    "status": "fail",
+    "error": "locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Complete local demo', exact: true })\u001b[22m\n",
+    "steps": [
+      {
+        "label": "First tab skip link activates and focuses main"
+      },
+      {
+        "label": "Desktop disclosure",
+        "tabs": 54,
+        "focus": {
+          "tag": "BUTTON",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Visible submenu link",
+        "tabs": 1,
+        "focus": {
+          "tag": "A",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Program search",
+        "tabs": 12,
+        "focus": {
+          "tag": "INPUT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Latin detail link",
+        "tabs": 5,
+        "focus": {
+          "tag": "A",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Registration footer link",
+        "tabs": 23,
+        "focus": {
+          "tag": "A",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "16+ registration choice",
+        "tabs": 10,
+        "focus": {
+          "tag": "A",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Synthetic name",
+        "tabs": 11,
+        "focus": {
+          "tag": "INPUT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Synthetic email",
+        "tabs": 1,
+        "focus": {
+          "tag": "INPUT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Synthetic phone",
+        "tabs": 1,
+        "focus": {
+          "tag": "INPUT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Interest native select",
+        "tabs": 1,
+        "focus": {
+          "tag": "SELECT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Native select keyboard value",
+        "value": ""
+      },
+      {
+        "label": "Review local demo",
+        "tabs": 1,
+        "focus": {
+          "tag": "BUTTON",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      }
+    ],
+    "fields": [
+      {
+        "id": "demo-name",
+        "value": "Keyboard Demo"
+      },
+      {
+        "id": "demo-email",
+        "value": "keyboard@example.test"
+      },
+      {
+        "id": "demo-phone",
+        "value": "+1 202 555 0123"
+      },
+      {
+        "id": "demo-interest",
+        "value": ""
+      },
+      {
+        "id": "demo-referral",
+        "value": ""
+      }
+    ],
+    "text": "Dance Mania School\nFind your own rhythm.\n\nRegistration demonstration. Choose, review and try the local result.\n\nAge 16+ route\n\nBefore entering invented details, you can review program descriptions and source schedule documents.\n\nSchedules & fees\nChange registration route\nLocal demonstration. Use invented details only. Nothing is sent to Dance Mania School.\n\nAge 16+: this is the source registration division, not a legal adulthood statement. Required fields are labelled.\n\nStep 1 of 2 — your demonstration details\n\nInvented full name (required)\nDemo email (required)\nDemo contact phone (required)\nInterest (required)\nChoose an interest\nClasses for children\nClasses for myself\nCompetitive dancing\nStudio hire\nShoe fitting\nChoose an interest.\nHow did you hear about the school? (optional)\nChoose a referral\nSearch\nFriend or family\nSocial media\nOther\nReview demo details\nReset form\nLaboratory test controls\nLooking for under-16 registration?"
+  },
+  {
+    "variant": "minimal",
+    "status": "fail",
+    "error": "locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('status').getByText('Demo completed locally.') to be visible\u001b[22m\n",
+    "steps": [
+      {
+        "label": "First tab skip link activates and focuses main"
+      },
+      {
+        "label": "Desktop programs navigation",
+        "tabs": 51,
+        "focus": {
+          "tag": "A",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Program search",
+        "tabs": 9,
+        "focus": {
+          "tag": "INPUT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Latin detail link",
+        "tabs": 5,
+        "focus": {
+          "tag": "A",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Registration footer link",
+        "tabs": 26,
+        "focus": {
+          "tag": "A",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "16+ registration choice",
+        "tabs": 10,
+        "focus": {
+          "tag": "A",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Synthetic name",
+        "tabs": 9,
+        "focus": {
+          "tag": "INPUT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Synthetic email",
+        "tabs": 1,
+        "focus": {
+          "tag": "INPUT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Synthetic phone",
+        "tabs": 1,
+        "focus": {
+          "tag": "INPUT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Interest native select",
+        "tabs": 1,
+        "focus": {
+          "tag": "SELECT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Native select keyboard value",
+        "value": ""
+      },
+      {
+        "label": "Complete local demo",
+        "tabs": 1,
+        "focus": {
+          "tag": "BUTTON",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      }
+    ],
+    "fields": [
+      {
+        "id": "demo-name",
+        "value": "Keyboard Demo"
+      },
+      {
+        "id": "demo-email",
+        "value": "keyboard@example.test"
+      },
+      {
+        "id": "demo-phone",
+        "value": "+1 202 555 0123"
+      },
+      {
+        "id": "demo-interest",
+        "value": ""
+      },
+      {
+        "id": "demo-referral",
+        "value": ""
+      }
+    ],
+    "text": "Dance Mania School\nRegistration — age 16+\n\nA single, clear local demonstration form. No enrollment is created.\n\nLocal demonstration. Use invented details only. Nothing is sent to Dance Mania School.\n\nAge 16+: this is the source registration division, not a legal adulthood statement. Required fields are labelled.\n\nInvented full name (required)\nDemo email (required)\nDemo contact phone (required)\nInterest (required)\nChoose an interest\nClasses for children\nClasses for myself\nCompetitive dancing\nStudio hire\nShoe fitting\nChoose an interest.\nHow did you hear about the school? (optional)\nChoose a referral\nSearch\nFriend or family\nSocial media\nOther\nComplete local demo\nReset form\nLaboratory test controls\nLooking for under-16 registration?"
+  },
+  {
+    "variant": "vision",
+    "status": "fail",
+    "error": "locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('status').getByText('Demo completed locally.') to be visible\u001b[22m\n",
+    "steps": [
+      {
+        "label": "First tab skip link activates and focuses main"
+      },
+      {
+        "label": "Desktop programs navigation",
+        "tabs": 41,
+        "focus": {
+          "tag": "A",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Program search",
+        "tabs": 12,
+        "focus": {
+          "tag": "INPUT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Latin detail link",
+        "tabs": 9,
+        "focus": {
+          "tag": "A",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Registration footer link",
+        "tabs": 27,
+        "focus": {
+          "tag": "A",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "16+ registration choice",
+        "tabs": 14,
+        "focus": {
+          "tag": "A",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Synthetic name",
+        "tabs": 14,
+        "focus": {
+          "tag": "INPUT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Synthetic email",
+        "tabs": 1,
+        "focus": {
+          "tag": "INPUT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Synthetic phone",
+        "tabs": 1,
+        "focus": {
+          "tag": "INPUT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Interest native select",
+        "tabs": 1,
+        "focus": {
+          "tag": "SELECT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Native select keyboard value",
+        "value": ""
+      },
+      {
+        "label": "Complete local demo",
+        "tabs": 1,
+        "focus": {
+          "tag": "BUTTON",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      }
+    ],
+    "fields": [
+      {
+        "id": "demo-name",
+        "value": "Keyboard Demo"
+      },
+      {
+        "id": "demo-email",
+        "value": "keyboard@example.test"
+      },
+      {
+        "id": "demo-phone",
+        "value": "+1 202 555 0123"
+      },
+      {
+        "id": "demo-interest",
+        "value": ""
+      },
+      {
+        "id": "demo-referral",
+        "value": ""
+      }
+    ],
+    "text": "Dance Mania School\nYour next step.\n\nA safe local demonstration of the registration journey.\n\nFor a dancer aged 16+\n\nExplore the source’s age 16+ route using invented details. This laboratory cannot enroll anyone.\n\nChange registration route\nBefore the first lesson\n\nAsk about suitable classes, current fees, visit arrangements and what to bring.\n\nFirst-visit guide\nLocal demonstration. Use invented details only. Nothing is sent to Dance Mania School.\n\nAge 16+: this is the source registration division, not a legal adulthood statement. Required fields are labelled.\n\nInvented full name (required)\nDemo email (required)\nDemo contact phone (required)\nInterest (required)\nChoose an interest\nClasses for children\nClasses for myself\nCompetitive dancing\nStudio hire\nShoe fitting\nChoose an interest.\nHow did you hear about the school? (optional)\nChoose a referral\nSearch\nFriend or family\nSocial media\nOther\nComplete local demo\nReset form\nLaboratory test controls\nLooking for under-16 registration?"
+  }
+]

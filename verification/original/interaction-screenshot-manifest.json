@@ -1,0 +1,314 @@
+[
+  {
+    "variant": "interactive",
+    "state": "programs-empty",
+    "path": "verification/screenshots/state-interactive-programs-empty.jpg",
+    "url": "http://127.0.0.1:5173/interactive/programs?q=unmatched",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T19:40:32.560Z",
+    "animations": "allow"
+  },
+  {
+    "variant": "interactive",
+    "state": "programs-selected",
+    "path": "verification/screenshots/state-interactive-programs-selected.jpg",
+    "url": "http://127.0.0.1:5173/interactive/programs",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T19:40:32.824Z",
+    "animations": "allow"
+  },
+  {
+    "variant": "interactive",
+    "state": "lightbox",
+    "path": "verification/screenshots/state-interactive-lightbox.jpg",
+    "url": "http://127.0.0.1:5173/interactive/photos",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T19:40:33.738Z",
+    "animations": "allow"
+  },
+  {
+    "variant": "interactive",
+    "state": "form-validation",
+    "path": "verification/screenshots/state-interactive-form-validation.jpg",
+    "url": "http://127.0.0.1:5173/interactive/registration-for-kids",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T19:40:34.639Z",
+    "animations": "allow"
+  },
+  {
+    "variant": "interactive",
+    "state": "form-pending",
+    "path": "verification/screenshots/state-interactive-form-pending.jpg",
+    "url": "http://127.0.0.1:5173/interactive/registration-for-kids",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T19:40:34.801Z",
+    "animations": "allow"
+  },
+  {
+    "variant": "interactive",
+    "state": "form-failure",
+    "path": "verification/screenshots/state-interactive-form-failure.jpg",
+    "url": "http://127.0.0.1:5173/interactive/registration-for-kids",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T19:40:35.657Z",
+    "animations": "allow"
+  },
+  {
+    "variant": "interactive",
+    "state": "form-success",
+    "path": "verification/screenshots/state-interactive-form-success.jpg",
+    "url": "http://127.0.0.1:5173/interactive/registration-for-kids",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T19:40:36.521Z",
+    "animations": "allow"
+  },
+  {
+    "variant": "interactive",
+    "state": "mobile-menu",
+    "path": "verification/screenshots/state-interactive-mobile-menu.jpg",
+    "url": "http://127.0.0.1:5173/interactive/schedule",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T19:40:37.434Z",
+    "animations": "allow"
+  },
+  {
+    "variant": "minimal",
+    "state": "programs-empty",
+    "path": "verification/screenshots/state-minimal-programs-empty.jpg",
+    "url": "http://127.0.0.1:5173/minimal/programs?q=unmatched",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T19:40:38.342Z",
+    "animations": "allow"
+  },
+  {
+    "variant": "minimal",
+    "state": "programs-selected",
+    "path": "verification/screenshots/state-minimal-programs-selected.jpg",
+    "url": "http://127.0.0.1:5173/minimal/programs",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T19:40:38.480Z",
+    "animations": "allow"
+  },
+  {
+    "variant": "minimal",
+    "state": "lightbox",
+    "path": "verification/screenshots/state-minimal-lightbox.jpg",
+    "url": "http://127.0.0.1:5173/minimal/photos",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T19:40:39.392Z",
+    "animations": "allow"
+  },
+  {
+    "variant": "minimal",
+    "state": "form-validation",
+    "path": "verification/screenshots/state-minimal-form-validation.jpg",
+    "url": "http://127.0.0.1:5173/minimal/registration-for-kids",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T19:40:40.289Z",
+    "animations": "allow"
+  },
+  {
+    "variant": "minimal",
+    "state": "form-pending",
+    "path": "verification/screenshots/state-minimal-form-pending.jpg",
+    "url": "http://127.0.0.1:5173/minimal/registration-for-kids",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T19:40:40.405Z",
+    "animations": "allow"
+  },
+  {
+    "variant": "minimal",
+    "state": "form-failure",
+    "path": "verification/screenshots/state-minimal-form-failure.jpg",
+    "url": "http://127.0.0.1:5173/minimal/registration-for-kids",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T19:40:41.237Z",
+    "animations": "allow"
+  },
+  {
+    "variant": "minimal",
+    "state": "form-success",
+    "path": "verification/screenshots/state-minimal-form-success.jpg",
+    "url": "http://127.0.0.1:5173/minimal/registration-for-kids",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T19:40:42.123Z",
+    "animations": "allow"
+  },
+  {
+    "variant": "minimal",
+    "state": "mobile-menu",
+    "path": "verification/screenshots/state-minimal-mobile-menu.jpg",
+    "url": "http://127.0.0.1:5173/minimal/schedule",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T19:40:43.013Z",
+    "animations": "allow"
+  },
+  {
+    "variant": "vision",
+    "state": "programs-empty",
+    "path": "verification/screenshots/state-vision-programs-empty.jpg",
+    "url": "http://127.0.0.1:5173/vision/programs?q=unmatched",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T19:40:43.922Z",
+    "animations": "allow"
+  },
+  {
+    "variant": "vision",
+    "state": "programs-selected",
+    "path": "verification/screenshots/state-vision-programs-selected.jpg",
+    "url": "http://127.0.0.1:5173/vision/programs",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T19:40:44.078Z",
+    "animations": "allow"
+  },
+  {
+    "variant": "vision",
+    "state": "lightbox",
+    "path": "verification/screenshots/state-vision-lightbox.jpg",
+    "url": "http://127.0.0.1:5173/vision/photos",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T19:40:44.976Z",
+    "animations": "allow"
+  },
+  {
+    "variant": "vision",
+    "state": "form-validation",
+    "path": "verification/screenshots/state-vision-form-validation.jpg",
+    "url": "http://127.0.0.1:5173/vision/registration-for-kids",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T19:40:45.876Z",
+    "animations": "allow"
+  },
+  {
+    "variant": "vision",
+    "state": "form-pending",
+    "path": "verification/screenshots/state-vision-form-pending.jpg",
+    "url": "http://127.0.0.1:5173/vision/registration-for-kids",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T19:40:45.991Z",
+    "animations": "allow"
+  },
+  {
+    "variant": "vision",
+    "state": "form-failure",
+    "path": "verification/screenshots/state-vision-form-failure.jpg",
+    "url": "http://127.0.0.1:5173/vision/registration-for-kids",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T19:40:46.844Z",
+    "animations": "allow"
+  },
+  {
+    "variant": "vision",
+    "state": "form-success",
+    "path": "verification/screenshots/state-vision-form-success.jpg",
+    "url": "http://127.0.0.1:5173/vision/registration-for-kids",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T19:40:47.705Z",
+    "animations": "allow"
+  },
+  {
+    "variant": "vision",
+    "state": "mobile-menu",
+    "path": "verification/screenshots/state-vision-mobile-menu.jpg",
+    "url": "http://127.0.0.1:5173/vision/schedule",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T19:40:48.611Z",
+    "animations": "allow"
+  }
+]

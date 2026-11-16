@@ -1,0 +1,119 @@
+[
+  {
+    "name": "npm-ci",
+    "observedExitCode": 0,
+    "log": "verification/publication/npm-ci.log",
+    "sourceLogSHA256": "7d25fe6edf48484be8c7096aa375fd8a606abcde4a24398603bf2d4512ea78f8",
+    "publishedLogSHA256": "7d25fe6edf48484be8c7096aa375fd8a606abcde4a24398603bf2d4512ea78f8",
+    "interpretation": "Command completed; detailed scope/results in log and report"
+  },
+  {
+    "name": "typecheck",
+    "observedExitCode": 0,
+    "log": "verification/publication/typecheck.log",
+    "sourceLogSHA256": "f69a6ebb6aa8bdef7e48db3f898edd91adfcce3335da26f419ca85b2f1add3f2",
+    "publishedLogSHA256": "f69a6ebb6aa8bdef7e48db3f898edd91adfcce3335da26f419ca85b2f1add3f2",
+    "interpretation": "Command completed; detailed scope/results in log and report"
+  },
+  {
+    "name": "lint",
+    "observedExitCode": 0,
+    "log": "verification/publication/lint.log",
+    "sourceLogSHA256": "b5f5ca70de439e173c5fab74670a9af72397f7a51192621f72767fbaac99cb60",
+    "publishedLogSHA256": "b5f5ca70de439e173c5fab74670a9af72397f7a51192621f72767fbaac99cb60",
+    "interpretation": "Command completed; detailed scope/results in log and report"
+  },
+  {
+    "name": "build",
+    "observedExitCode": 0,
+    "log": "verification/publication/build.log",
+    "sourceLogSHA256": "8de406ef81ad91d20cc9b4bb9fb1cd5b3254c796e3e2e1555f774dc2c7edc125",
+    "publishedLogSHA256": "8de406ef81ad91d20cc9b4bb9fb1cd5b3254c796e3e2e1555f774dc2c7edc125",
+    "interpretation": "Command completed; detailed scope/results in log and report"
+  },
+  {
+    "name": "e2e",
+    "observedExitCode": 0,
+    "log": "verification/publication/e2e.log",
+    "sourceLogSHA256": "9ff598c6ce5acacb12d4fe92e694cb9d3838d96fd37e0e46938df0a143c89d41",
+    "publishedLogSHA256": "9ff598c6ce5acacb12d4fe92e694cb9d3838d96fd37e0e46938df0a143c89d41",
+    "interpretation": "Command completed; detailed scope/results in log and report"
+  },
+  {
+    "name": "motion",
+    "observedExitCode": 0,
+    "log": "verification/publication/motion.log",
+    "sourceLogSHA256": "cfdd43ae0220d0bf8374da3e66015820d3b0ad46792f3a8d1e7a9bba115cf640",
+    "publishedLogSHA256": "cfdd43ae0220d0bf8374da3e66015820d3b0ad46792f3a8d1e7a9bba115cf640",
+    "interpretation": "Command completed; detailed scope/results in log and report"
+  },
+  {
+    "name": "routes",
+    "observedExitCode": 0,
+    "log": "verification/publication/routes.log",
+    "sourceLogSHA256": "811a7c819207ee20652356d46f560a83c5387b78d4353da303ee46a583406cd5",
+    "publishedLogSHA256": "811a7c819207ee20652356d46f560a83c5387b78d4353da303ee46a583406cd5",
+    "interpretation": "Command completed; detailed scope/results in log and report"
+  },
+  {
+    "name": "capture",
+    "observedExitCode": 0,
+    "log": "verification/publication/capture.log",
+    "sourceLogSHA256": "ddd2d720205209298b528a94a72ce9ba561c87995abfd0e3f6b799568896b0c5",
+    "publishedLogSHA256": "ddd2d720205209298b528a94a72ce9ba561c87995abfd0e3f6b799568896b0c5",
+    "interpretation": "Command completed; detailed scope/results in log and report"
+  },
+  {
+    "name": "browser",
+    "observedExitCode": 0,
+    "log": "verification/publication/browser.log",
+    "sourceLogSHA256": "38de1364a65d522eb76470c5c308be97322a85e6739e68036739b466ca294980",
+    "publishedLogSHA256": "38de1364a65d522eb76470c5c308be97322a85e6739e68036739b466ca294980",
+    "interpretation": "Command completed; detailed scope/results in log and report"
+  },
+  {
+    "name": "keyboard",
+    "observedExitCode": 0,
+    "log": "verification/publication/keyboard.log",
+    "sourceLogSHA256": "a1ea8f9ce2936f0fa359f0b52d1317286a89e3e4f17a3e4b11d7efeca72863bb",
+    "publishedLogSHA256": "a1ea8f9ce2936f0fa359f0b52d1317286a89e3e4f17a3e4b11d7efeca72863bb",
+    "interpretation": "Command completed; detailed scope/results in log and report"
+  },
+  {
+    "name": "states",
+    "observedExitCode": 0,
+    "log": "verification/publication/states.log",
+    "sourceLogSHA256": "a31c350600abd6c4993feb60be334005fdfa8b172abd67f2d52b340aeb783105",
+    "publishedLogSHA256": "a31c350600abd6c4993feb60be334005fdfa8b172abd67f2d52b340aeb783105",
+    "interpretation": "Command completed; detailed scope/results in log and report"
+  },
+  {
+    "name": "console",
+    "observedExitCode": 0,
+    "log": "verification/publication/console.log",
+    "sourceLogSHA256": "76c61e6451b2b24cdecfe6b9ade92a1d3071b552cf4987af6ad9cb0d013598fa",
+    "publishedLogSHA256": "76c61e6451b2b24cdecfe6b9ade92a1d3071b552cf4987af6ad9cb0d013598fa",
+    "interpretation": "Command completed; detailed scope/results in log and report"
+  },
+  {
+    "name": "edge-cases",
+    "observedExitCode": 1,
+    "log": "verification/publication/edge-cases.log",
+    "sourceLogSHA256": "e9414efddb1842373d5c6c83565282343d8b483160cd79d3a5781d8feb2234d0",
+    "publishedLogSHA256": "e9414efddb1842373d5c6c83565282343d8b483160cd79d3a5781d8feb2234d0",
+    "interpretation": "Known baseline form failures confirmed; preserved, not repaired"
+  },
+  {
+    "name": "visual",
+    "observedExitCode": 0,
+    "log": "verification/publication/visual.log",
+    "sourceLogSHA256": "ef28bb2da071bfc56b6e59b0a7e0c600da2f817f819b78f02631bd02f7bf4902",
+    "publishedLogSHA256": "ef28bb2da071bfc56b6e59b0a7e0c600da2f817f819b78f02631bd02f7bf4902",
+    "interpretation": "Command completed; detailed scope/results in log and report"
+  },
+  {
+    "name": "performance",
+    "observedExitCode": 0,
+    "log": "verification/publication/performance.log"
+  }
+]

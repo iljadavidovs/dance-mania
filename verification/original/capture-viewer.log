@@ -1,0 +1,5 @@
+
+> dancemania-redesign-lab@1.0.0 capture
+> PLAYWRIGHT_BROWSERS_PATH=./.browsers node scripts/routes.mjs --capture --viewer-only
+
+588/588 passed. Browser 159.0.8154.6

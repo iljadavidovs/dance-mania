@@ -1,0 +1,193 @@
+
+> dancemania-redesign-lab@1.0.0 test:e2e
+> PLAYWRIGHT_BROWSERS_PATH=./.browsers playwright test tests/journeys.spec.t  ✘   1 [chromium] › tests/journe  ✘   1 [chromium] › tests/journeys.spec.ts:9:2 › interactive: program filters, unknown values, empty state and detail (45.0s)
+  ✓   2 [chromium] › tests/journeys.spec.ts:10:2 › interactive: exact document links, filters, archive and access notes (724ms)
+  ✓   3 [chromium] › tests/journeys.spec.ts:11:2 › interactive: gallery, focus containment and focus restoration (683ms)
+  ✓   4 [chromium] › tests/journeys.spec.ts:12:2 › interactive: native playback and keyboard pause (1.2s)
+  ✓   5 [chromium] › tests/journeys.spec.ts:13:89 › interactive: registration-for-kids validation, success, failure, reset and privacy (4.1s)
+  ✓   6 [chromium] › tests/journeys.spec.ts:13:89 › interactive: registration-for-adults validation, success, failure, reset and privacy (4.1s)
+  ✓   7 [chromium] › tests/journeys.spec.ts:13:89 › interactive: contact-us validation, success, failure, reset and privacy (4.1s)
+  ✓   8 [chromium] › tests/journeys.spec.ts:14:2 › interactive: article relationships, people, unknown records, broken media fixture (2.1s)
+  ✓   9 [chromium] › tests/journeys.spec.ts:15:2 › interactive: mobile menu, keyboard navigation, reflow and axe (4.8s)
+  ✘  10 [chromium] › tests/journeys.spec.ts:9:2 › minimal: program filters, unknown values, empty state and detail (45.1s)
+  ✓  11 [chromium] › tests/journeys.spec.ts:10:2 › minimal: exact document links, filters, archive and access notes (796ms)
+  ✓  12 [chromium] › tests/journeys.spec.ts:11:2 › minimal: gallery, focus containment and focus restoration (747ms)
+  ✓  13 [chromium] › tests/journeys.spec.ts:12:2 › minimal: native playback and keyboard pause (1.2s)
+  ✓  14 [chromium] › tests/journeys.spec.ts:13:89 › minimal: registration-for-kids validation, success, failure, reset and privacy (3.9s)
+  ✓  15 [chromium] › tests/journeys.spec.ts:13:89 › minimal: registration-for-adults validation, success, failure, reset and privacy (4.1s)
+  ✓  16 [chromium] › tests/journeys.spec.ts:13:89 › minimal: contact-us validation, success, failure, reset and privacy (4.0s)
+  ✘  17 [chromium] › tests/journeys.spec.ts:14:2 › minimal: article relationships, people, unknown records, broken media fixture (2.6s)
+  ✓  18 [chromium] › tests/journeys.spec.ts:15:2 › minimal: mobile menu, keyboard navigation, reflow and axe (4.9s)
+  ✘  19 [chromium] › tests/journeys.spec.ts:9:2 › vision: program filters, unknown values, empty state and detail (7.6s)
+  ✓  20 [chromium] › tests/journeys.spec.ts:10:2 › vision: exact document links, filters, archive and access notes (725ms)
+  ✓  21 [chromium] › tests/journeys.spec.ts:11:2 › vision: gallery, focus containment and focus restoration (703ms)
+  ✓  22 [chromium] › tests/journeys.spec.ts:12:2 › vision: native playback and keyboard pause (1.2s)
+  ✘  23 [chromium] › tests/journeys.spec.ts:13:89 › vision: registration-for-kids validation, success, failure, reset and privacy (255ms)
+
+
+  1) [chromium] › tests/journeys.spec.ts:9:2 › interactive: program filters, unknown values, empty state and detail 
+
+    Test timeout of 45000ms exceeded.
+
+    Error: apiRequestContext._wrapApiCall: ENOENT: no such file or directory, copyfile '$ORIGINAL_PROJECT/test-results/.playwright-artifacts-0/traces/aa09586c1d16412a1f00-2a7136c5d189d6351319-recording1.network' -> '$ORIGINAL_PROJECT/test-results/.playwright-artifacts-0/traces/aa09586c1d16412a1f00-2a7136c5d189d6351319-recording1-pwnetcopy-1.network'
+
+    Error: browserContext._wrapApiCall: ENOENT: no such file or directory, open '$ORIGINAL_PROJECT/test-results/.playwright-artifacts-0/traces/aa09586c1d16412a1f00-2a7136c5d189d6351319.network'
+
+    Error: locator.selectOption: Test ended.
+    Call log:
+      - waiting for getByLabel('Audience', { exact: true })
+
+
+       7 | async function submit(page:Page,variant:string){if(variant==='interactive')await page.getByRole('button',{name:'Review demo details'}).click();await page.getByRole('button',{name:'Complete local demo',exact:true}).click();}
+       8 | for(const v of ['interactive','minimal','vision']){
+    >  9 |  test(`${v}: program filters, unknown values, empty state and detail`,async({page})=>{await ready(page,`/${v}/programs?audience=unsupported`);await expect(page.getByText('An unsupported filter was ignored.',{exact:false})).toBeVisible();await page.getByLabel('Search programs').fill('Rumba');await expect(page.getByRole('status').first()).toContainText('1 program');await expect(page).toHaveURL(/q=Rumba/);await page.getByLabel('Search programs').fill('no-match-xyz');await expect(page.getByRole('heading',{name:'No matches this time'})).toBeVisible();await page.getByRole('button',{name:'Clear filters'}).click();await page.getByLabel('Audience',{exact:true}).selectOption('Adults');await page.getByLabel('Goal',{exact:true}).selectOption('Social');await expect(page.getByRole('status').first()).toContainText('1 program');await page.reload();await expect(page.getByLabel('Goal',{exact:true})).toHaveValue('Social');if(v==='vision')await page.getByRole('link',{name:'Program in detail'}).click();else await page.getByRole('link',{name:v==='interactive'?'Explore program':'Program details',exact:true}).click();await expect(page.locator('h1')).toHaveText('Adult social');await expect(page.locator('main')).toContainText('Bachata');await page.goBack();await expect(page.getByLabel('Goal',{exact:true})).toHaveValue('Social');});
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ^
+      10 |  test(`${v}: exact document links, filters, archive and access notes`,async({page})=>{await ready(page,`/${v}/schedule`);for(const d of documents)await expect(page.locator(`main a[href="${d.url}"]`)).toHaveCount(1);await page.getByLabel('Time context').selectOption('archive');await expect(page.locator('main')).toContainText('2 documents');await page.getByLabel('Document type').selectOption('Camp');await expect(page.locator('main')).toContainText('1 documents');await page.getByLabel('Search documents').fill('impossible');await expect(page.getByRole('heading',{name:'No matches this time'})).toBeVisible();await page.getByRole('button',{name:'Clear filters'}).click();await expect(page.locator('main')).toContainText('5 documents');await page.locator('main details summary').first().click();await expect(page.locator('main details[open]')).toBeVisible();});
+      11 |  test(`${v}: gallery, focus containment and focus restoration`,async({page})=>{await ready(page,`/${v}/photos`);const trigger=page.getByRole('button',{name:/Open photo:/}).first();await trigger.click();await expect(page.getByRole('dialog')).toBeVisible();await page.getByRole('button',{name:'Next photo',exact:true}).click();await expect(page.getByRole('dialog')).toContainText('2 / 4');await page.getByRole('button',{name:'Previous photo',exact:true}).click();for(let i=0;i<9;i++){await page.keyboard.press('Tab');expect(await page.evaluate(()=>!!document.activeElement?.closest('[role=dialog]'))).toBe(true);}await page.keyboard.press('Escape');await expect(page.getByRole('dialog')).toHaveCount(0);await expect(trigger).toBeFocused();await page.getByRole('button',{name:'School photos',exact:true}).click();await expect(page.getByRole('heading',{name:'No matches this time'})).toBeVisible();});
+      12 |  test(`${v}: native playback and keyboard pause`,async({page})=>{await ready(page,`/${v}/videos-competitions`);const video=page.locator('video');await video.scrollIntoViewIfNeeded();await video.focus();await page.keyboard.press('Space');await expect.poll(()=>video.evaluate((el:HTMLVideoElement)=>el.currentTime)).toBeGreaterThan(.1);await page.keyboard.press('Space');await expect.poll(()=>video.evaluate((el:HTMLVideoElement)=>el.paused)).toBe(true);const before=await video.evaluate((el:HTMLVideoElement)=>el.currentTime);await page.waitForTimeout(250);expect(await video.evaluate((el:HTMLVideoElement)=>el.currentTime)).toBe(before);await fs.writeFile(`verification/video-${v}.json`,JSON.stringify({browser:page.context().browser()?.version(),currentTime:before,paused:true,at:new Date().toISOString(),method:'Keyboard Space on native video; time progressed, then stable after pause'},null,2));});
+        at $ORIGINAL_PROJECT/tests/journeys.spec.ts:9:662
+
+    Error: ENOENT: no such file or directory, open '$ORIGINAL_PROJECT/test-results/.playwright-artifacts-0/305aba9c6f3a2e1fa5d357ee17dddb88.zip'
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/journeys-interactive-progr-2a2f2-lues-empty-state-and-detail-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/journeys.spec.ts:9:2 › minimal: program filters, unknown values, empty state and detail 
+
+    Test timeout of 45000ms exceeded.
+
+    Error: locator.selectOption: Test timeout of 45000ms exceeded.
+    Call log:
+      - waiting for getByLabel('Audience', { exact: true })
+
+
+       7 | async function submit(page:Page,variant:string){if(variant==='interactive')await page.getByRole('button',{name:'Review demo details'}).click();await page.getByRole('button',{name:'Complete local demo',exact:true}).click();}
+       8 | for(const v of ['interactive','minimal','vision']){
+    >  9 |  test(`${v}: program filters, unknown values, empty state and detail`,async({page})=>{await ready(page,`/${v}/programs?audience=unsupported`);await expect(page.getByText('An unsupported filter was ignored.',{exact:false})).toBeVisible();await page.getByLabel('Search programs').fill('Rumba');await expect(page.getByRole('status').first()).toContainText('1 program');await expect(page).toHaveURL(/q=Rumba/);await page.getByLabel('Search programs').fill('no-match-xyz');await expect(page.getByRole('heading',{name:'No matches this time'})).toBeVisible();await page.getByRole('button',{name:'Clear filters'}).click();await page.getByLabel('Audience',{exact:true}).selectOption('Adults');await page.getByLabel('Goal',{exact:true}).selectOption('Social');await expect(page.getByRole('status').first()).toContainText('1 program');await page.reload();await expect(page.getByLabel('Goal',{exact:true})).toHaveValue('Social');if(v==='vision')await page.getByRole('link',{name:'Program in detail'}).click();else await page.getByRole('link',{name:v==='interactive'?'Explore program':'Program details',exact:true}).click();await expect(page.locator('h1')).toHaveText('Adult social');await expect(page.locator('main')).toContainText('Bachata');await page.goBack();await expect(page.getByLabel('Goal',{exact:true})).toHaveValue('Social');});
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ^
+      10 |  test(`${v}: exact document links, filters, archive and access notes`,async({page})=>{await ready(page,`/${v}/schedule`);for(const d of documents)await expect(page.locator(`main a[href="${d.url}"]`)).toHaveCount(1);await page.getByLabel('Time context').selectOption('archive');await expect(page.locator('main')).toContainText('2 documents');await page.getByLabel('Document type').selectOption('Camp');await expect(page.locator('main')).toContainText('1 documents');await page.getByLabel('Search documents').fill('impossible');await expect(page.getByRole('heading',{name:'No matches this time'})).toBeVisible();await page.getByRole('button',{name:'Clear filters'}).click();await expect(page.locator('main')).toContainText('5 documents');await page.locator('main details summary').first().click();await expect(page.locator('main details[open]')).toBeVisible();});
+      11 |  test(`${v}: gallery, focus containment and focus restoration`,async({page})=>{await ready(page,`/${v}/photos`);const trigger=page.getByRole('button',{name:/Open photo:/}).first();await trigger.click();await expect(page.getByRole('dialog')).toBeVisible();await page.getByRole('button',{name:'Next photo',exact:true}).click();await expect(page.getByRole('dialog')).toContainText('2 / 4');await page.getByRole('button',{name:'Previous photo',exact:true}).click();for(let i=0;i<9;i++){await page.keyboard.press('Tab');expect(await page.evaluate(()=>!!document.activeElement?.closest('[role=dialog]'))).toBe(true);}await page.keyboard.press('Escape');await expect(page.getByRole('dialog')).toHaveCount(0);await expect(trigger).toBeFocused();await page.getByRole('button',{name:'School photos',exact:true}).click();await expect(page.getByRole('heading',{name:'No matches this time'})).toBeVisible();});
+      12 |  test(`${v}: native playback and keyboard pause`,async({page})=>{await ready(page,`/${v}/videos-competitions`);const video=page.locator('video');await video.scrollIntoViewIfNeeded();await video.focus();await page.keyboard.press('Space');await expect.poll(()=>video.evaluate((el:HTMLVideoElement)=>el.currentTime)).toBeGreaterThan(.1);await page.keyboard.press('Space');await expect.poll(()=>video.evaluate((el:HTMLVideoElement)=>el.paused)).toBe(true);const before=await video.evaluate((el:HTMLVideoElement)=>el.currentTime);await page.waitForTimeout(250);expect(await video.evaluate((el:HTMLVideoElement)=>el.currentTime)).toBe(before);await fs.writeFile(`verification/video-${v}.json`,JSON.stringify({browser:page.context().browser()?.version(),currentTime:before,paused:true,at:new Date().toISOString(),method:'Keyboard Space on native video; time progressed, then stable after pause'},null,2));});
+        at $ORIGINAL_PROJECT/tests/journeys.spec.ts:9:662
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/journeys-minimal-program-f-eb890-lues-empty-state-and-detail-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/journeys-minimal-program-f-eb890-lues-empty-state-and-detail-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/journeys-minimal-program-f-eb890-lues-empty-state-and-detail-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/journeys-minimal-program-f-eb890-lues-empty-state-and-detail-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [chromium] › tests/journeys.spec.ts:14:2 › minimal: article relationships, people, unknown records, broken media fixture 
+
+    Error: browserContext.close: ENOENT: no such file or directory, open '$ORIGINAL_PROJECT/test-results/.playwright-artifacts-2/traces/aa09586c1d16412a1f00-05251ad9b8ea4caf1fdc-recording12.trace'
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/journeys-minimal-article-r-8bb70-ecords-broken-media-fixture-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/journeys-minimal-article-r-8bb70-ecords-broken-media-fixture-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/journeys-minimal-article-r-8bb70-ecords-broken-media-fixture-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/journeys-minimal-article-r-8bb70-ecords-broken-media-fixture-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [chromium] › tests/journeys.spec.ts:9:2 › vision: program filters, unknown values, empty state and detail 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: getByRole('status').first()
+    Expected substring: "1 program"
+    Received string:    "0 program families. An unsupported filter was ignored. Competitive age eligibility: ask the school."
+    Timeout: 7000ms
+
+    Call log:
+      - Expect "toContainText" getByRole('status').first() with timeout 7000ms
+      - waiting for getByRole('status').first()
+        18 × locator resolved to <p role="status" class="filter-count">0 program families. An unsupported filter was ign…</p>
+           - unexpected value "0 program families. An unsupported filter was ignored. Competitive age eligibility: ask the school."
+
+
+       7 | async function submit(page:Page,variant:string){if(variant==='interactive')await page.getByRole('button',{name:'Review demo details'}).click();await page.getByRole('button',{name:'Complete local demo',exact:true}).click();}
+       8 | for(const v of ['interactive','minimal','vision']){
+    >  9 |  test(`${v}: program filters, unknown values, empty state and detail`,async({page})=>{await ready(page,`/${v}/programs?audience=unsupported`);await expect(page.getByText('An unsupported filter was ignored.',{exact:false})).toBeVisible();await page.getByLabel('Search programs').fill('Rumba');await expect(page.getByRole('status').first()).toContainText('1 program');await expect(page).toHaveURL(/q=Rumba/);await page.getByLabel('Search programs').fill('no-match-xyz');await expect(page.getByRole('heading',{name:'No matches this time'})).toBeVisible();await page.getByRole('button',{name:'Clear filters'}).click();await page.getByLabel('Audience',{exact:true}).selectOption('Adults');await page.getByLabel('Goal',{exact:true}).selectOption('Social');await expect(page.getByRole('status').first()).toContainText('1 program');await page.reload();await expect(page.getByLabel('Goal',{exact:true})).toHaveValue('Social');if(v==='vision')await page.getByRole('link',{name:'Program in detail'}).click();else await page.getByRole('link',{name:v==='interactive'?'Explore program':'Program details',exact:true}).click();await expect(page.locator('h1')).toHaveText('Adult social');await expect(page.locator('main')).toContainText('Bachata');await page.goBack();await expect(page.getByLabel('Goal',{exact:true})).toHaveValue('Social');});
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ^
+      10 |  test(`${v}: exact document links, filters, archive and access notes`,async({page})=>{await ready(page,`/${v}/schedule`);for(const d of documents)await expect(page.locator(`main a[href="${d.url}"]`)).toHaveCount(1);await page.getByLabel('Time context').selectOption('archive');await expect(page.locator('main')).toContainText('2 documents');await page.getByLabel('Document type').selectOption('Camp');await expect(page.locator('main')).toContainText('1 documents');await page.getByLabel('Search documents').fill('impossible');await expect(page.getByRole('heading',{name:'No matches this time'})).toBeVisible();await page.getByRole('button',{name:'Clear filters'}).click();await expect(page.locator('main')).toContainText('5 documents');await page.locator('main details summary').first().click();await expect(page.locator('main details[open]')).toBeVisible();});
+      11 |  test(`${v}: gallery, focus containment and focus restoration`,async({page})=>{await ready(page,`/${v}/photos`);const trigger=page.getByRole('button',{name:/Open photo:/}).first();await trigger.click();await expect(page.getByRole('dialog')).toBeVisible();await page.getByRole('button',{name:'Next photo',exact:true}).click();await expect(page.getByRole('dialog')).toContainText('2 / 4');await page.getByRole('button',{name:'Previous photo',exact:true}).click();for(let i=0;i<9;i++){await page.keyboard.press('Tab');expect(await page.evaluate(()=>!!document.activeElement?.closest('[role=dialog]'))).toBe(true);}await page.keyboard.press('Escape');await expect(page.getByRole('dialog')).toHaveCount(0);await expect(trigger).toBeFocused();await page.getByRole('button',{name:'School photos',exact:true}).click();await expect(page.getByRole('heading',{name:'No matches this time'})).toBeVisible();});
+      12 |  test(`${v}: native playback and keyboard pause`,async({page})=>{await ready(page,`/${v}/videos-competitions`);const video=page.locator('video');await video.scrollIntoViewIfNeeded();await video.focus();await page.keyboard.press('Space');await expect.poll(()=>video.evaluate((el:HTMLVideoElement)=>el.currentTime)).toBeGreaterThan(.1);await page.keyboard.press('Space');await expect.poll(()=>video.evaluate((el:HTMLVideoElement)=>el.paused)).toBe(true);const before=await video.evaluate((el:HTMLVideoElement)=>el.currentTime);await page.waitForTimeout(250);expect(await video.evaluate((el:HTMLVideoElement)=>el.currentTime)).toBe(before);await fs.writeFile(`verification/video-${v}.json`,JSON.stringify({browser:page.context().browser()?.version(),currentTime:before,paused:true,at:new Date().toISOString(),method:'Keyboard Space on native video; time progressed, then stable after pause'},null,2));});
+        at $ORIGINAL_PROJECT/tests/journeys.spec.ts:9:798
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/journeys-vision-program-fi-8464e-lues-empty-state-and-detail-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/journeys-vision-program-fi-8464e-lues-empty-state-and-detail-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/journeys-vision-program-fi-8464e-lues-empty-state-and-detail-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/journeys-vision-program-fi-8464e-lues-empty-state-and-detail-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [chromium] › tests/journeys.spec.ts:13:89 › vision: registration-for-kids validation, success, failure, reset and privacy 
+
+    Test was interrupted.
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: locator('h1')
+    Expected: visible
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" locator('h1') with timeout 7000ms
+      - waiting for locator('h1')
+      - Test ended.
+
+
+      3 | import {documents,articles} from '../src/domain/data';
+      4 | import fs from 'node:fs/promises';
+    > 5 | async function ready(page:Page,url:string){await page.goto(url);await expect(page.locator('h1')).toBeVisible();await page.evaluate(()=>document.fonts.ready);}
+        |                                                                                                  ^
+      6 | async function fill(page:Page){await page.getByLabel(/Invented.*name.*required/).fill('Demo Dancer');await page.getByLabel(/demo email.*required/i).fill('parent@example.test');await page.getByLabel('Demo contact phone (required)').fill('+1 202 555 0123');await page.getByLabel('Interest (required)').selectOption('Classes for myself');}
+      7 | async function submit(page:Page,variant:string){if(variant==='interactive')await page.getByRole('button',{name:'Review demo details'}).click();await page.getByRole('button',{name:'Complete local demo',exact:true}).click();}
+      8 | for(const v of ['interactive','minimal','vision']){
+        at ready ($ORIGINAL_PROJECT/tests/journeys.spec.ts:5:98)
+        at $ORIGINAL_PROJECT/tests/journeys.spec.ts:13:178
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/journeys-vision-registrati-1cb30-s-failure-reset-and-privacy-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/journeys-vision-registrati-1cb30-s-failure-reset-and-privacy-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/journeys-vision-registrati-1cb30-s-failure-reset-and-privacy-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/journeys-vision-registrati-1cb30-s-failure-reset-and-privacy-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4 failed
+    [chromium] › tests/journeys.spec.ts:9:2 › interactive: program filters, unknown values, empty state and detail 
+    [chromium] › tests/journeys.spec.ts:9:2 › minimal: program filters, unknown values, empty state and detail 
+    [chromium] › tests/journeys.spec.ts:14:2 › minimal: article relationships, people, unknown records, broken media fixture 
+    [chromium] › tests/journeys.spec.ts:9:2 › vision: program filters, unknown values, empty state and detail 
+  1 interrupted
+    [chromium] › tests/journeys.spec.ts:13:89 › vision: registration-for-kids validation, success, failure, reset and privacy 
+  4 did not run
+  18 passed (2.5m)

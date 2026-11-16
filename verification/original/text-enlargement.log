@@ -1,0 +1,86 @@
+
+> dancemania-redesign-lab@1.0.0 test:e2e
+> PLAYWRIGHT_BROWSERS_PATH=./.browsers playwright test tests/journeys.spec.ts --grep actual 200
+
+
+Running 3 tests using 1 worker
+
+(node:26283) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 [chromium] › tests/journeys.spec.ts:451:55 › interactive: actual 200 percent text enlargement reflows at 320 CSS pixels (585ms)
+(node:26322) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  2 [chromium] › tests/journeys.spec.ts:451:55 › minimal: actual 200 percent text enlargement reflows at 320 CSS pixels (469ms)
+(node:26339) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  3 [chromium] › tests/journeys.spec.ts:451:55 › vision: actual 200 percent text enlargement reflows at 320 CSS pixels (3.3s)
+
+
+  1) [chromium] › tests/journeys.spec.ts:451:55 › interactive: actual 200 percent text enlargement reflows at 320 CSS pixels 
+
+    Error: [{"tag":"A","class":"","text":"Competition videos"}]
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 320
+    Received:    334
+
+      456 |   const enlarged=await page.evaluate(()=>{const values=[...document.querySelectorAll<HTMLElement>('h1,h2,h3,p,li,dt,dd,label,input,select,textarea,button,a,summary,figcaption')].map(el=>({el,size:parseFloat(getComputedStyle(el).fontSize)}));for(const {el,size}of values)el.style.fontSize=`${size*2}px`;return values.length;});
+      457 |   const state=await page.evaluate(()=>({width:innerWidth,scrollWidth:document.documentElement.scrollWidth,offenders:[...document.querySelectorAll('body *')].filter(el=>el.getBoundingClientRect().right>innerWidth+1).map(el=>({tag:el.tagName,class:el.className,text:el.textContent?.slice(0,50)}))}));
+    > 458 |   expect(state.scrollWidth,JSON.stringify(state.offenders)).toBeLessThanOrEqual(320);reports.push({route,enlarged,...state});
+          |                                                             ^
+      459 |   if(route==='registration-for-kids')await page.screenshot({path:`verification/screenshots/text-200-${v}-320.jpg`,fullPage:true,animations:'allow'});
+      460 |  }
+      461 |  await fs.writeFile(`verification/text-enlargement-${v}.json`,JSON.stringify({method:'All relevant text elements use twice their measured computed font size, at actual 320 CSS-pixel viewport. This is a text-resize test, not a claimed physical browser zoom or device test.',reports},null,2));
+        at $ORIGINAL_PROJECT/tests/journeys.spec.ts:458:61
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/journeys/journeys-interactive-actua-d5ac3-t-reflows-at-320-CSS-pixels-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/journeys/journeys-interactive-actua-d5ac3-t-reflows-at-320-CSS-pixels-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/journeys/journeys-interactive-actua-d5ac3-t-reflows-at-320-CSS-pixels-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/journeys/journeys-interactive-actua-d5ac3-t-reflows-at-320-CSS-pixels-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/journeys.spec.ts:451:55 › minimal: actual 200 percent text enlargement reflows at 320 CSS pixels 
+
+    Error: [{"tag":"A","class":"","text":"Competition videos"}]
+
+    expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 320
+    Received:    337
+
+      456 |   const enlarged=await page.evaluate(()=>{const values=[...document.querySelectorAll<HTMLElement>('h1,h2,h3,p,li,dt,dd,label,input,select,textarea,button,a,summary,figcaption')].map(el=>({el,size:parseFloat(getComputedStyle(el).fontSize)}));for(const {el,size}of values)el.style.fontSize=`${size*2}px`;return values.length;});
+      457 |   const state=await page.evaluate(()=>({width:innerWidth,scrollWidth:document.documentElement.scrollWidth,offenders:[...document.querySelectorAll('body *')].filter(el=>el.getBoundingClientRect().right>innerWidth+1).map(el=>({tag:el.tagName,class:el.className,text:el.textContent?.slice(0,50)}))}));
+    > 458 |   expect(state.scrollWidth,JSON.stringify(state.offenders)).toBeLessThanOrEqual(320);reports.push({route,enlarged,...state});
+          |                                                             ^
+      459 |   if(route==='registration-for-kids')await page.screenshot({path:`verification/screenshots/text-200-${v}-320.jpg`,fullPage:true,animations:'allow'});
+      460 |  }
+      461 |  await fs.writeFile(`verification/text-enlargement-${v}.json`,JSON.stringify({method:'All relevant text elements use twice their measured computed font size, at actual 320 CSS-pixel viewport. This is a text-resize test, not a claimed physical browser zoom or device test.',reports},null,2));
+        at $ORIGINAL_PROJECT/tests/journeys.spec.ts:458:61
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/journeys/journeys-minimal-actual-20-a0036-t-reflows-at-320-CSS-pixels-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/journeys/journeys-minimal-actual-20-a0036-t-reflows-at-320-CSS-pixels-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/journeys/journeys-minimal-actual-20-a0036-t-reflows-at-320-CSS-pixels-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/journeys/journeys-minimal-actual-20-a0036-t-reflows-at-320-CSS-pixels-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    [chromium] › tests/journeys.spec.ts:451:55 › interactive: actual 200 percent text enlargement reflows at 320 CSS pixels 
+    [chromium] › tests/journeys.spec.ts:451:55 › minimal: actual 200 percent text enlargement reflows at 320 CSS pixels 
+  1 passed (5.9s)
