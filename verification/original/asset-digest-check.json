@@ -1,0 +1,121 @@
+[
+  {
+    "kind": "media",
+    "file": "public/assets/latin.jpg",
+    "expected": "de6120268ef92ffcf48a867f22d28f5ed7bbf6007d7296dcb9337c2697e9d6e9",
+    "actual": "de6120268ef92ffcf48a867f22d28f5ed7bbf6007d7296dcb9337c2697e9d6e9",
+    "passed": true
+  },
+  {
+    "kind": "media",
+    "file": "public/assets/waltz.jpg",
+    "expected": "6b294f1b3a688431f6e7c80860b93307d1015a2764ae990734ea7f93de7ce59b",
+    "actual": "6b294f1b3a688431f6e7c80860b93307d1015a2764ae990734ea7f93de7ce59b",
+    "passed": true
+  },
+  {
+    "kind": "media",
+    "file": "public/assets/tango.png",
+    "expected": "3e284d7330a8d28e20171fc3b75154d928d09aefc689a99a10bcbd055313567f",
+    "actual": "3e284d7330a8d28e20171fc3b75154d928d09aefc689a99a10bcbd055313567f",
+    "passed": true
+  },
+  {
+    "kind": "media",
+    "file": "public/assets/jive.jpg",
+    "expected": "716df3bfe1da146b7b1416b06930d45f5f1c23db9235fbbfa7360e25865aa3ee",
+    "actual": "716df3bfe1da146b7b1416b06930d45f5f1c23db9235fbbfa7360e25865aa3ee",
+    "passed": true
+  },
+  {
+    "kind": "media",
+    "file": "public/assets/dance-demo.mp4",
+    "expected": "60d35c321efbd478c64af16387696e7bb2e9a22e04b7d26f2e47c36b2324c632",
+    "actual": "60d35c321efbd478c64af16387696e7bb2e9a22e04b7d26f2e47c36b2324c632",
+    "passed": true
+  },
+  {
+    "kind": "media",
+    "file": "public/assets/tango-exhibition.jpg",
+    "expected": "1b052b61ef08441f8e86bd6b7a202adf7695e1e19fe57e11222b4868bb83baec",
+    "actual": "1b052b61ef08441f8e86bd6b7a202adf7695e1e19fe57e11222b4868bb83baec",
+    "passed": true
+  },
+  {
+    "kind": "media",
+    "file": "public/assets/dance-demo-poster.jpg",
+    "expected": "9fa32d6f4748ac9e4c2f3c0d0734255f73f097806b2f4af4b3155eecaf5f3abf",
+    "actual": "9fa32d6f4748ac9e4c2f3c0d0734255f73f097806b2f4af4b3155eecaf5f3abf",
+    "passed": true
+  },
+  {
+    "kind": "font",
+    "file": "public/assets/fonts/barlowcondensed.ttf",
+    "expected": "7b619d14bc2327509a9ef32b0890f709626f7ecc9ff61191c2a4314c5499d2d9",
+    "actual": "7b619d14bc2327509a9ef32b0890f709626f7ecc9ff61191c2a4314c5499d2d9",
+    "passed": true
+  },
+  {
+    "kind": "font",
+    "file": "public/assets/fonts/barlowcondensed-OFL.txt",
+    "expected": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+    "actual": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+    "passed": true
+  },
+  {
+    "kind": "font",
+    "file": "public/assets/fonts/dmsans.ttf",
+    "expected": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d",
+    "actual": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d",
+    "passed": true
+  },
+  {
+    "kind": "font",
+    "file": "public/assets/fonts/dmsans-OFL.txt",
+    "expected": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1",
+    "actual": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1",
+    "passed": true
+  },
+  {
+    "kind": "font",
+    "file": "public/assets/fonts/manrope.ttf",
+    "expected": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6",
+    "actual": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6",
+    "passed": true
+  },
+  {
+    "kind": "font",
+    "file": "public/assets/fonts/manrope-OFL.txt",
+    "expected": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b",
+    "actual": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b",
+    "passed": true
+  },
+  {
+    "kind": "font",
+    "file": "public/assets/fonts/fraunces.ttf",
+    "expected": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb",
+    "actual": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb",
+    "passed": true
+  },
+  {
+    "kind": "font",
+    "file": "public/assets/fonts/fraunces-OFL.txt",
+    "expected": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
+    "actual": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
+    "passed": true
+  },
+  {
+    "kind": "font",
+    "file": "public/assets/fonts/publicsans-OFL.txt",
+    "expected": "157a9e77f7580246e97c769490e2e977ae94399f9d30f4556015c41fe8c28bac",
+    "actual": "157a9e77f7580246e97c769490e2e977ae94399f9d30f4556015c41fe8c28bac",
+    "passed": true
+  },
+  {
+    "kind": "font",
+    "file": "public/assets/fonts/publicsans.ttf",
+    "expected": "d75a7dc1a27eb9e336d5b33f55489d2ecb5621bf694d5c43b2415bce2ca830a8",
+    "actual": "d75a7dc1a27eb9e336d5b33f55489d2ecb5621bf694d5c43b2415bce2ca830a8",
+    "passed": true
+  }
+]

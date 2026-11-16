@@ -1,0 +1,6 @@
+{
+  "status": "pass",
+  "filesScanned": 808,
+  "findings": [],
+  "manualReview": "Every original tracked file was classified; runtime assets/notices and app-only screenshots reviewed; raw/private source evidence excluded; full transcript/hidden reasoning never copied. Pattern checks do not guarantee absence of every possible secret."
+}

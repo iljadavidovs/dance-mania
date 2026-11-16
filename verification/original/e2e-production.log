@@ -1,0 +1,48 @@
+
+> dancemania-redesign-lab@1.0.0 test:e2e
+> PLAYWRIGHT_BROWSERS_PATH=./.browsers playwright test tests/journeys.spec.ts
+
+
+Running 37 tests using 1 worker
+
+(node:27538) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/journeys.spec.ts:28:3 › interactive: program filters, unknown values, empty state and detail (1.1s)
+  ✓   2 [chromium] › tests/journeys.spec.ts:66:3 › interactive: exact document links, filters, archive and access notes (576ms)
+  ✓   3 [chromium] › tests/journeys.spec.ts:85:3 › interactive: gallery, focus containment and focus restoration (619ms)
+  ✓   4 [chromium] › tests/journeys.spec.ts:115:3 › interactive: native playback and keyboard pause (1.2s)
+  ✓   5 [chromium] › tests/journeys.spec.ts:156:5 › interactive: registration-for-kids validation, success, failure, reset and privacy (4.9s)
+  ✓   6 [chromium] › tests/journeys.spec.ts:156:5 › interactive: registration-for-adults validation, success, failure, reset and privacy (4.8s)
+  ✓   7 [chromium] › tests/journeys.spec.ts:156:5 › interactive: contact-us validation, success, failure, reset and privacy (4.8s)
+  ✓   8 [chromium] › tests/journeys.spec.ts:230:3 › interactive: article relationships, people, unknown records, broken media fixture (3.3s)
+  ✓   9 [chromium] › tests/journeys.spec.ts:258:3 › interactive: mobile menu, keyboard navigation, reflow and axe (7.9s)
+  ✓  10 [chromium] › tests/journeys.spec.ts:28:3 › minimal: program filters, unknown values, empty state and detail (1.4s)
+  ✓  11 [chromium] › tests/journeys.spec.ts:66:3 › minimal: exact document links, filters, archive and access notes (534ms)
+  ✓  12 [chromium] › tests/journeys.spec.ts:85:3 › minimal: gallery, focus containment and focus restoration (584ms)
+  ✓  13 [chromium] › tests/journeys.spec.ts:115:3 › minimal: native playback and keyboard pause (1.6s)
+  ✓  14 [chromium] › tests/journeys.spec.ts:156:5 › minimal: registration-for-kids validation, success, failure, reset and privacy (4.7s)
+  ✓  15 [chromium] › tests/journeys.spec.ts:156:5 › minimal: registration-for-adults validation, success, failure, reset and privacy (4.8s)
+  ✓  16 [chromium] › tests/journeys.spec.ts:156:5 › minimal: contact-us validation, success, failure, reset and privacy (4.8s)
+  ✓  17 [chromium] › tests/journeys.spec.ts:230:3 › minimal: article relationships, people, unknown records, broken media fixture (2.8s)
+  ✓  18 [chromium] › tests/journeys.spec.ts:258:3 › minimal: mobile menu, keyboard navigation, reflow and axe (6.8s)
+  ✓  19 [chromium] › tests/journeys.spec.ts:28:3 › vision: program filters, unknown values, empty state and detail (1.4s)
+  ✓  20 [chromium] › tests/journeys.spec.ts:66:3 › vision: exact document links, filters, archive and access notes (537ms)
+  ✓  21 [chromium] › tests/journeys.spec.ts:85:3 › vision: gallery, focus containment and focus restoration (584ms)
+  ✓  22 [chromium] › tests/journeys.spec.ts:115:3 › vision: native playback and keyboard pause (1.2s)
+  ✓  23 [chromium] › tests/journeys.spec.ts:156:5 › vision: registration-for-kids validation, success, failure, reset and privacy (4.3s)
+  ✓  24 [chromium] › tests/journeys.spec.ts:156:5 › vision: registration-for-adults validation, success, failure, reset and privacy (4.7s)
+  ✓  25 [chromium] › tests/journeys.spec.ts:156:5 › vision: contact-us validation, success, failure, reset and privacy (4.3s)
+  ✓  26 [chromium] › tests/journeys.spec.ts:230:3 › vision: article relationships, people, unknown records, broken media fixture (3.3s)
+  ✓  27 [chromium] › tests/journeys.spec.ts:258:3 › vision: mobile menu, keyboard navigation, reflow and axe (7.7s)
+  ✓  28 [chromium] › tests/journeys.spec.ts:331:3 › interactive: logical switch/history, immersive mode, video fallback and long-input validation (3.5s)
+  ✓  29 [chromium] › tests/journeys.spec.ts:331:3 › minimal: logical switch/history, immersive mode, video fallback and long-input validation (3.5s)
+  ✓  30 [chromium] › tests/journeys.spec.ts:331:3 › vision: logical switch/history, immersive mode, video fallback and long-input validation (3.5s)
+  ✓  31 [chromium] › tests/journeys.spec.ts:396:1 › Rhythm Room comparison and quick-view drawer preserve keyboard focus (1.4s)
+  ✓  32 [chromium] › tests/journeys.spec.ts:435:3 › interactive: resetting pending simulation invalidates its eventual result (1.8s)
+  ✓  33 [chromium] › tests/journeys.spec.ts:435:3 › minimal: resetting pending simulation invalidates its eventual result (2.2s)
+  ✓  34 [chromium] › tests/journeys.spec.ts:435:3 › vision: resetting pending simulation invalidates its eventual result (2.2s)
+  ✓  35 [chromium] › tests/journeys.spec.ts:452:3 › interactive: actual 200 percent text enlargement reflows at 320 CSS pixels (3.8s)
+  ✓  36 [chromium] › tests/journeys.spec.ts:452:3 › minimal: actual 200 percent text enlargement reflows at 320 CSS pixels (3.8s)
+  ✓  37 [chromium] › tests/journeys.spec.ts:452:3 › vision: actual 200 percent text enlargement reflows at 320 CSS pixels (3.8s)
+
+  37 passed (1.9m)

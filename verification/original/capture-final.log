@@ -1,0 +1,38 @@
+
+> dancemania-redesign-lab@1.0.0 capture
+> PLAYWRIGHT_BROWSERS_PATH=./.browsers node scripts/routes.mjs --capture
+
+PASS vision home
+PASS minimal home
+PASS interactive home
+PASS minimal programs
+PASS interactive programs
+PASS minimal schedule
+PASS interactive schedule
+PASS minimal instructors
+PASS interactive instructors
+PASS interactive registration-for-kids
+PASS minimal registration-for-kids
+PASS interactive contact-us
+PASS minimal contact-us
+PASS interactive events
+PASS minimal events
+FAIL vision programs 1440 {"variant":"vision","path":"programs","viewport":{"width":1440,"height":1000},"url":"http://127.0.0.1:5173/vision/programs","at":"2026-11-16T19:53:00.516Z","browser":"159.0.8154.6","kind":"source-equivalent","innerWidth":1440,"scrollWidth":1440,"h1":["Find your dance."],"textLength":1041,"broken":[],"localEscapes":[],"title":"Programs — Dance Mania | Frame & Floor","notFound":false,"errors":[],"implemented":true,"content":true,"overflow":false,"passed":false,"screenshot":"verification/screenshots/vision--programs--1440.jpg","error":"page.screenshot: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n"}
+PASS vision programs
+PASS minimal photos
+PASS interactive photos
+PASS minimal videos-competitions
+PASS vision schedule
+PASS interactive videos-competitions
+PASS minimal videos-shows
+PASS vision instructors
+PASS interactive videos-shows
+FAIL minimal dance-shoes-for-sale 1440 {"variant":"minimal","path":"dance-shoes-for-sale","viewport":{"width":1440,"height":1000},"url":"http://127.0.0.1:5173/minimal/dance-shoes-for-sale","at":"2026-11-16T19:53:42.775Z","browser":"159.0.8154.6","kind":"source-equivalent","passed":false,"error":"page.evaluate: Execution context was destroyed, most likely because of a navigation"}
+PASS minimal dance-shoes-for-sale
+PASS vision registration-for-kids
+PASS interactive dance-shoes-for-sale
+PASS minimal dance-clothes-for-sale-and-rent
+PASS vision contact-us
+PASS interactive dance-clothes-for-sale-and-rent
+PASS minimal rent
+PASS vision events

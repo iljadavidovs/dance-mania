@@ -1,0 +1,263 @@
+[
+  {
+    "id": 1,
+    "url": "https://dancemaniaschool.com/",
+    "slug": "home",
+    "desktop": "screenshots/home-1440.jpg",
+    "mobile": "screenshots/home-390.jpg",
+    "confidence": "high for rendered and DOM observations; currency limited to source",
+    "canonicalTag": "self"
+  },
+  {
+    "id": 2,
+    "url": "https://dancemaniaschool.com/programs/",
+    "slug": "programs",
+    "desktop": "screenshots/programs-1440.jpg",
+    "mobile": "screenshots/programs-390.jpg",
+    "confidence": "high for rendered and DOM observations; currency limited to source",
+    "canonicalTag": "self"
+  },
+  {
+    "id": 3,
+    "url": "https://dancemaniaschool.com/schedule/",
+    "slug": "schedule",
+    "desktop": "screenshots/schedule-1440.jpg",
+    "mobile": "screenshots/schedule-390.jpg",
+    "confidence": "high for rendered and DOM observations; currency limited to source",
+    "canonicalTag": "self"
+  },
+  {
+    "id": 4,
+    "url": "https://dancemaniaschool.com/instructors/",
+    "slug": "instructors",
+    "desktop": "screenshots/instructors-1440.jpg",
+    "mobile": "screenshots/instructors-390.jpg",
+    "confidence": "high for rendered and DOM observations; currency limited to source",
+    "canonicalTag": "self"
+  },
+  {
+    "id": 5,
+    "url": "https://dancemaniaschool.com/registration-for-kids/",
+    "slug": "registration-for-kids",
+    "desktop": "screenshots/registration-for-kids-1440.jpg",
+    "mobile": "screenshots/registration-for-kids-390.jpg",
+    "confidence": "high for rendered and DOM observations; currency limited to source",
+    "canonicalTag": "self"
+  },
+  {
+    "id": 6,
+    "url": "https://dancemaniaschool.com/contact-us/",
+    "slug": "contact-us",
+    "desktop": "screenshots/contact-us-1440.jpg",
+    "mobile": "screenshots/contact-us-390.jpg",
+    "confidence": "high for rendered and DOM observations; currency limited to source",
+    "canonicalTag": "self"
+  },
+  {
+    "id": 7,
+    "url": "https://dancemaniaschool.com/events/",
+    "slug": "events",
+    "desktop": "screenshots/events-1440.jpg",
+    "mobile": "screenshots/events-390.jpg",
+    "confidence": "high for rendered and DOM observations; currency limited to source",
+    "canonicalTag": "self"
+  },
+  {
+    "id": 8,
+    "url": "https://dancemaniaschool.com/photos/",
+    "slug": "photos",
+    "desktop": "screenshots/photos-1440.jpg",
+    "mobile": "screenshots/photos-390.jpg",
+    "confidence": "high for rendered and DOM observations; currency limited to source",
+    "canonicalTag": "self"
+  },
+  {
+    "id": 9,
+    "url": "https://dancemaniaschool.com/videos-competitions/",
+    "slug": "videos-competitions",
+    "desktop": "screenshots/videos-competitions-1440.jpg",
+    "mobile": "screenshots/videos-competitions-390.jpg",
+    "confidence": "high for rendered and DOM observations; currency limited to source",
+    "canonicalTag": "self"
+  },
+  {
+    "id": 10,
+    "url": "https://dancemaniaschool.com/videos-shows/",
+    "slug": "videos-shows",
+    "desktop": "screenshots/videos-shows-1440.jpg",
+    "mobile": "screenshots/videos-shows-390.jpg",
+    "confidence": "high for rendered and DOM observations; currency limited to source",
+    "canonicalTag": "self"
+  },
+  {
+    "id": 11,
+    "url": "https://dancemaniaschool.com/dance-shoes-for-sale/",
+    "slug": "dance-shoes-for-sale",
+    "desktop": "screenshots/dance-shoes-for-sale-1440.jpg",
+    "mobile": "screenshots/dance-shoes-for-sale-390.jpg",
+    "confidence": "high for rendered and DOM observations; currency limited to source",
+    "canonicalTag": "self"
+  },
+  {
+    "id": 12,
+    "url": "https://dancemaniaschool.com/dance-clothes-for-sale-and-rent/",
+    "slug": "dance-clothes-for-sale-and-rent",
+    "desktop": "screenshots/dance-clothes-for-sale-and-rent-1440.jpg",
+    "mobile": "screenshots/dance-clothes-for-sale-and-rent-390.jpg",
+    "confidence": "high for rendered and DOM observations; currency limited to source",
+    "canonicalTag": "self"
+  },
+  {
+    "id": 13,
+    "url": "https://dancemaniaschool.com/rent/",
+    "slug": "rent",
+    "desktop": "screenshots/rent-1440.jpg",
+    "mobile": "screenshots/rent-390.jpg",
+    "confidence": "high for rendered and DOM observations; currency limited to source",
+    "canonicalTag": "self"
+  },
+  {
+    "id": 14,
+    "url": "https://dancemaniaschool.com/dance-mania-blog/",
+    "slug": "dance-mania-blog",
+    "desktop": "screenshots/dance-mania-blog-1440.jpg",
+    "mobile": "screenshots/dance-mania-blog-390.jpg",
+    "confidence": "high for rendered and DOM observations; currency limited to source",
+    "canonicalTag": "not found"
+  },
+  {
+    "id": 15,
+    "url": "https://dancemaniaschool.com/virtual-tour-of-mania-school/",
+    "slug": "virtual-tour-of-mania-school",
+    "desktop": "screenshots/virtual-tour-of-mania-school-1440.jpg",
+    "mobile": "screenshots/virtual-tour-of-mania-school-390.jpg",
+    "confidence": "high for rendered and DOM observations; currency limited to source",
+    "canonicalTag": "self"
+  },
+  {
+    "id": 16,
+    "url": "https://dancemaniaschool.com/a-lesson-at-dance-mania-school/",
+    "slug": "a-lesson-at-dance-mania-school",
+    "desktop": "screenshots/a-lesson-at-dance-mania-school-1440.jpg",
+    "mobile": "screenshots/a-lesson-at-dance-mania-school-390.jpg",
+    "confidence": "high for rendered and DOM observations; currency limited to source",
+    "canonicalTag": "self"
+  },
+  {
+    "id": 17,
+    "url": "https://dancemaniaschool.com/the-walk-of-fame/",
+    "slug": "the-walk-of-fame",
+    "desktop": "screenshots/the-walk-of-fame-1440.jpg",
+    "mobile": "screenshots/the-walk-of-fame-390.jpg",
+    "confidence": "high for rendered and DOM observations; currency limited to source",
+    "canonicalTag": "self"
+  },
+  {
+    "id": 18,
+    "url": "https://dancemaniaschool.com/instructions-for-dancers/",
+    "slug": "instructions-for-dancers",
+    "desktop": "screenshots/instructions-for-dancers-1440.jpg",
+    "mobile": "screenshots/instructions-for-dancers-390.jpg",
+    "confidence": "high for rendered and DOM observations; currency limited to source",
+    "canonicalTag": "self"
+  },
+  {
+    "id": 19,
+    "url": "https://dancemaniaschool.com/how-dancing-is-evaluated-on-the-competitions/",
+    "slug": "how-dancing-is-evaluated-on-the-competitions",
+    "desktop": "screenshots/how-dancing-is-evaluated-on-the-competitions-1440.jpg",
+    "mobile": "screenshots/how-dancing-is-evaluated-on-the-competitions-390.jpg",
+    "confidence": "high for rendered and DOM observations; currency limited to source",
+    "canonicalTag": "self"
+  },
+  {
+    "id": 20,
+    "url": "https://dancemaniaschool.com/if-words-were-movements/",
+    "slug": "if-words-were-movements",
+    "desktop": "screenshots/if-words-were-movements-1440.jpg",
+    "mobile": "screenshots/if-words-were-movements-390.jpg",
+    "confidence": "high for rendered and DOM observations; currency limited to source",
+    "canonicalTag": "self"
+  },
+  {
+    "id": 21,
+    "url": "https://dancemaniaschool.com/about-karls-aniscenko/",
+    "slug": "about-karls-aniscenko",
+    "desktop": "screenshots/about-karls-aniscenko-1440.jpg",
+    "mobile": "screenshots/about-karls-aniscenko-390.jpg",
+    "confidence": "high for rendered and DOM observations; currency limited to source",
+    "canonicalTag": "self"
+  },
+  {
+    "id": 22,
+    "url": "https://dancemaniaschool.com/author/dancemaniaschool_ru3lje/",
+    "slug": "author_dancemaniaschool_ru3lje",
+    "desktop": "screenshots/author_dancemaniaschool_ru3lje-1440.jpg",
+    "mobile": "screenshots/author_dancemaniaschool_ru3lje-390.jpg",
+    "confidence": "high for rendered and DOM observations; currency limited to source",
+    "canonicalTag": "not found"
+  },
+  {
+    "id": 23,
+    "url": "https://dancemaniaschool.com/shoes-for-gentlemen/",
+    "slug": "shoes-for-gentlemen",
+    "desktop": "screenshots/shoes-for-gentlemen-1440.jpg",
+    "mobile": "screenshots/shoes-for-gentlemen-390.jpg",
+    "confidence": "high for rendered and DOM observations; currency limited to source",
+    "canonicalTag": "self"
+  },
+  {
+    "id": 24,
+    "url": "https://dancemaniaschool.com/shoes-for-ladies/",
+    "slug": "shoes-for-ladies",
+    "desktop": "screenshots/shoes-for-ladies-1440.jpg",
+    "mobile": "screenshots/shoes-for-ladies-390.jpg",
+    "confidence": "high for rendered and DOM observations; currency limited to source",
+    "canonicalTag": "self"
+  },
+  {
+    "id": 25,
+    "url": "https://dancemaniaschool.com/shoes-for-kids/",
+    "slug": "shoes-for-kids",
+    "desktop": "screenshots/shoes-for-kids-1440.jpg",
+    "mobile": "screenshots/shoes-for-kids-390.jpg",
+    "confidence": "high for rendered and DOM observations; currency limited to source",
+    "canonicalTag": "self"
+  },
+  {
+    "id": 26,
+    "url": "https://dancemaniaschool.com/registration-for-adults/",
+    "slug": "registration-for-adults",
+    "desktop": "screenshots/registration-for-adults-1440.jpg",
+    "mobile": "screenshots/registration-for-adults-390.jpg",
+    "confidence": "high for rendered and DOM observations; currency limited to source",
+    "canonicalTag": "self"
+  },
+  {
+    "id": 27,
+    "url": "https://dancemaniaschool.com/thank-you/",
+    "slug": "thank-you",
+    "desktop": "screenshots/thank-you-1440.jpg",
+    "mobile": "screenshots/thank-you-390.jpg",
+    "confidence": "high for rendered and DOM observations; currency limited to source",
+    "canonicalTag": "self"
+  },
+  {
+    "id": 28,
+    "url": "https://dancemaniaschool.com/category/for-anyone/",
+    "slug": "category_for-anyone",
+    "desktop": "screenshots/category_for-anyone-1440.jpg",
+    "mobile": "screenshots/category_for-anyone-390.jpg",
+    "confidence": "high for rendered and DOM observations; currency limited to source",
+    "canonicalTag": "not found"
+  },
+  {
+    "id": 29,
+    "url": "https://dancemaniaschool.com/category/for-dancers/",
+    "slug": "category_for-dancers",
+    "desktop": "screenshots/category_for-dancers-1440.jpg",
+    "mobile": "screenshots/category_for-dancers-390.jpg",
+    "confidence": "high for rendered and DOM observations; currency limited to source",
+    "canonicalTag": "not found"
+  }
+]

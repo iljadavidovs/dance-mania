@@ -1,0 +1,102 @@
+[
+  {
+    "family": "barlowcondensed",
+    "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/barlowcondensed/BarlowCondensed-SemiBold.ttf",
+    "commit": "7af0d90b4d532ffa4b041937b560c6df4e7b1e95",
+    "path": "ofl/barlowcondensed/BarlowCondensed-SemiBold.ttf",
+    "local": "/assets/fonts/barlowcondensed.ttf",
+    "license": "SIL OFL 1.1",
+    "sha256": "7b619d14bc2327509a9ef32b0890f709626f7ecc9ff61191c2a4314c5499d2d9",
+    "bytes": 109428
+  },
+  {
+    "family": "barlowcondensed",
+    "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/barlowcondensed/OFL.txt",
+    "commit": "7af0d90b4d532ffa4b041937b560c6df4e7b1e95",
+    "path": "ofl/barlowcondensed/OFL.txt",
+    "local": "/assets/fonts/barlowcondensed-OFL.txt",
+    "license": "SIL OFL 1.1",
+    "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+    "bytes": 4377
+  },
+  {
+    "family": "dmsans",
+    "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/dmsans/DMSans%5Bopsz%2Cwght%5D.ttf",
+    "commit": "7af0d90b4d532ffa4b041937b560c6df4e7b1e95",
+    "path": "ofl/dmsans/DMSans[opsz,wght].ttf",
+    "local": "/assets/fonts/dmsans.ttf",
+    "license": "SIL OFL 1.1",
+    "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d",
+    "bytes": 240164
+  },
+  {
+    "family": "dmsans",
+    "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/dmsans/OFL.txt",
+    "commit": "7af0d90b4d532ffa4b041937b560c6df4e7b1e95",
+    "path": "ofl/dmsans/OFL.txt",
+    "local": "/assets/fonts/dmsans-OFL.txt",
+    "license": "SIL OFL 1.1",
+    "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1",
+    "bytes": 4482
+  },
+  {
+    "family": "manrope",
+    "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/manrope/Manrope%5Bwght%5D.ttf",
+    "commit": "7af0d90b4d532ffa4b041937b560c6df4e7b1e95",
+    "path": "ofl/manrope/Manrope[wght].ttf",
+    "local": "/assets/fonts/manrope.ttf",
+    "license": "SIL OFL 1.1",
+    "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6",
+    "bytes": 164700
+  },
+  {
+    "family": "manrope",
+    "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/manrope/OFL.txt",
+    "commit": "7af0d90b4d532ffa4b041937b560c6df4e7b1e95",
+    "path": "ofl/manrope/OFL.txt",
+    "local": "/assets/fonts/manrope-OFL.txt",
+    "license": "SIL OFL 1.1",
+    "sha256": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b",
+    "bytes": 4387
+  },
+  {
+    "family": "fraunces",
+    "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/fraunces/Fraunces%5BSOFT%2CWONK%2Copsz%2Cwght%5D.ttf",
+    "commit": "7af0d90b4d532ffa4b041937b560c6df4e7b1e95",
+    "path": "ofl/fraunces/Fraunces[SOFT,WONK,opsz,wght].ttf",
+    "local": "/assets/fonts/fraunces.ttf",
+    "license": "SIL OFL 1.1",
+    "sha256": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb",
+    "bytes": 360440
+  },
+  {
+    "family": "fraunces",
+    "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/fraunces/OFL.txt",
+    "commit": "7af0d90b4d532ffa4b041937b560c6df4e7b1e95",
+    "path": "ofl/fraunces/OFL.txt",
+    "local": "/assets/fonts/fraunces-OFL.txt",
+    "license": "SIL OFL 1.1",
+    "sha256": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
+    "bytes": 4391
+  },
+  {
+    "family": "publicsans",
+    "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/publicsans/OFL.txt",
+    "commit": "7af0d90b4d532ffa4b041937b560c6df4e7b1e95",
+    "path": "ofl/publicsans/OFL.txt",
+    "local": "/assets/fonts/publicsans-OFL.txt",
+    "license": "SIL OFL 1.1",
+    "sha256": "157a9e77f7580246e97c769490e2e977ae94399f9d30f4556015c41fe8c28bac",
+    "bytes": 4390
+  },
+  {
+    "family": "publicsans",
+    "source": "https://raw.githubusercontent.com/google/fonts/7af0d90b4d532ffa4b041937b560c6df4e7b1e95/ofl/publicsans/PublicSans%5Bwght%5D.ttf",
+    "commit": "7af0d90b4d532ffa4b041937b560c6df4e7b1e95",
+    "path": "ofl/publicsans/PublicSans[wght].ttf",
+    "local": "/assets/fonts/publicsans.ttf",
+    "license": "SIL OFL 1.1",
+    "sha256": "d75a7dc1a27eb9e336d5b33f55489d2ecb5621bf694d5c43b2415bce2ca830a8",
+    "bytes": 103316
+  }
+]

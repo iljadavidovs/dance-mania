@@ -1,0 +1,309 @@
+[
+  {
+    "variant": "interactive",
+    "status": "pass",
+    "steps": [
+      {
+        "label": "First tab skip link activates and focuses main"
+      },
+      {
+        "label": "Desktop disclosure",
+        "tabs": 54,
+        "focus": {
+          "tag": "BUTTON",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Visible submenu link",
+        "tabs": 1,
+        "focus": {
+          "tag": "A",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Program search",
+        "tabs": 9,
+        "focus": {
+          "tag": "INPUT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Latin detail link",
+        "tabs": 5,
+        "focus": {
+          "tag": "A",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Registration footer link",
+        "tabs": 13,
+        "focus": {
+          "tag": "A",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "16+ registration choice",
+        "tabs": 10,
+        "focus": {
+          "tag": "A",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Synthetic name",
+        "tabs": 11,
+        "focus": {
+          "tag": "INPUT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Synthetic email",
+        "tabs": 1,
+        "focus": {
+          "tag": "INPUT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Synthetic phone",
+        "tabs": 1,
+        "focus": {
+          "tag": "INPUT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Interest native select",
+        "tabs": 1,
+        "focus": {
+          "tag": "SELECT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Native select keyboard value",
+        "value": "Classes for children"
+      },
+      {
+        "label": "Review local demo",
+        "tabs": 1,
+        "focus": {
+          "tag": "BUTTON",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Complete local demo",
+        "tabs": 0,
+        "focus": {
+          "tag": "BUTTON",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      }
+    ],
+    "screenshot": "verification/screenshots/keyboard-interactive-success.jpg",
+    "at": "2026-11-16T20:13:01.331Z",
+    "browser": "159.0.8154.6",
+    "method": "Only Tab, Enter and keyboard typing (including native select type-ahead) operate the UI after initial navigation. No click, fill, selectOption or focus calls."
+  },
+  {
+    "variant": "minimal",
+    "status": "pass",
+    "steps": [
+      {
+        "label": "First tab skip link activates and focuses main"
+      },
+      {
+        "label": "Desktop programs navigation",
+        "tabs": 51,
+        "focus": {
+          "tag": "A",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Program search",
+        "tabs": 9,
+        "focus": {
+          "tag": "INPUT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Latin detail link",
+        "tabs": 5,
+        "focus": {
+          "tag": "A",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Registration footer link",
+        "tabs": 20,
+        "focus": {
+          "tag": "A",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "16+ registration choice",
+        "tabs": 10,
+        "focus": {
+          "tag": "A",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Synthetic name",
+        "tabs": 9,
+        "focus": {
+          "tag": "INPUT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Synthetic email",
+        "tabs": 1,
+        "focus": {
+          "tag": "INPUT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Synthetic phone",
+        "tabs": 1,
+        "focus": {
+          "tag": "INPUT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Interest native select",
+        "tabs": 1,
+        "focus": {
+          "tag": "SELECT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Native select keyboard value",
+        "value": "Classes for children"
+      },
+      {
+        "label": "Complete local demo",
+        "tabs": 1,
+        "focus": {
+          "tag": "BUTTON",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      }
+    ],
+    "screenshot": "verification/screenshots/keyboard-minimal-success.jpg",
+    "at": "2026-11-16T20:13:03.349Z",
+    "browser": "159.0.8154.6",
+    "method": "Only Tab, Enter and keyboard typing (including native select type-ahead) operate the UI after initial navigation. No click, fill, selectOption or focus calls."
+  },
+  {
+    "variant": "vision",
+    "status": "pass",
+    "steps": [
+      {
+        "label": "First tab skip link activates and focuses main"
+      },
+      {
+        "label": "Desktop programs navigation",
+        "tabs": 41,
+        "focus": {
+          "tag": "A",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Program search",
+        "tabs": 12,
+        "focus": {
+          "tag": "INPUT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Latin detail link",
+        "tabs": 9,
+        "focus": {
+          "tag": "A",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Registration footer link",
+        "tabs": 21,
+        "focus": {
+          "tag": "A",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "16+ registration choice",
+        "tabs": 14,
+        "focus": {
+          "tag": "A",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Synthetic name",
+        "tabs": 14,
+        "focus": {
+          "tag": "INPUT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Synthetic email",
+        "tabs": 1,
+        "focus": {
+          "tag": "INPUT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Synthetic phone",
+        "tabs": 1,
+        "focus": {
+          "tag": "INPUT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Interest native select",
+        "tabs": 1,
+        "focus": {
+          "tag": "SELECT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Native select keyboard value",
+        "value": "Classes for children"
+      },
+      {
+        "label": "Complete local demo",
+        "tabs": 1,
+        "focus": {
+          "tag": "BUTTON",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      }
+    ],
+    "screenshot": "verification/screenshots/keyboard-vision-success.jpg",
+    "at": "2026-11-16T20:13:05.352Z",
+    "browser": "159.0.8154.6",
+    "method": "Only Tab, Enter and keyboard typing (including native select type-ahead) operate the UI after initial navigation. No click, fill, selectOption or focus calls."
+  }
+]

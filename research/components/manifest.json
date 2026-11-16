@@ -1,0 +1,20 @@
+[
+  {
+    "commit": "e62c9435fff729a175f38983dee73b2cb4f6a069",
+    "file": "LICENSE.md",
+    "source": "https://raw.githubusercontent.com/shadcn-ui/ui/e62c9435fff729a175f38983dee73b2cb4f6a069/LICENSE.md",
+    "sha256": "1564074e13439397221ffd522e2e504d56561994a23d371aa5e3ad43e4f5423f"
+  },
+  {
+    "commit": "e62c9435fff729a175f38983dee73b2cb4f6a069",
+    "file": "apps/v4/registry/new-york-v4/ui/button.tsx",
+    "source": "https://raw.githubusercontent.com/shadcn-ui/ui/e62c9435fff729a175f38983dee73b2cb4f6a069/apps/v4/registry/new-york-v4/ui/button.tsx",
+    "sha256": "79dd6f75f8136394442202d6b8b922fb269eaad0a5dba579397c9d5b41f893bb"
+  },
+  {
+    "commit": "e62c9435fff729a175f38983dee73b2cb4f6a069",
+    "file": "apps/v4/registry/new-york-v4/ui/dialog.tsx",
+    "source": "https://raw.githubusercontent.com/shadcn-ui/ui/e62c9435fff729a175f38983dee73b2cb4f6a069/apps/v4/registry/new-york-v4/ui/dialog.tsx",
+    "sha256": "2ade6074e5fad0a4eb171ead44c43d3301a3c83d186d7236fb1fdbea80ee556b"
+  }
+]

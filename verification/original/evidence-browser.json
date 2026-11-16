@@ -1,0 +1,22 @@
+[
+  {
+    "width": 1440,
+    "innerWidth": 1440,
+    "scrollWidth": 1440,
+    "visible": 48,
+    "links": true,
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T20:19:35.622Z",
+    "status": "pass"
+  },
+  {
+    "width": 390,
+    "innerWidth": 390,
+    "scrollWidth": 390,
+    "visible": 48,
+    "links": true,
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T20:19:35.725Z",
+    "status": "pass"
+  }
+]

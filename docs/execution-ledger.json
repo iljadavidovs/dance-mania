@@ -1,0 +1,707 @@
+[
+  {
+    "sourceRecordLine": 22,
+    "timestampUTC": "2026-11-16T19:01:59.850Z",
+    "tool": "exec",
+    "inputSHA256": "6324486faa0714ef628693438437c9093b1a4355198b23897a6e74f12acd6a60",
+    "results": [
+      {
+        "exitCode": 0,
+        "runningSessionReported": false,
+        "outputCharacters": 39548,
+        "reportedOriginalTokens": 15620
+      }
+    ]
+  },
+  {
+    "sourceRecordLine": 27,
+    "timestampUTC": "2026-11-16T19:02:04.968Z",
+    "tool": "exec",
+    "inputSHA256": "95ecfec7003f13803aba0c01f5ca3d3521ea11659926c265767f7ff73009bdb5",
+    "results": [
+      {
+        "exitCode": 0,
+        "runningSessionReported": false,
+        "outputCharacters": 20905,
+        "reportedOriginalTokens": 5435
+      },
+      {
+        "exitCode": 0,
+        "runningSessionReported": false,
+        "outputCharacters": 18309,
+        "reportedOriginalTokens": 4582
+      }
+    ]
+  },
+  {
+    "sourceRecordLine": 35,
+    "timestampUTC": "2026-11-16T19:02:09.278Z",
+    "tool": "exec",
+    "inputSHA256": "931b9d37e3c77d3d1d4eb64a1c6c9196d64a9f58a7ca6ff16c9c08eff346afdf",
+    "results": [
+      {
+        "exitCode": 0,
+        "runningSessionReported": false,
+        "outputCharacters": 18826,
+        "reportedOriginalTokens": 4714
+      },
+      {
+        "exitCode": 0,
+        "runningSessionReported": false,
+        "outputCharacters": 20625,
+        "reportedOriginalTokens": 5640
+      }
+    ]
+  },
+  {
+    "sourceRecordLine": 45,
+    "timestampUTC": "2026-11-16T19:02:21.225Z",
+    "tool": "exec",
+    "inputSHA256": "820c990f5b10bd3893697ee3cc8a810bcee7044293ca4e759256ff396fe2c08b",
+    "results": [
+      {
+        "exitCode": 0,
+        "runningSessionReported": false,
+        "outputCharacters": 39406,
+        "reportedOriginalTokens": 5063
+      }
+    ]
+  },
+  {
+    "sourceRecordLine": 53,
+    "timestampUTC": "2026-11-16T19:02:32.925Z",
+    "tool": "exec",
+    "inputSHA256": "1e9051d2103852ab04b88fbd959d449e7e2d571537af4faaf556d768e4447a1f",
+    "results": [
+      {
+        "exitCode": 0,
+        "runningSessionReported": false,
+        "outputCharacters": 14739,
+        "reportedOriginalTokens": 3687
+      }
+    ]
+  },
+  {
+    "sourceRecordLine": 61,
+    "timestampUTC": "2026-11-16T19:02:45.169Z",
+    "tool": "exec",
+    "inputSHA256": "70923900d7c55f6e2ef4d95425f92e398d0d68559632748d74ed63afb5ec6527",
+    "results": [
+      {
+        "exitCode": 0,
+        "runningSessionReported": false,
+        "outputCharacters": 9696,
+        "reportedOriginalTokens": 2427
+      },
+      {
+        "exitCode": 0,
+        "runningSessionReported": false,
+        "outputCharacters": 6396,
+        "reportedOriginalTokens": 1599
+      }
+    ]
+  },
+  {
+    "sourceRecordLine": 69,
+    "timestampUTC": "2026-11-16T19:03:21.536Z",
+    "tool": "exec",
+    "inputSHA256": "3405d2df3377a90b3d4d4837b944bee870e571105c1f944efebd81537fb54b82",
+    "results": [
+      {
+        "exitCode": null,
+        "runningSessionReported": true,
+        "outputCharacters": 0,
+        "reportedOriginalTokens": 0
+      },
+      {
+        "exitCode": null,
+        "runningSessionReported": true,
+        "outputCharacters": 0,
+        "reportedOriginalTokens": 0
+      }
+    ]
+  },
+  {
+    "sourceRecordLine": 75,
+    "timestampUTC": "2026-11-16T19:03:38.268Z",
+    "tool": "exec",
+    "inputSHA256": "1b2f4812d000034c9c9bce9545073fddc8bb121de48a1f1ed83e1e5433d8b0c6",
+    "results": [
+      {
+        "exitCode": null,
+        "runningSessionReported": true,
+        "outputCharacters": 0,
+        "reportedOriginalTokens": 0
+      }
+    ]
+  },
+  {
+    "sourceRecordLine": 83,
+    "timestampUTC": "2026-11-16T19:03:47.923Z",
+    "tool": "exec",
+    "inputSHA256": "d0b28e40edc66490d10f06f001dbb63c12a975bea4d281081b214ef25bc1da92",
+    "results": [
+      {
+        "exitCode": 0,
+        "runningSessionReported": false,
+        "outputCharacters": 792,
+        "reportedOriginalTokens": 198
+      },
+      {
+        "exitCode": 0,
+        "runningSessionReported": false,
+        "outputCharacters": 5466,
+        "reportedOriginalTokens": 1367
+      },
+      {
+        "exitCode": 0,
+        "runningSessionReported": false,
+        "outputCharacters": 2286,
+        "reportedOriginalTokens": 572
+      },
+      {
+        "exitCode": 0,
+        "runningSessionReported": false,
+        "outputCharacters": 19520,
+        "reportedOriginalTokens": 4897
+      }
+    ]
+  },
+  {
+    "sourceRecordLine": 92,
+    "timestampUTC": "2026-11-16T19:03:59.942Z",
+    "tool": "exec",
+    "inputSHA256": "e9e718c2d8021bf226bf863be7a571ad85f9f42638c656dc1a35bc5d905b415c",
+    "results": [
+      {
+        "exitCode": 0,
+        "runningSessionReported": false,
+        "outputCharacters": 36421,
+        "reportedOriginalTokens": 9112
+      },
+      {
+        "exitCode": null,
+        "runningSessionReported": true,
+        "outputCharacters": 168,
+        "reportedOriginalTokens": 42
+      }
+    ]
+  },
+  {
+    "sourceRecordLine": 100,
+    "timestampUTC": "2026-11-16T19:04:34.682Z",
+    "tool": "exec",
+    "inputSHA256": "946c16b5602cd9760f003fd059fcd37791108779038b549d2fa1f99f715f9832",
+    "results": [
+      {
+        "exitCode": null,
+        "runningSessionReported": true,
+        "outputCharacters": 0,
+        "reportedOriginalTokens": 0
+      },
+      {
+        "exitCode": null,
+        "runningSessionReported": true,
+        "outputCharacters": 0,
+        "reportedOriginalTokens": 0
+      }
+    ]
+  },
+  {
+    "sourceRecordLine": 107,
+    "timestampUTC": "2026-11-16T19:05:07.330Z",
+    "tool": "exec",
+    "inputSHA256": "9071e3ebc1ee3d0501ad88bd92f263e426d1d8e924b2def5fe1359bb72228f0d",
+    "results": [
+      {
+        "exitCode": 0,
+        "runningSessionReported": false,
+        "outputCharacters": 6533,
+        "reportedOriginalTokens": 1634
+      },
+      {
+        "exitCode": 0,
+        "runningSessionReported": false,
+        "outputCharacters": 0,
+        "reportedOriginalTokens": 0
+      }
+    ]
+  },
+  {
+    "sourceRecordLine": 122,
+    "timestampUTC": "2026-11-16T19:05:41.389Z",
+    "tool": "exec",
+    "inputSHA256": "a5ef9afc9f905f5ead37b45d6d77b0b08fa6140cd86341f2a53d08fbd34f409f",
+    "results": [
+      {
+        "exitCode": 0,
+        "runningSessionReported": false,
+        "outputCharacters": 269,
+        "reportedOriginalTokens": 68
+      }
+    ]
+  },
+  {
+    "sourceRecordLine": 139,
+    "timestampUTC": "2026-11-16T19:06:14.652Z",
+    "tool": "exec",
+    "inputSHA256": "96e1ee1cbf5951cd1131d43c459aa1dec4a044098ca410ae6a086a4f4ce6b2bf",
+    "results": [
+      {
+        "exitCode": null,
+        "runningSessionReported": true,
+        "outputCharacters": 0,
+        "reportedOriginalTokens": 0
+      },
+      {
+        "exitCode": 1,
+        "runningSessionReported": false,
+        "outputCharacters": 6,
+        "reportedOriginalTokens": 2
+      }
+    ]
+  },
+  {
+    "sourceRecordLine": 165,
+    "timestampUTC": "2026-11-16T19:08:31.926Z",
+    "tool": "exec",
+    "inputSHA256": "c80e7cc27258add446f58c82f1c868b8357ea7ade5e2568861c700df910cead0",
+    "results": [
+      {
+        "exitCode": 0,
+        "runningSessionReported": false,
+        "outputCharacters": 0,
+        "reportedOriginalTokens": 0
+      }
+    ]
+  },
+  {
+    "sourceRecordLine": 172,
+    "timestampUTC": "2026-11-16T19:10:00.797Z",
+    "tool": "exec",
+    "inputSHA256": "e3d0f0fd2e55eda290a1dfdca0e89c41cfc4fea0e5d6b4e1fa07dfdf20846b6a",
+    "results": [
+      {
+        "exitCode": 0,
+        "runningSessionReported": false,
+        "outputCharacters": 0,
+        "reportedOriginalTokens": 0
+      }
+    ]
+  },
+  {
+    "sourceRecordLine": 179,
+    "timestampUTC": "2026-11-16T19:11:16.540Z",
+    "tool": "exec",
+    "inputSHA256": "8c25ea6819b363e7a974a441c4811570236c18cf75258df43d39d370e2092d20",
+    "results": [
+      {
+        "exitCode": 0,
+        "runningSessionReported": false,
+        "outputCharacters": 0,
+        "reportedOriginalTokens": 0
+      }
+    ]
+  },
+  {
+    "sourceRecordLine": 217,
+    "timestampUTC": "2026-11-16T19:15:29.640Z",
+    "tool": "exec",
+    "inputSHA256": "34d333d5e00ae3c8837fe4c6720d48e11a8f60ad2e25a2fccb6814ff69410b04",
+    "results": [
+      {
+        "exitCode": 0,
+        "runningSessionReported": false,
+        "outputCharacters": 0,
+        "reportedOriginalTokens": 0
+      }
+    ]
+  },
+  {
+    "sourceRecordLine": 224,
+    "timestampUTC": "2026-11-16T19:16:49.750Z",
+    "tool": "exec",
+    "inputSHA256": "b7572ee4fb29846f82e5ea447506014147c58c9b1c182716df5301c79b755239",
+    "results": [
+      {
+        "exitCode": 0,
+        "runningSessionReported": false,
+        "outputCharacters": 0,
+        "reportedOriginalTokens": 0
+      }
+    ]
+  },
+  {
+    "sourceRecordLine": 235,
+    "timestampUTC": "2026-11-16T19:19:42.142Z",
+    "tool": "exec",
+    "inputSHA256": "7371de989580ecfde487cd23efbbd7f5da74c4486ec93ff550a178583628c58b",
+    "results": [
+      {
+        "exitCode": 0,
+        "runningSessionReported": false,
+        "outputCharacters": 0,
+        "reportedOriginalTokens": 0
+      }
+    ]
+  },
+  {
+    "sourceRecordLine": 242,
+    "timestampUTC": "2026-11-16T19:22:55.095Z",
+    "tool": "exec",
+    "inputSHA256": "6d384abc571d5fcafcdf3f80d89f1f2a6c566e050e7a4047a54070a9f9675dfd",
+    "results": [
+      {
+        "exitCode": 0,
+        "runningSessionReported": false,
+        "outputCharacters": 0,
+        "reportedOriginalTokens": 0
+      }
+    ]
+  },
+  {
+    "sourceRecordLine": 251,
+    "timestampUTC": "2026-11-16T19:25:48.350Z",
+    "tool": "exec",
+    "inputSHA256": "b85dc8fdf30544c0ddec9b60642158700f191e4abe696094fc1fb08084c18dda",
+    "results": [
+      {
+        "exitCode": null,
+        "runningSessionReported": true,
+        "outputCharacters": 68,
+        "reportedOriginalTokens": 17
+      }
+    ]
+  },
+  {
+    "sourceRecordLine": 258,
+    "timestampUTC": "2026-11-16T19:25:56.369Z",
+    "tool": "exec",
+    "inputSHA256": "f9806a71377cb9b67643822a5b848a1c8a390044e537137de5474e15eed8b845",
+    "results": [
+      {
+        "exitCode": null,
+        "runningSessionReported": true,
+        "outputCharacters": 157,
+        "reportedOriginalTokens": 40
+      },
+      {
+        "exitCode": 0,
+        "runningSessionReported": false,
+        "outputCharacters": 0,
+        "reportedOriginalTokens": 0
+      },
+      {
+        "exitCode": null,
+        "runningSessionReported": true,
+        "outputCharacters": 4283,
+        "reportedOriginalTokens": 1071
+      }
+    ]
+  },
+  {
+    "sourceRecordLine": 283,
+    "timestampUTC": "2026-11-16T19:26:46.220Z",
+    "tool": "exec",
+    "inputSHA256": "03a3b6b987c5c77ad1390b87c7a38ee87623a52400bb6b6c63622c847e6c5afe",
+    "results": [
+      {
+        "exitCode": 0,
+        "runningSessionReported": false,
+        "outputCharacters": 3,
+        "reportedOriginalTokens": 1
+      }
+    ]
+  },
+  {
+    "sourceRecordLine": 293,
+    "timestampUTC": "2026-11-16T19:27:09.094Z",
+    "tool": "exec",
+    "inputSHA256": "77e9c6a1414fbcf52432c2e9e51c63b311bd69a3f6534f067fdc7c5a8fb4a19f",
+    "results": [
+      {
+        "exitCode": null,
+        "runningSessionReported": true,
+        "outputCharacters": 0,
+        "reportedOriginalTokens": 0
+      }
+    ]
+  },
+  {
+    "sourceRecordLine": 318,
+    "timestampUTC": "2026-11-16T19:27:55.003Z",
+    "tool": "exec",
+    "inputSHA256": "6ee25f7fbd710c247a1e03bb530cc663e0e6aca81497552d94f73eee8bb275e8",
+    "results": []
+  },
+  {
+    "sourceRecordLine": 327,
+    "timestampUTC": "2026-11-16T19:29:18.128Z",
+    "tool": "exec",
+    "inputSHA256": "00a642fa20e8b99169a2505d15a153cb8cedce2dd9a06bc09550337f165b5413",
+    "results": [
+      {
+        "exitCode": 0,
+        "runningSessionReported": false,
+        "outputCharacters": 0,
+        "reportedOriginalTokens": 0
+      }
+    ]
+  },
+  {
+    "sourceRecordLine": 435,
+    "timestampUTC": "2026-11-16T19:35:15.619Z",
+    "tool": "exec",
+    "inputSHA256": "7903c2a99dea041803ef41859469b9d3e4b2e7ab583e7a8d1bfea4166a0485c7",
+    "results": [
+      {
+        "exitCode": null,
+        "runningSessionReported": true,
+        "outputCharacters": 0,
+        "reportedOriginalTokens": 0
+      },
+      {
+        "exitCode": 0,
+        "runningSessionReported": false,
+        "outputCharacters": 1573,
+        "reportedOriginalTokens": 406
+      },
+      {
+        "exitCode": 0,
+        "runningSessionReported": false,
+        "outputCharacters": 0,
+        "reportedOriginalTokens": 0
+      }
+    ]
+  },
+  {
+    "sourceRecordLine": 461,
+    "timestampUTC": "2026-11-16T19:36:31.697Z",
+    "tool": "exec",
+    "inputSHA256": "bbfcdb8b3df3e1a1ac315a77863e1c8126916a069ab8af4dce50a81c28241077",
+    "results": [
+      {
+        "exitCode": 0,
+        "runningSessionReported": false,
+        "outputCharacters": 962,
+        "reportedOriginalTokens": 242
+      }
+    ]
+  },
+  {
+    "sourceRecordLine": 471,
+    "timestampUTC": "2026-11-16T19:36:57.683Z",
+    "tool": "exec",
+    "inputSHA256": "57aa9dda60e468a1c577af8c37bd8f9a5295bb400a5eae439961788612b735b7",
+    "results": [
+      {
+        "exitCode": 0,
+        "runningSessionReported": false,
+        "outputCharacters": 1018,
+        "reportedOriginalTokens": 297
+      }
+    ]
+  },
+  {
+    "sourceRecordLine": 484,
+    "timestampUTC": "2026-11-16T19:37:09.192Z",
+    "tool": "exec",
+    "inputSHA256": "4fe0d6b68e49b5ea3d0df848e00579f9592f3b304baa4d4e55b78cb017a7a6ab",
+    "results": [
+      {
+        "exitCode": 0,
+        "runningSessionReported": false,
+        "outputCharacters": 680,
+        "reportedOriginalTokens": 170
+      }
+    ]
+  },
+  {
+    "sourceRecordLine": 504,
+    "timestampUTC": "2026-11-16T19:38:19.797Z",
+    "tool": "exec",
+    "inputSHA256": "53c15706d5afbeafbe0f7e89da44fca5d5b7d1b761e3fdd9a23089fca0e7a2f3",
+    "results": [
+      {
+        "exitCode": 0,
+        "runningSessionReported": false,
+        "outputCharacters": 830,
+        "reportedOriginalTokens": 208
+      }
+    ]
+  },
+  {
+    "sourceRecordLine": 539,
+    "timestampUTC": "2026-11-16T19:41:39.078Z",
+    "tool": "exec",
+    "inputSHA256": "23bccac7efb4953c8dc56e5f1c7ff92d556d65cdbb0b6b55d34ae5c81da1e957",
+    "results": [
+      {
+        "exitCode": 0,
+        "runningSessionReported": false,
+        "outputCharacters": 763,
+        "reportedOriginalTokens": 195
+      }
+    ]
+  },
+  {
+    "sourceRecordLine": 551,
+    "timestampUTC": "2026-11-16T19:42:24.619Z",
+    "tool": "exec",
+    "inputSHA256": "8f80bd1c675b43d1835d2cbfb75ae232ca74ccda0a3bba3ab12fb963a130bd31",
+    "results": [
+      {
+        "exitCode": 0,
+        "runningSessionReported": false,
+        "outputCharacters": 151,
+        "reportedOriginalTokens": 38
+      }
+    ]
+  },
+  {
+    "sourceRecordLine": 577,
+    "timestampUTC": "2026-11-16T19:44:05.388Z",
+    "tool": "exec",
+    "inputSHA256": "5658d78c3fcfbf4a2527303a1cebaa5199c0a0b5da4c887487d4d1856cf236b2",
+    "results": [
+      {
+        "exitCode": 0,
+        "runningSessionReported": false,
+        "outputCharacters": 929,
+        "reportedOriginalTokens": 233
+      }
+    ]
+  },
+  {
+    "sourceRecordLine": 590,
+    "timestampUTC": "2026-11-16T19:44:52.730Z",
+    "tool": "exec",
+    "inputSHA256": "cab922019a94b1ab4d788064b157326e4a4db908bf9b48cd6b1086c67b2ac1be",
+    "results": [
+      {
+        "exitCode": null,
+        "runningSessionReported": true,
+        "outputCharacters": 173,
+        "reportedOriginalTokens": 44
+      }
+    ]
+  },
+  {
+    "sourceRecordLine": 640,
+    "timestampUTC": "2026-11-16T19:49:04.986Z",
+    "tool": "exec",
+    "inputSHA256": "39cba0c0b2a4c3c3d01b59bbebed3c3c4d933a0dc2c91fe1ebdc84bfa93fbb14",
+    "results": [
+      {
+        "exitCode": 0,
+        "runningSessionReported": false,
+        "outputCharacters": 1082,
+        "reportedOriginalTokens": 280
+      }
+    ]
+  },
+  {
+    "sourceRecordLine": 650,
+    "timestampUTC": "2026-11-16T19:49:29.879Z",
+    "tool": "exec",
+    "inputSHA256": "486a7c17334923a4ea31159ec004908a6f34fbe70ab98897f099f87b830dd501",
+    "results": [
+      {
+        "exitCode": null,
+        "runningSessionReported": true,
+        "outputCharacters": 203,
+        "reportedOriginalTokens": 51
+      }
+    ]
+  },
+  {
+    "sourceRecordLine": 759,
+    "timestampUTC": "2026-11-16T19:58:14.903Z",
+    "tool": "exec",
+    "inputSHA256": "d29328470ce5bd5bce049a16b739c08d047b3fc69fa361638d1080f6dc2c6c15",
+    "results": [
+      {
+        "exitCode": 0,
+        "runningSessionReported": false,
+        "outputCharacters": 1241,
+        "reportedOriginalTokens": 315
+      },
+      {
+        "exitCode": 0,
+        "runningSessionReported": false,
+        "outputCharacters": 38,
+        "reportedOriginalTokens": 10
+      }
+    ]
+  },
+  {
+    "sourceRecordLine": 793,
+    "timestampUTC": "2026-11-16T20:00:31.128Z",
+    "tool": "exec",
+    "inputSHA256": "3b694f9ea9ef1b80eba221faf5d15a9a316cb24cd3c07275b438ecf307cc74b7",
+    "results": [
+      {
+        "exitCode": 0,
+        "runningSessionReported": false,
+        "outputCharacters": 1476,
+        "reportedOriginalTokens": 427
+      }
+    ]
+  },
+  {
+    "sourceRecordLine": 925,
+    "timestampUTC": "2026-11-16T20:09:22.765Z",
+    "tool": "exec",
+    "inputSHA256": "472a5bde6665e91a436e07d5c4821d8eb618fdd46c732de0d1498a4682de2306",
+    "results": []
+  },
+  {
+    "sourceRecordLine": 933,
+    "timestampUTC": "2026-11-16T20:09:30.570Z",
+    "tool": "exec",
+    "inputSHA256": "e4999662fa2bc2166b29cff3b0cdbc250d5bfdb84530410811137f6195edc5a1",
+    "results": []
+  },
+  {
+    "sourceRecordLine": 980,
+    "timestampUTC": "2026-11-16T20:10:35.043Z",
+    "tool": "exec",
+    "inputSHA256": "136e277c19d397194a4298dcf61cfd4b2ea921adb5b77e5fe803a6e5d01b3408",
+    "results": []
+  },
+  {
+    "sourceRecordLine": 1101,
+    "timestampUTC": "2026-11-16T20:16:54.637Z",
+    "tool": "exec",
+    "inputSHA256": "c68ddcb084be9d3072cbbce7d6963ea576d7a6fe550e8a7e080189fa6fe38c12",
+    "results": [
+      {
+        "exitCode": 0,
+        "runningSessionReported": false,
+        "outputCharacters": 0,
+        "reportedOriginalTokens": 0
+      }
+    ]
+  },
+  {
+    "sourceRecordLine": 1125,
+    "timestampUTC": "2026-11-16T20:18:24.989Z",
+    "tool": "exec",
+    "inputSHA256": "1d14838f2f80238052dea210ca10ee9752b1fdcbc586e044d81b01c0c73a5d11",
+    "results": [
+      {
+        "exitCode": null,
+        "runningSessionReported": true,
+        "outputCharacters": 85,
+        "reportedOriginalTokens": 22
+      }
+    ]
+  },
+  {
+    "sourceRecordLine": 1161,
+    "timestampUTC": "2026-11-16T20:20:04.800Z",
+    "tool": "exec",
+    "inputSHA256": "a0fd5a3f62459e194cc88ea5d82b13299137801cc09d0f39ff0bb6f28e06780a",
+    "results": []
+  }
+]

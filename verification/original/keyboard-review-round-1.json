@@ -1,0 +1,280 @@
+[
+  {
+    "variant": "interactive",
+    "status": "fail",
+    "error": "locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Complete local demo', exact: true })\u001b[22m\n",
+    "steps": [
+      {
+        "label": "First tab skip link activates and focuses main"
+      },
+      {
+        "label": "Desktop disclosure",
+        "tabs": 54,
+        "focus": {
+          "tag": "BUTTON",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Visible submenu link",
+        "tabs": 1,
+        "focus": {
+          "tag": "A",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Program search",
+        "tabs": 15,
+        "focus": {
+          "tag": "INPUT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Latin detail link",
+        "tabs": 5,
+        "focus": {
+          "tag": "A",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Registration footer link",
+        "tabs": 13,
+        "focus": {
+          "tag": "A",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "16+ registration choice",
+        "tabs": 10,
+        "focus": {
+          "tag": "A",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Synthetic name",
+        "tabs": 11,
+        "focus": {
+          "tag": "INPUT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Synthetic email",
+        "tabs": 1,
+        "focus": {
+          "tag": "INPUT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Synthetic phone",
+        "tabs": 1,
+        "focus": {
+          "tag": "INPUT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Interest native select",
+        "tabs": 1,
+        "focus": {
+          "tag": "SELECT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Review local demo",
+        "tabs": 2,
+        "focus": {
+          "tag": "BUTTON",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      }
+    ]
+  },
+  {
+    "variant": "minimal",
+    "status": "fail",
+    "error": "locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('status').getByText('Demo completed locally.') to be visible\u001b[22m\n",
+    "steps": [
+      {
+        "label": "First tab skip link activates and focuses main"
+      },
+      {
+        "label": "Desktop programs navigation",
+        "tabs": 51,
+        "focus": {
+          "tag": "A",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Program search",
+        "tabs": 9,
+        "focus": {
+          "tag": "INPUT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Latin detail link",
+        "tabs": 5,
+        "focus": {
+          "tag": "A",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Registration footer link",
+        "tabs": 17,
+        "focus": {
+          "tag": "A",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "16+ registration choice",
+        "tabs": 10,
+        "focus": {
+          "tag": "A",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Synthetic name",
+        "tabs": 9,
+        "focus": {
+          "tag": "INPUT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Synthetic email",
+        "tabs": 1,
+        "focus": {
+          "tag": "INPUT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Synthetic phone",
+        "tabs": 1,
+        "focus": {
+          "tag": "INPUT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Interest native select",
+        "tabs": 1,
+        "focus": {
+          "tag": "SELECT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Complete local demo",
+        "tabs": 2,
+        "focus": {
+          "tag": "BUTTON",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      }
+    ]
+  },
+  {
+    "variant": "vision",
+    "status": "fail",
+    "error": "locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('status').getByText('Demo completed locally.') to be visible\u001b[22m\n",
+    "steps": [
+      {
+        "label": "First tab skip link activates and focuses main"
+      },
+      {
+        "label": "Desktop programs navigation",
+        "tabs": 41,
+        "focus": {
+          "tag": "A",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Program search",
+        "tabs": 12,
+        "focus": {
+          "tag": "INPUT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Latin detail link",
+        "tabs": 9,
+        "focus": {
+          "tag": "A",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Registration footer link",
+        "tabs": 23,
+        "focus": {
+          "tag": "A",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "16+ registration choice",
+        "tabs": 14,
+        "focus": {
+          "tag": "A",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Synthetic name",
+        "tabs": 14,
+        "focus": {
+          "tag": "INPUT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Synthetic email",
+        "tabs": 1,
+        "focus": {
+          "tag": "INPUT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Synthetic phone",
+        "tabs": 1,
+        "focus": {
+          "tag": "INPUT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Interest native select",
+        "tabs": 1,
+        "focus": {
+          "tag": "SELECT",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      },
+      {
+        "label": "Complete local demo",
+        "tabs": 2,
+        "focus": {
+          "tag": "BUTTON",
+          "outline": "3px solid rgb(236, 97, 60)"
+        }
+      }
+    ]
+  }
+]
