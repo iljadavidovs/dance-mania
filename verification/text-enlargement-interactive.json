@@ -1,0 +1,40 @@
+{
+  "method": "All relevant text elements use twice their measured computed font size, at actual 320 CSS-pixel viewport. This is a text-resize test, not a claimed physical browser zoom or device test.",
+  "reports": [
+    {
+      "route": "programs",
+      "enlarged": 109,
+      "width": 320,
+      "scrollWidth": 320,
+      "offenders": []
+    },
+    {
+      "route": "schedule",
+      "enlarged": 86,
+      "width": 320,
+      "scrollWidth": 320,
+      "offenders": []
+    },
+    {
+      "route": "instructors/ariella-shribman",
+      "enlarged": 45,
+      "width": 320,
+      "scrollWidth": 320,
+      "offenders": []
+    },
+    {
+      "route": "registration-for-kids",
+      "enlarged": 62,
+      "width": 320,
+      "scrollWidth": 320,
+      "offenders": []
+    },
+    {
+      "route": "how-dancing-is-evaluated-on-the-competitions",
+      "enlarged": 52,
+      "width": 320,
+      "scrollWidth": 320,
+      "offenders": []
+    }
+  ]
+}

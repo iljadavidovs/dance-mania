@@ -9,8 +9,10 @@
       "decision": "include",
       "destination": ".gitignore",
       "reason": "implementation/config/rights-reviewed assets or project-owned documentation",
-      "publishedSHA256": "1a055194ef5936c8bd35f26033b0c4be6dd97dea33cb14acfc0231bf5f351644",
-      "changedForPrivacy": false
+      "publishedSHA256": "672ec887a28257630f08e9cebf360a8a70d7397d9d8d3976a767d7d88995c484",
+      "changedForPrivacy": false,
+      "changedForPublication": true,
+      "publicationChangeReason": "Ignore local browser symlink/cache; no prototype source change"
     },
     {
       "originalPath": "README.md",

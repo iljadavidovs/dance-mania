@@ -1,0 +1,5 @@
+[
+  { variant: 'interactive', status: 'pass', error: undefined },
+  { variant: 'minimal', status: 'pass', error: undefined },
+  { variant: 'vision', status: 'pass', error: undefined }
+]

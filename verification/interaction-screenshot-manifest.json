@@ -1,0 +1,434 @@
+[
+  {
+    "variant": "interactive",
+    "state": "programs-empty",
+    "path": "verification/screenshots/state-interactive-programs-empty.jpg",
+    "url": "http://127.0.0.1:4180/interactive/programs?q=unmatched",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T20:58:38.594Z",
+    "animations": "allow",
+    "codeCommit": "6d5a9607b9a08f4327f884c0d042887d8aaaa032",
+    "originalBaselineCommit": "5bad2f2369a0d32a0b238c84b68553614120e080",
+    "note": "Publication commit adds audit/evidence only; runtime source/assets are identical to these implementation revisions.",
+    "publishedEquivalentCommit": "1c9c38b777cb954d0640143e6203e1262b616722",
+    "equivalenceEvidence": "verification/publication/baseline-integrity.json"
+  },
+  {
+    "variant": "interactive",
+    "state": "programs-selected",
+    "path": "verification/screenshots/state-interactive-programs-selected.jpg",
+    "url": "http://127.0.0.1:4180/interactive/programs",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T20:58:38.791Z",
+    "animations": "allow",
+    "codeCommit": "6d5a9607b9a08f4327f884c0d042887d8aaaa032",
+    "originalBaselineCommit": "5bad2f2369a0d32a0b238c84b68553614120e080",
+    "note": "Publication commit adds audit/evidence only; runtime source/assets are identical to these implementation revisions.",
+    "publishedEquivalentCommit": "1c9c38b777cb954d0640143e6203e1262b616722",
+    "equivalenceEvidence": "verification/publication/baseline-integrity.json"
+  },
+  {
+    "variant": "interactive",
+    "state": "lightbox",
+    "path": "verification/screenshots/state-interactive-lightbox.jpg",
+    "url": "http://127.0.0.1:4180/interactive/photos",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T20:58:39.654Z",
+    "animations": "allow",
+    "codeCommit": "6d5a9607b9a08f4327f884c0d042887d8aaaa032",
+    "originalBaselineCommit": "5bad2f2369a0d32a0b238c84b68553614120e080",
+    "note": "Publication commit adds audit/evidence only; runtime source/assets are identical to these implementation revisions.",
+    "publishedEquivalentCommit": "1c9c38b777cb954d0640143e6203e1262b616722",
+    "equivalenceEvidence": "verification/publication/baseline-integrity.json"
+  },
+  {
+    "variant": "interactive",
+    "state": "form-validation",
+    "path": "verification/screenshots/state-interactive-form-validation.jpg",
+    "url": "http://127.0.0.1:4180/interactive/registration-for-kids",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T20:58:40.513Z",
+    "animations": "allow",
+    "codeCommit": "6d5a9607b9a08f4327f884c0d042887d8aaaa032",
+    "originalBaselineCommit": "5bad2f2369a0d32a0b238c84b68553614120e080",
+    "note": "Publication commit adds audit/evidence only; runtime source/assets are identical to these implementation revisions.",
+    "publishedEquivalentCommit": "1c9c38b777cb954d0640143e6203e1262b616722",
+    "equivalenceEvidence": "verification/publication/baseline-integrity.json"
+  },
+  {
+    "variant": "interactive",
+    "state": "form-pending",
+    "path": "verification/screenshots/state-interactive-form-pending.jpg",
+    "url": "http://127.0.0.1:4180/interactive/registration-for-kids",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T20:58:40.662Z",
+    "animations": "allow",
+    "codeCommit": "6d5a9607b9a08f4327f884c0d042887d8aaaa032",
+    "originalBaselineCommit": "5bad2f2369a0d32a0b238c84b68553614120e080",
+    "note": "Publication commit adds audit/evidence only; runtime source/assets are identical to these implementation revisions.",
+    "publishedEquivalentCommit": "1c9c38b777cb954d0640143e6203e1262b616722",
+    "equivalenceEvidence": "verification/publication/baseline-integrity.json"
+  },
+  {
+    "variant": "interactive",
+    "state": "form-failure",
+    "path": "verification/screenshots/state-interactive-form-failure.jpg",
+    "url": "http://127.0.0.1:4180/interactive/registration-for-kids",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T20:58:41.496Z",
+    "animations": "allow",
+    "codeCommit": "6d5a9607b9a08f4327f884c0d042887d8aaaa032",
+    "originalBaselineCommit": "5bad2f2369a0d32a0b238c84b68553614120e080",
+    "note": "Publication commit adds audit/evidence only; runtime source/assets are identical to these implementation revisions.",
+    "publishedEquivalentCommit": "1c9c38b777cb954d0640143e6203e1262b616722",
+    "equivalenceEvidence": "verification/publication/baseline-integrity.json"
+  },
+  {
+    "variant": "interactive",
+    "state": "form-success",
+    "path": "verification/screenshots/state-interactive-form-success.jpg",
+    "url": "http://127.0.0.1:4180/interactive/registration-for-kids",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T20:58:42.360Z",
+    "animations": "allow",
+    "codeCommit": "6d5a9607b9a08f4327f884c0d042887d8aaaa032",
+    "originalBaselineCommit": "5bad2f2369a0d32a0b238c84b68553614120e080",
+    "note": "Publication commit adds audit/evidence only; runtime source/assets are identical to these implementation revisions.",
+    "publishedEquivalentCommit": "1c9c38b777cb954d0640143e6203e1262b616722",
+    "equivalenceEvidence": "verification/publication/baseline-integrity.json"
+  },
+  {
+    "variant": "interactive",
+    "state": "mobile-menu",
+    "path": "verification/screenshots/state-interactive-mobile-menu.jpg",
+    "url": "http://127.0.0.1:4180/interactive/schedule",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T20:58:43.214Z",
+    "animations": "allow",
+    "codeCommit": "6d5a9607b9a08f4327f884c0d042887d8aaaa032",
+    "originalBaselineCommit": "5bad2f2369a0d32a0b238c84b68553614120e080",
+    "note": "Publication commit adds audit/evidence only; runtime source/assets are identical to these implementation revisions.",
+    "publishedEquivalentCommit": "1c9c38b777cb954d0640143e6203e1262b616722",
+    "equivalenceEvidence": "verification/publication/baseline-integrity.json"
+  },
+  {
+    "variant": "minimal",
+    "state": "programs-empty",
+    "path": "verification/screenshots/state-minimal-programs-empty.jpg",
+    "url": "http://127.0.0.1:4180/minimal/programs?q=unmatched",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T20:58:44.067Z",
+    "animations": "allow",
+    "codeCommit": "6d5a9607b9a08f4327f884c0d042887d8aaaa032",
+    "originalBaselineCommit": "5bad2f2369a0d32a0b238c84b68553614120e080",
+    "note": "Publication commit adds audit/evidence only; runtime source/assets are identical to these implementation revisions.",
+    "publishedEquivalentCommit": "1c9c38b777cb954d0640143e6203e1262b616722",
+    "equivalenceEvidence": "verification/publication/baseline-integrity.json"
+  },
+  {
+    "variant": "minimal",
+    "state": "programs-selected",
+    "path": "verification/screenshots/state-minimal-programs-selected.jpg",
+    "url": "http://127.0.0.1:4180/minimal/programs",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T20:58:44.194Z",
+    "animations": "allow",
+    "codeCommit": "6d5a9607b9a08f4327f884c0d042887d8aaaa032",
+    "originalBaselineCommit": "5bad2f2369a0d32a0b238c84b68553614120e080",
+    "note": "Publication commit adds audit/evidence only; runtime source/assets are identical to these implementation revisions.",
+    "publishedEquivalentCommit": "1c9c38b777cb954d0640143e6203e1262b616722",
+    "equivalenceEvidence": "verification/publication/baseline-integrity.json"
+  },
+  {
+    "variant": "minimal",
+    "state": "lightbox",
+    "path": "verification/screenshots/state-minimal-lightbox.jpg",
+    "url": "http://127.0.0.1:4180/minimal/photos",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T20:58:45.109Z",
+    "animations": "allow",
+    "codeCommit": "6d5a9607b9a08f4327f884c0d042887d8aaaa032",
+    "originalBaselineCommit": "5bad2f2369a0d32a0b238c84b68553614120e080",
+    "note": "Publication commit adds audit/evidence only; runtime source/assets are identical to these implementation revisions.",
+    "publishedEquivalentCommit": "1c9c38b777cb954d0640143e6203e1262b616722",
+    "equivalenceEvidence": "verification/publication/baseline-integrity.json"
+  },
+  {
+    "variant": "minimal",
+    "state": "form-validation",
+    "path": "verification/screenshots/state-minimal-form-validation.jpg",
+    "url": "http://127.0.0.1:4180/minimal/registration-for-kids",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T20:58:45.988Z",
+    "animations": "allow",
+    "codeCommit": "6d5a9607b9a08f4327f884c0d042887d8aaaa032",
+    "originalBaselineCommit": "5bad2f2369a0d32a0b238c84b68553614120e080",
+    "note": "Publication commit adds audit/evidence only; runtime source/assets are identical to these implementation revisions.",
+    "publishedEquivalentCommit": "1c9c38b777cb954d0640143e6203e1262b616722",
+    "equivalenceEvidence": "verification/publication/baseline-integrity.json"
+  },
+  {
+    "variant": "minimal",
+    "state": "form-pending",
+    "path": "verification/screenshots/state-minimal-form-pending.jpg",
+    "url": "http://127.0.0.1:4180/minimal/registration-for-kids",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T20:58:46.101Z",
+    "animations": "allow",
+    "codeCommit": "6d5a9607b9a08f4327f884c0d042887d8aaaa032",
+    "originalBaselineCommit": "5bad2f2369a0d32a0b238c84b68553614120e080",
+    "note": "Publication commit adds audit/evidence only; runtime source/assets are identical to these implementation revisions.",
+    "publishedEquivalentCommit": "1c9c38b777cb954d0640143e6203e1262b616722",
+    "equivalenceEvidence": "verification/publication/baseline-integrity.json"
+  },
+  {
+    "variant": "minimal",
+    "state": "form-failure",
+    "path": "verification/screenshots/state-minimal-form-failure.jpg",
+    "url": "http://127.0.0.1:4180/minimal/registration-for-kids",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T20:58:46.935Z",
+    "animations": "allow",
+    "codeCommit": "6d5a9607b9a08f4327f884c0d042887d8aaaa032",
+    "originalBaselineCommit": "5bad2f2369a0d32a0b238c84b68553614120e080",
+    "note": "Publication commit adds audit/evidence only; runtime source/assets are identical to these implementation revisions.",
+    "publishedEquivalentCommit": "1c9c38b777cb954d0640143e6203e1262b616722",
+    "equivalenceEvidence": "verification/publication/baseline-integrity.json"
+  },
+  {
+    "variant": "minimal",
+    "state": "form-success",
+    "path": "verification/screenshots/state-minimal-form-success.jpg",
+    "url": "http://127.0.0.1:4180/minimal/registration-for-kids",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T20:58:47.812Z",
+    "animations": "allow",
+    "codeCommit": "6d5a9607b9a08f4327f884c0d042887d8aaaa032",
+    "originalBaselineCommit": "5bad2f2369a0d32a0b238c84b68553614120e080",
+    "note": "Publication commit adds audit/evidence only; runtime source/assets are identical to these implementation revisions.",
+    "publishedEquivalentCommit": "1c9c38b777cb954d0640143e6203e1262b616722",
+    "equivalenceEvidence": "verification/publication/baseline-integrity.json"
+  },
+  {
+    "variant": "minimal",
+    "state": "mobile-menu",
+    "path": "verification/screenshots/state-minimal-mobile-menu.jpg",
+    "url": "http://127.0.0.1:4180/minimal/schedule",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T20:58:48.673Z",
+    "animations": "allow",
+    "codeCommit": "6d5a9607b9a08f4327f884c0d042887d8aaaa032",
+    "originalBaselineCommit": "5bad2f2369a0d32a0b238c84b68553614120e080",
+    "note": "Publication commit adds audit/evidence only; runtime source/assets are identical to these implementation revisions.",
+    "publishedEquivalentCommit": "1c9c38b777cb954d0640143e6203e1262b616722",
+    "equivalenceEvidence": "verification/publication/baseline-integrity.json"
+  },
+  {
+    "variant": "vision",
+    "state": "programs-empty",
+    "path": "verification/screenshots/state-vision-programs-empty.jpg",
+    "url": "http://127.0.0.1:4180/vision/programs?q=unmatched",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T20:58:49.534Z",
+    "animations": "allow",
+    "codeCommit": "6d5a9607b9a08f4327f884c0d042887d8aaaa032",
+    "originalBaselineCommit": "5bad2f2369a0d32a0b238c84b68553614120e080",
+    "note": "Publication commit adds audit/evidence only; runtime source/assets are identical to these implementation revisions.",
+    "publishedEquivalentCommit": "1c9c38b777cb954d0640143e6203e1262b616722",
+    "equivalenceEvidence": "verification/publication/baseline-integrity.json"
+  },
+  {
+    "variant": "vision",
+    "state": "programs-selected",
+    "path": "verification/screenshots/state-vision-programs-selected.jpg",
+    "url": "http://127.0.0.1:4180/vision/programs",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T20:58:49.662Z",
+    "animations": "allow",
+    "codeCommit": "6d5a9607b9a08f4327f884c0d042887d8aaaa032",
+    "originalBaselineCommit": "5bad2f2369a0d32a0b238c84b68553614120e080",
+    "note": "Publication commit adds audit/evidence only; runtime source/assets are identical to these implementation revisions.",
+    "publishedEquivalentCommit": "1c9c38b777cb954d0640143e6203e1262b616722",
+    "equivalenceEvidence": "verification/publication/baseline-integrity.json"
+  },
+  {
+    "variant": "vision",
+    "state": "lightbox",
+    "path": "verification/screenshots/state-vision-lightbox.jpg",
+    "url": "http://127.0.0.1:4180/vision/photos",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T20:58:50.539Z",
+    "animations": "allow",
+    "codeCommit": "6d5a9607b9a08f4327f884c0d042887d8aaaa032",
+    "originalBaselineCommit": "5bad2f2369a0d32a0b238c84b68553614120e080",
+    "note": "Publication commit adds audit/evidence only; runtime source/assets are identical to these implementation revisions.",
+    "publishedEquivalentCommit": "1c9c38b777cb954d0640143e6203e1262b616722",
+    "equivalenceEvidence": "verification/publication/baseline-integrity.json"
+  },
+  {
+    "variant": "vision",
+    "state": "form-validation",
+    "path": "verification/screenshots/state-vision-form-validation.jpg",
+    "url": "http://127.0.0.1:4180/vision/registration-for-kids",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T20:58:51.398Z",
+    "animations": "allow",
+    "codeCommit": "6d5a9607b9a08f4327f884c0d042887d8aaaa032",
+    "originalBaselineCommit": "5bad2f2369a0d32a0b238c84b68553614120e080",
+    "note": "Publication commit adds audit/evidence only; runtime source/assets are identical to these implementation revisions.",
+    "publishedEquivalentCommit": "1c9c38b777cb954d0640143e6203e1262b616722",
+    "equivalenceEvidence": "verification/publication/baseline-integrity.json"
+  },
+  {
+    "variant": "vision",
+    "state": "form-pending",
+    "path": "verification/screenshots/state-vision-form-pending.jpg",
+    "url": "http://127.0.0.1:4180/vision/registration-for-kids",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T20:58:51.513Z",
+    "animations": "allow",
+    "codeCommit": "6d5a9607b9a08f4327f884c0d042887d8aaaa032",
+    "originalBaselineCommit": "5bad2f2369a0d32a0b238c84b68553614120e080",
+    "note": "Publication commit adds audit/evidence only; runtime source/assets are identical to these implementation revisions.",
+    "publishedEquivalentCommit": "1c9c38b777cb954d0640143e6203e1262b616722",
+    "equivalenceEvidence": "verification/publication/baseline-integrity.json"
+  },
+  {
+    "variant": "vision",
+    "state": "form-failure",
+    "path": "verification/screenshots/state-vision-form-failure.jpg",
+    "url": "http://127.0.0.1:4180/vision/registration-for-kids",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T20:58:52.350Z",
+    "animations": "allow",
+    "codeCommit": "6d5a9607b9a08f4327f884c0d042887d8aaaa032",
+    "originalBaselineCommit": "5bad2f2369a0d32a0b238c84b68553614120e080",
+    "note": "Publication commit adds audit/evidence only; runtime source/assets are identical to these implementation revisions.",
+    "publishedEquivalentCommit": "1c9c38b777cb954d0640143e6203e1262b616722",
+    "equivalenceEvidence": "verification/publication/baseline-integrity.json"
+  },
+  {
+    "variant": "vision",
+    "state": "form-success",
+    "path": "verification/screenshots/state-vision-form-success.jpg",
+    "url": "http://127.0.0.1:4180/vision/registration-for-kids",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T20:58:53.224Z",
+    "animations": "allow",
+    "codeCommit": "6d5a9607b9a08f4327f884c0d042887d8aaaa032",
+    "originalBaselineCommit": "5bad2f2369a0d32a0b238c84b68553614120e080",
+    "note": "Publication commit adds audit/evidence only; runtime source/assets are identical to these implementation revisions.",
+    "publishedEquivalentCommit": "1c9c38b777cb954d0640143e6203e1262b616722",
+    "equivalenceEvidence": "verification/publication/baseline-integrity.json"
+  },
+  {
+    "variant": "vision",
+    "state": "mobile-menu",
+    "path": "verification/screenshots/state-vision-mobile-menu.jpg",
+    "url": "http://127.0.0.1:4180/vision/schedule",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T20:58:54.100Z",
+    "animations": "allow",
+    "codeCommit": "6d5a9607b9a08f4327f884c0d042887d8aaaa032",
+    "originalBaselineCommit": "5bad2f2369a0d32a0b238c84b68553614120e080",
+    "note": "Publication commit adds audit/evidence only; runtime source/assets are identical to these implementation revisions.",
+    "publishedEquivalentCommit": "1c9c38b777cb954d0640143e6203e1262b616722",
+    "equivalenceEvidence": "verification/publication/baseline-integrity.json"
+  }
+]

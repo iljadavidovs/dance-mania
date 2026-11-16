@@ -1,0 +1,186 @@
+[
+  {
+    "variant": "viewer",
+    "route": "/",
+    "url": "http://127.0.0.1:4180/",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "observed": {
+      "innerWidth": 1440,
+      "innerHeight": 1000,
+      "scrollWidth": 1440
+    },
+    "file": "verification/publication/screenshots/viewer-home-1440.jpg",
+    "codeCommit": "1c9c38b777cb954d0640143e6203e1262b616722",
+    "originalBaselineCommit": "5bad2f2369a0d32a0b238c84b68553614120e080",
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T21:15:20.115Z",
+    "state": "default homepage, viewport capture after fonts and visible images ready",
+    "animations": "allow",
+    "suppressionStylesInjected": false,
+    "sha256": "39266e639600c4f1ffe760f9b10f5b4d7a67ddcebeddb57fab92f6a9a1d25987"
+  },
+  {
+    "variant": "viewer",
+    "route": "/",
+    "url": "http://127.0.0.1:4180/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "observed": {
+      "innerWidth": 390,
+      "innerHeight": 844,
+      "scrollWidth": 390
+    },
+    "file": "verification/publication/screenshots/viewer-home-390.jpg",
+    "codeCommit": "1c9c38b777cb954d0640143e6203e1262b616722",
+    "originalBaselineCommit": "5bad2f2369a0d32a0b238c84b68553614120e080",
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T21:15:20.209Z",
+    "state": "default homepage, viewport capture after fonts and visible images ready",
+    "animations": "allow",
+    "suppressionStylesInjected": false,
+    "sha256": "38b19caca4db40bf70f0b9efc1c1ea2f2e0c734d17f25b224b990b8bd76399fc"
+  },
+  {
+    "variant": "interactive",
+    "route": "/interactive",
+    "url": "http://127.0.0.1:4180/interactive",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "observed": {
+      "innerWidth": 1440,
+      "innerHeight": 1000,
+      "scrollWidth": 1440
+    },
+    "file": "verification/publication/screenshots/interactive-home-1440.jpg",
+    "codeCommit": "1c9c38b777cb954d0640143e6203e1262b616722",
+    "originalBaselineCommit": "5bad2f2369a0d32a0b238c84b68553614120e080",
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T21:15:21.087Z",
+    "state": "default homepage, viewport capture after fonts and visible images ready",
+    "animations": "allow",
+    "suppressionStylesInjected": false,
+    "sha256": "7ea436d7e54e79b0c6553cdd9d405399ac213e218b324ab6d7e07e7498d5dd5a"
+  },
+  {
+    "variant": "interactive",
+    "route": "/interactive",
+    "url": "http://127.0.0.1:4180/interactive",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "observed": {
+      "innerWidth": 390,
+      "innerHeight": 844,
+      "scrollWidth": 390
+    },
+    "file": "verification/publication/screenshots/interactive-home-390.jpg",
+    "codeCommit": "1c9c38b777cb954d0640143e6203e1262b616722",
+    "originalBaselineCommit": "5bad2f2369a0d32a0b238c84b68553614120e080",
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T21:15:21.967Z",
+    "state": "default homepage, viewport capture after fonts and visible images ready",
+    "animations": "allow",
+    "suppressionStylesInjected": false,
+    "sha256": "d3a168252dc167c1cf5c05a8ec8d4d33357b0724c227ce265e83a32b46ff4cb5"
+  },
+  {
+    "variant": "minimal",
+    "route": "/minimal",
+    "url": "http://127.0.0.1:4180/minimal",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "observed": {
+      "innerWidth": 1440,
+      "innerHeight": 1000,
+      "scrollWidth": 1440
+    },
+    "file": "verification/publication/screenshots/minimal-home-1440.jpg",
+    "codeCommit": "1c9c38b777cb954d0640143e6203e1262b616722",
+    "originalBaselineCommit": "5bad2f2369a0d32a0b238c84b68553614120e080",
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T21:15:22.851Z",
+    "state": "default homepage, viewport capture after fonts and visible images ready",
+    "animations": "allow",
+    "suppressionStylesInjected": false,
+    "sha256": "866e7f9185358016d53e372eba93f43f3364ac1a9b5ddc21216d4016afc8a40b"
+  },
+  {
+    "variant": "minimal",
+    "route": "/minimal",
+    "url": "http://127.0.0.1:4180/minimal",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "observed": {
+      "innerWidth": 390,
+      "innerHeight": 844,
+      "scrollWidth": 390
+    },
+    "file": "verification/publication/screenshots/minimal-home-390.jpg",
+    "codeCommit": "1c9c38b777cb954d0640143e6203e1262b616722",
+    "originalBaselineCommit": "5bad2f2369a0d32a0b238c84b68553614120e080",
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T21:15:23.731Z",
+    "state": "default homepage, viewport capture after fonts and visible images ready",
+    "animations": "allow",
+    "suppressionStylesInjected": false,
+    "sha256": "166964c498aa3ec999170974f05fd30594784e6a3f5b105cbfe130cb25cb1248"
+  },
+  {
+    "variant": "vision",
+    "route": "/vision",
+    "url": "http://127.0.0.1:4180/vision",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "observed": {
+      "innerWidth": 1440,
+      "innerHeight": 1000,
+      "scrollWidth": 1440
+    },
+    "file": "verification/publication/screenshots/vision-home-1440.jpg",
+    "codeCommit": "1c9c38b777cb954d0640143e6203e1262b616722",
+    "originalBaselineCommit": "5bad2f2369a0d32a0b238c84b68553614120e080",
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T21:15:24.622Z",
+    "state": "default homepage, viewport capture after fonts and visible images ready",
+    "animations": "allow",
+    "suppressionStylesInjected": false,
+    "sha256": "7cb49b4b0e12011d57038b2e6b3d5a6784f8e6cfd1c2d2487891ac95845ff672"
+  },
+  {
+    "variant": "vision",
+    "route": "/vision",
+    "url": "http://127.0.0.1:4180/vision",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "observed": {
+      "innerWidth": 390,
+      "innerHeight": 844,
+      "scrollWidth": 390
+    },
+    "file": "verification/publication/screenshots/vision-home-390.jpg",
+    "codeCommit": "1c9c38b777cb954d0640143e6203e1262b616722",
+    "originalBaselineCommit": "5bad2f2369a0d32a0b238c84b68553614120e080",
+    "browser": "159.0.8154.6",
+    "at": "2026-11-16T21:15:25.501Z",
+    "state": "default homepage, viewport capture after fonts and visible images ready",
+    "animations": "allow",
+    "suppressionStylesInjected": false,
+    "sha256": "56fa7a0906146a55898ba24bdca0e4d28a35771d2446b234158eabfc81ad4c60"
+  }
+]

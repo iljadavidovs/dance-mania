@@ -1,0 +1,110 @@
+[
+  {
+    "variant": "interactive",
+    "case": "Optional guardian exceeds schema max 100",
+    "observed": {
+      "length": 125,
+      "ariaInvalid": null,
+      "describedBy": null
+    },
+    "visibleErrorMessages": [],
+    "reviewVisible": 0,
+    "success": false,
+    "finding": "confirmed: validation prevents progress without guardian error association/message",
+    "screenshot": "verification/screenshots/audit-interactive-guardian-long.jpg",
+    "at": "2026-11-16T21:01:13.047Z",
+    "browser": "159.0.8154.6"
+  },
+  {
+    "variant": "interactive",
+    "case": "Optional inquiry message exceeds 1500",
+    "observed": {
+      "ariaInvalid": "true",
+      "describedBy": null
+    },
+    "errors": [
+      "Use 1,500 characters or fewer."
+    ],
+    "finding": "confirmed: visible message error lacks describedby association",
+    "at": "2026-11-16T21:01:13.921Z",
+    "browser": "159.0.8154.6"
+  },
+  {
+    "variant": "interactive",
+    "case": "Author archive metadata",
+    "title": "Dancemaniaschool_ru3lje — Dance Mania | Rhythm Room",
+    "at": "2026-11-16T21:01:13.931Z"
+  },
+  {
+    "variant": "minimal",
+    "case": "Optional guardian exceeds schema max 100",
+    "observed": {
+      "length": 125,
+      "ariaInvalid": null,
+      "describedBy": null
+    },
+    "visibleErrorMessages": [],
+    "reviewVisible": 1,
+    "success": false,
+    "finding": "confirmed: validation prevents progress without guardian error association/message",
+    "screenshot": "verification/screenshots/audit-minimal-guardian-long.jpg",
+    "at": "2026-11-16T21:01:14.907Z",
+    "browser": "159.0.8154.6"
+  },
+  {
+    "variant": "minimal",
+    "case": "Optional inquiry message exceeds 1500",
+    "observed": {
+      "ariaInvalid": "true",
+      "describedBy": null
+    },
+    "errors": [
+      "Use 1,500 characters or fewer."
+    ],
+    "finding": "confirmed: visible message error lacks describedby association",
+    "at": "2026-11-16T21:01:15.778Z",
+    "browser": "159.0.8154.6"
+  },
+  {
+    "variant": "minimal",
+    "case": "Author archive metadata",
+    "title": "Dancemaniaschool_ru3lje — Dance Mania | Quiet Form",
+    "at": "2026-11-16T21:01:15.787Z"
+  },
+  {
+    "variant": "vision",
+    "case": "Optional guardian exceeds schema max 100",
+    "observed": {
+      "length": 125,
+      "ariaInvalid": null,
+      "describedBy": null
+    },
+    "visibleErrorMessages": [],
+    "reviewVisible": 1,
+    "success": false,
+    "finding": "confirmed: validation prevents progress without guardian error association/message",
+    "screenshot": "verification/screenshots/audit-vision-guardian-long.jpg",
+    "at": "2026-11-16T21:01:16.796Z",
+    "browser": "159.0.8154.6"
+  },
+  {
+    "variant": "vision",
+    "case": "Optional inquiry message exceeds 1500",
+    "observed": {
+      "ariaInvalid": "true",
+      "describedBy": null
+    },
+    "errors": [
+      "Use 1,500 characters or fewer."
+    ],
+    "finding": "confirmed: visible message error lacks describedby association",
+    "at": "2026-11-16T21:01:17.664Z",
+    "browser": "159.0.8154.6"
+  },
+  {
+    "variant": "vision",
+    "case": "Author archive metadata",
+    "title": "Dancemaniaschool_ru3lje — Dance Mania | Frame & Floor",
+    "at": "2026-11-16T21:01:17.672Z"
+  }
+]

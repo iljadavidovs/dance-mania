@@ -1,0 +1,187 @@
+{
+  "browser": "159.0.8154.6",
+  "suppressionStylesInjected": false,
+  "screenshotAnimations": "allow",
+  "evidence": [
+    {
+      "state": "cold photos",
+      "issues": [],
+      "active": [],
+      "events": [],
+      "autoplay": 0,
+      "preference": true,
+      "at": "2026-11-16T20:56:18.923Z"
+    },
+    {
+      "state": "cold hover and focus",
+      "issues": [],
+      "active": [],
+      "events": [],
+      "autoplay": 0,
+      "preference": true,
+      "at": "2026-11-16T20:56:19.011Z"
+    },
+    {
+      "state": "cold portal lightbox next",
+      "issues": [],
+      "active": [],
+      "events": [],
+      "autoplay": 0,
+      "preference": true,
+      "at": "2026-11-16T20:56:19.109Z"
+    },
+    {
+      "state": "cold portal closed",
+      "issues": [],
+      "active": [],
+      "events": [],
+      "autoplay": 0,
+      "preference": true,
+      "at": "2026-11-16T20:56:19.141Z"
+    },
+    {
+      "state": "interactive photos",
+      "issues": [],
+      "active": [],
+      "events": [],
+      "autoplay": 0,
+      "preference": true,
+      "at": "2026-11-16T20:56:20.758Z"
+    },
+    {
+      "state": "interactive hover and focus",
+      "issues": [],
+      "active": [],
+      "events": [],
+      "autoplay": 0,
+      "preference": true,
+      "at": "2026-11-16T20:56:20.792Z"
+    },
+    {
+      "state": "interactive portal lightbox next",
+      "issues": [],
+      "active": [],
+      "events": [],
+      "autoplay": 0,
+      "preference": true,
+      "at": "2026-11-16T20:56:20.876Z"
+    },
+    {
+      "state": "interactive portal closed",
+      "issues": [],
+      "active": [],
+      "events": [],
+      "autoplay": 0,
+      "preference": true,
+      "at": "2026-11-16T20:56:20.937Z"
+    },
+    {
+      "state": "vision photos",
+      "issues": [],
+      "active": [],
+      "events": [],
+      "autoplay": 0,
+      "preference": true,
+      "at": "2026-11-16T20:56:22.089Z"
+    },
+    {
+      "state": "vision hover and focus",
+      "issues": [],
+      "active": [],
+      "events": [],
+      "autoplay": 0,
+      "preference": true,
+      "at": "2026-11-16T20:56:22.133Z"
+    },
+    {
+      "state": "vision portal lightbox next",
+      "issues": [],
+      "active": [],
+      "events": [],
+      "autoplay": 0,
+      "preference": true,
+      "at": "2026-11-16T20:56:22.203Z"
+    },
+    {
+      "state": "vision portal closed",
+      "issues": [],
+      "active": [],
+      "events": [],
+      "autoplay": 0,
+      "preference": true,
+      "at": "2026-11-16T20:56:22.230Z"
+    },
+    {
+      "state": "mobile menu open",
+      "issues": [],
+      "active": [],
+      "events": [],
+      "autoplay": 0,
+      "preference": true,
+      "at": "2026-11-16T20:56:23.094Z"
+    },
+    {
+      "state": "filter empty",
+      "issues": [],
+      "active": [],
+      "events": [],
+      "autoplay": 0,
+      "preference": true,
+      "at": "2026-11-16T20:56:23.129Z"
+    },
+    {
+      "state": "program row expanded",
+      "issues": [],
+      "active": [],
+      "events": [],
+      "autoplay": 0,
+      "preference": true,
+      "at": "2026-11-16T20:56:23.241Z"
+    },
+    {
+      "state": "validation",
+      "issues": [],
+      "active": [],
+      "events": [],
+      "autoplay": 0,
+      "preference": true,
+      "at": "2026-11-16T20:56:24.077Z"
+    },
+    {
+      "state": "pending",
+      "issues": [],
+      "active": [],
+      "events": [],
+      "autoplay": 0,
+      "preference": true,
+      "at": "2026-11-16T20:56:24.140Z"
+    },
+    {
+      "state": "success",
+      "issues": [],
+      "active": [],
+      "events": [],
+      "autoplay": 0,
+      "preference": true,
+      "at": "2026-11-16T20:56:24.930Z"
+    },
+    {
+      "state": "failure",
+      "issues": [],
+      "active": [],
+      "events": [],
+      "autoplay": 0,
+      "preference": true,
+      "at": "2026-11-16T20:56:25.820Z"
+    },
+    {
+      "state": "SPA route change",
+      "issues": [],
+      "active": [],
+      "events": [],
+      "autoplay": 0,
+      "preference": true,
+      "at": "2026-11-16T20:56:25.870Z"
+    }
+  ]
+}

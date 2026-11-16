@@ -1,0 +1,92 @@
+[
+  {
+    engine: 'chromium',
+    variant: 'interactive',
+    browser: '159.0.8154.6',
+    status: 'pass',
+    errors: [],
+    viewport: { innerWidth: 390, height: 844, scrollWidth: 390 },
+    at: '2026-11-16T20:58:11.013Z',
+    journeys: [
+      'touch-like menu',
+      'schedule archive',
+      'lightbox next/close',
+      'synthetic form success'
+    ]
+  },
+  {
+    engine: 'chromium',
+    variant: 'minimal',
+    browser: '159.0.8154.6',
+    status: 'pass',
+    errors: [],
+    viewport: { innerWidth: 390, height: 844, scrollWidth: 390 },
+    at: '2026-11-16T20:58:14.619Z',
+    journeys: [
+      'touch-like menu',
+      'schedule archive',
+      'lightbox next/close',
+      'synthetic form success'
+    ]
+  },
+  {
+    engine: 'chromium',
+    variant: 'vision',
+    browser: '159.0.8154.6',
+    status: 'pass',
+    errors: [],
+    viewport: { innerWidth: 390, height: 844, scrollWidth: 390 },
+    at: '2026-11-16T20:58:18.216Z',
+    journeys: [
+      'touch-like menu',
+      'schedule archive',
+      'lightbox next/close',
+      'synthetic form success'
+    ]
+  },
+  {
+    engine: 'webkit',
+    variant: 'interactive',
+    browser: '27.2',
+    status: 'pass',
+    errors: [],
+    viewport: { innerWidth: 390, height: 844, scrollWidth: 390 },
+    at: '2026-11-16T20:58:23.756Z',
+    journeys: [
+      'touch-like menu',
+      'schedule archive',
+      'lightbox next/close',
+      'synthetic form success'
+    ]
+  },
+  {
+    engine: 'webkit',
+    variant: 'minimal',
+    browser: '27.2',
+    status: 'pass',
+    errors: [],
+    viewport: { innerWidth: 390, height: 844, scrollWidth: 390 },
+    at: '2026-11-16T20:58:27.373Z',
+    journeys: [
+      'touch-like menu',
+      'schedule archive',
+      'lightbox next/close',
+      'synthetic form success'
+    ]
+  },
+  {
+    engine: 'webkit',
+    variant: 'vision',
+    browser: '27.2',
+    status: 'pass',
+    errors: [],
+    viewport: { innerWidth: 390, height: 844, scrollWidth: 390 },
+    at: '2026-11-16T20:58:30.986Z',
+    journeys: [
+      'touch-like menu',
+      'schedule archive',
+      'lightbox next/close',
+      'synthetic form success'
+    ]
+  }
+]

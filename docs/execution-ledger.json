@@ -304,6 +304,13 @@
     ]
   },
   {
+    "sourceRecordLine": 210,
+    "timestampUTC": "2026-11-16T19:14:23.714Z",
+    "tool": "exec",
+    "inputSHA256": "67ecbd7a81b920545818ace68f472c732a72fa5d01218883eb0342a4c28ae3a8",
+    "classification": "recorded write/read/repair command; arguments and raw output retained privately"
+  },
+  {
     "sourceRecordLine": 217,
     "timestampUTC": "2026-11-16T19:15:29.640Z",
     "tool": "exec",
@@ -449,6 +456,13 @@
     ]
   },
   {
+    "sourceRecordLine": 425,
+    "timestampUTC": "2026-11-16T19:34:15.254Z",
+    "tool": "exec",
+    "inputSHA256": "bed1dd2eca273c9eec27bf1c2645d0afd8ea67b26faac1e4df1e8f4a35a5cd31",
+    "classification": "recorded write/read/repair command; arguments and raw output retained privately"
+  },
+  {
     "sourceRecordLine": 435,
     "timestampUTC": "2026-11-16T19:35:15.619Z",
     "tool": "exec",
@@ -587,6 +601,27 @@
     ]
   },
   {
+    "sourceRecordLine": 600,
+    "timestampUTC": "2026-11-16T19:45:02.502Z",
+    "tool": "exec",
+    "inputSHA256": "0cd2e78d75488030af944ce04d6c43ae9f6e9505c39411ff9674275c5f822180",
+    "classification": "recorded write/read/repair command; arguments and raw output retained privately"
+  },
+  {
+    "sourceRecordLine": 607,
+    "timestampUTC": "2026-11-16T19:45:11.871Z",
+    "tool": "exec",
+    "inputSHA256": "d3b03869d6978a3825fb4c9a6a1cea7a1be4e8c3fdeaff4bc113d169e7151c4d",
+    "classification": "recorded write/read/repair command; arguments and raw output retained privately"
+  },
+  {
+    "sourceRecordLine": 614,
+    "timestampUTC": "2026-11-16T19:46:13.861Z",
+    "tool": "exec",
+    "inputSHA256": "251b8ab7c1b8ace157beac441d8923b112b4f4cccf1c7675ae059fad115ec79f",
+    "classification": "recorded write/read/repair command; arguments and raw output retained privately"
+  },
+  {
     "sourceRecordLine": 640,
     "timestampUTC": "2026-11-16T19:49:04.986Z",
     "tool": "exec",
@@ -613,6 +648,13 @@
         "reportedOriginalTokens": 51
       }
     ]
+  },
+  {
+    "sourceRecordLine": 659,
+    "timestampUTC": "2026-11-16T19:50:18.607Z",
+    "tool": "exec",
+    "inputSHA256": "e43450328cc097a3a230ded468497e28ea8a5eb743961ad8dab6478dbd2ae7c9",
+    "classification": "recorded write/read/repair command; arguments and raw output retained privately"
   },
   {
     "sourceRecordLine": 759,
@@ -668,6 +710,13 @@
     "tool": "exec",
     "inputSHA256": "136e277c19d397194a4298dcf61cfd4b2ea921adb5b77e5fe803a6e5d01b3408",
     "results": []
+  },
+  {
+    "sourceRecordLine": 1078,
+    "timestampUTC": "2026-11-16T20:14:30.970Z",
+    "tool": "exec",
+    "inputSHA256": "d500e3b1cdb9f1e19e08002a5e7a45252d26fa417b4b2a45a8ca7202db9ac3a9",
+    "classification": "recorded write/read/repair command; arguments and raw output retained privately"
   },
   {
     "sourceRecordLine": 1101,
